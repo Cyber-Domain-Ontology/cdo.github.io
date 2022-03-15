@@ -1,0 +1,125 @@
+- title: Representing Mobile Devices and SIM Cards using CASE/UCO
+  desc: This document describes the approach, and associated property bundles, account types, and address types to represent Mobile Devices and SIM Cards using CASE.
+  date: 2018-03-08
+  url: /resources/references/Representing Mobile Devices using CASE UCO 8Mar2018.pdf
+- title: Representing File and File System information using CASE/UCO
+  desc: This document describes the design decisions for representing information that is contained within a file or file system, and associated metadata.
+  date: 2017-09-14
+  url: /resources/references/Representing Files & File Systems using CASE UCO 14Sept2017.pdf
+- title: Representing Recoverability of Unallocated Files using CASE/UCO
+  desc: This document describes the design decisions for representing information pertaining to recoverability of unallocated (deleted) files.
+  date: 2018-01-31
+  url: /resources/references/Representing Recoverability of Unallocated Files using CASE UCO 31Jan2018.pdf
+- title: Representing Accounts using CASE/UCO
+  desc: This document describes the design decisions for representing Account related information.
+  date: 2017-09-14
+  url: /resources/references/Representing Accounts using UCO CASE 14Sept2017.pdf
+- title: Change Proposal 8
+  desc: Change label "propertyBundle" (CASE v. 0.1.0) to "hasPropertyBundle" in CASE v. 0.2.0; entails change to IRI
+  date: 2020-04-01
+  url: /resources/references/CASE Change Proposal 8.zip
+- title: Style Guide for Documentation of the CASE Ontology, Version 1.0
+  desc: This presentation contains a brief overview of the purpose, structure, and content of the official style guide for creating documentation of the CASE Ontology.
+  date: 2020-04-07
+  url: /resources/references/CASE Style Guide v1.0 2020-01-14.pdf
+- title: Change Proposal 3
+  desc: Adoption of rdf-toolkit for CASE normalization process
+  date: 2020-06-15
+  url: /resources/references/CASE Change Proposal 3.zip
+- title: Change Proposal 7
+  desc: Move CASE JSON Examples into own Git Repository
+  date: 2020-07-29
+  url: https://drive.google.com/file/d/1DiLxBTQYt0FQSdjn3mX6RabhqK9QbiDo/view
+- title: Change Proposal 12
+  desc: Remove generated documentation of CASE 0.1
+  date: 2020-08-12
+  url: https://drive.google.com/file/d/1LE2P12w66TjIFVah567gyKbYWYkZziP5/view
+- title: Change Proposal 13
+  desc: Update ontology README to reflect website and Jira
+  date: 2020-08-12
+  url: https://drive.google.com/file/d/1fJoDjMjfbaXw0BWKKZ_9mK-gZzoJpgFS/view
+- title: Change Proposal 6
+  desc: Linking Style Guidance with GitHub README
+  date: 2020-08-12
+  url: https://drive.google.com/file/d/1jlCFCuL4BDojJOsIzR8asJjf-lAp8uLd/view
+- title: Change Proposal 4
+  desc: Replace prototype case.ttl file with namespace-separated Turtle files
+  date: 2020-08-12
+  url: https://drive.google.com/file/d/1CE9sfrc-czegRX15Q5xeqaffAfAH06ov/view
+- title: Change Proposal 2
+  desc: Defining the CASE Namespace
+  date: 2020-08-12
+  url: https://drive.google.com/file/d/1_J3994JiPA5PMIHfno9x-NeXKaHFVCrJ/view
+- title: Change Proposal 10
+  desc: Resolve naming inconsistency and associated equivalent class complexity
+  date: 2020-08-12
+  url: https://drive.google.com/file/d/1lut9Km0rYp2Iaftz7m0f4u50R4YD60F6/view
+- title: Change Proposal 9
+  desc: Adoption of Investigation namespace from UCO into CASE
+  date: 2020-08-12
+  url: https://drive.google.com/file/d/1TNL7NtkSy4Veo1eObJGCmMGvmmxqeCJB/view
+- title: Change Proposal 11
+  desc: Define format for ontology repository's ChangeLog
+  date: 2020-08-12
+  url: https://drive.google.com/file/d/1zWjQ_uhhVxEjkqS2mrcabT4tNh8s0JQx/view
+- title: Change Proposal 16
+  desc: Establish unit tests and Continuous Integration for ontology repository
+  date: 2021-03-16
+  url: https://drive.google.com/file/d/1622v5k7fXo2fjDs_EzfhbTyvWIjDBZv-/view
+- title: Change Proposal 25
+  desc: Define and use prefixes for imported concepts
+  date: 2021-03-16
+  url: https://drive.google.com/file/d/1HUeY8AHxsnukP0sFOvsPQZRuyNbqcf6n/view
+- title: Change Proposal 15
+  desc: Remove intermediate role classes
+  date: 2021-03-16
+  url: https://drive.google.com/file/d/1PLcPA3TSDqt7wX84SYlezC1thK_Sznrc/view
+- title: Change Proposal 18
+  desc: Remove intermediate role classes
+  date: 2021-03-17
+  url: https://drive.google.com/file/d/1AmVX6x2ZORr2-h2OIXug2PiptYaHcvuh/view
+- title: Change Proposal 21
+  desc: Allow for transitive provenance querying
+  date: 2021-05-28
+  url: https://drive.google.com/file/d/1EJnOYgJfDoDZteFsNxxCbxgQqiqVDL_L/view
+- title: Change Proposal 22
+  desc: Allow to determine quickly the root (first) node in provenance chain
+  date: 2021-05-28
+  url: https://drive.google.com/file/d/1_nWd8IV8pBgXBACE_kFQd-eg3jTH8-Qp/view
+- title: Change Proposal 27
+  desc: Allow asynchronous change proposal posting
+  date: 2021-05-28
+  url: https://drive.google.com/file/d/17AUfa4EWe9-Tbv5wT46fM0q5LIWMzuYT/view
+- title: Change Proposal 28
+  desc: Adopt UCO 0.6.0
+  date: 2021-05-28
+  url: https://drive.google.com/file/d/1UCZzAqKIWzPmOstr7UJedCney2zrB5i1/view
+- title: Change Proposal 35
+  desc: Add missing definition for exhibitNumber property in ProvenanceRecord.
+  date: 2021-05-28
+  url: https://drive.google.com/file/d/1LbLZnDXZlq-8n92iz55n0fQD46c-pa4w/view
+- title: Change Proposal 34
+  desc: Revise CASE IRI structure to support granular resource service
+  date: 2021-06-02
+  url: https://drive.google.com/file/d/1J2UeRVeG_CCloTwo9Do628zvWcIpO5GR/view
+- title: Change Proposal 38
+  desc: Remove "Base IRI" features from ontology and normalization procedure
+  date: 2021-08-04
+  url: https://drive.google.com/file/d/1T7ZmDZuslKAGc2HA3PPYhSmKqDDoqfkt/view
+- title: Change Proposal 37
+  desc: Fix broken link to website examples gallery in README
+  date: 2021-09-08
+  url: https://drive.google.com/file/d/16maCSg22Tfwro3OXajT6aYXfLhiihgL4/view
+- title: Change Proposal 40
+  desc: Adopt UCO 0.7.0
+  date: 2021-09-17
+  url: https://drive.google.com/file/d/1JqPx0ngdFKGxxOgGD1UgwuT9LgM4SKUV/view
+- title: Change Proposal 41
+  desc: Convert current property restrictions and domain assertions to SHACL class shapes
+  date: 2021-09-17
+  url: https://drive.google.com/file/d/1sKFTTiEe-LmQLEG1Bowf52QF1VPZDssL/view
+- title: Change Proposal 42
+  desc: Remove investigation-namespaced startTime and endTime properties from investigation-da.ttl
+  date: 2021-09-17
+  url: https://drive.google.com/file/d/1JDkSrI7bpVtr2aJ_8lLLa0BrLnBKpEOp/view
+  

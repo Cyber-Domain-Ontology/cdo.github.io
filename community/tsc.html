@@ -1,0 +1,26 @@
+---
+title: CDO Technical Steering Committee
+jumbo_desc: The Technical Steering Committee (TSC) will be responsible for all technical oversight of the open source Project in accordance with project policy and foundational principles.
+---
+
+<div class="row text-center">
+  {% for participant in site.data.tsc.participants %}
+  <div class="col-lg-4">
+    <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+      <h4>{{ participant.title }}</h4>
+      <img
+        class="img-fluid rounded-sm mb-3"
+        src="/assets/img/tsc/{{ participant.image }}"
+        alt=""
+      />
+      <h5>{{ participant.name }}</h5>
+      <h6 class="text-black-50">{{ participant.subhead }}</h6>
+      <p class="font-weight-light mb-5 text-justify">{{ participant.bio }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<p>
+  For more information on the TSC composition and responsibilities refer to the
+  Community Charter.
+</p>

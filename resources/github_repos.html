@@ -1,0 +1,22 @@
+---
+title: Repositories
+jumbo_desc: GitHub repositories showcasing example implementations of CASE, and providing utilities/bindings
+custom_js: repositories
+---
+<table id="implementations" class="table table-hover">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Type</th>
+      <th>Development Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in site.data.resources.github_repos %}
+      <tr>
+        <td><a href="{{ item.url }}">{{ item.title }}</a></td><td>{{ item.type }}</td><td>{{ item.status }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+Last update to Development Status fields: 11/19/2020

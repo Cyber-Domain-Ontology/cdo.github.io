@@ -1,0 +1,32 @@
+<!-- Footer -->
+<footer class="footer bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 h-100 text-center text-lg-left my-auto">
+        <p class="text-muted small mb-4 mb-lg-0">
+        Copyright &copy; 2021 Cyber Domain Ontology Project a Series of LF Projects, LLC <br />
+        For web site terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org" target="_blank">https://lfprojects.org</a>.</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Moments JavaScript -->
+<script src="/vendor/moments.js"></script>
+
+<!-- DataTables JavaScript -->
+<script src="/vendor/datatables/datatables.min.js"></script>
+<script src="/vendor/datatables/datetime.js"></script>
+
+<!-- Custom JavaScript for this page -->
+{% if page.custom_js %}{% for js in page.custom_js %}<script src="/assets/js/{{ js }}.js"></script>
+{% endfor %}{% endif %}
+
+</body>
+
+</html>

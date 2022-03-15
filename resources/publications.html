@@ -1,0 +1,30 @@
+---
+title: Publications
+jumbo_desc: Publications, Presentations, and Workshops about CASE.
+custom_js: publications
+---
+<table id="publications" class="table table-hover">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Type</th>
+      <th>Source</th>
+      <th>Date Published</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in site.data.resources.publications %}
+      <tr>
+        <td><a href="{{ item.url }}">{{ item.title }}</a></td>
+        <td>{{ item.desc }}</td>
+        <td>{{ item.type }}</td>
+        <td>{% if item.source_url %} <a href="{{ item.source_url }}">{% endif %}
+            {{ item.source }}
+          {% if item.source_url %} </a> {% endif %}
+        </td>
+          <td>{{ item.date }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
