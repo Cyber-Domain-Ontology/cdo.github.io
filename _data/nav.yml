@@ -13,36 +13,36 @@
     #   link: /community/elections.html
     - name: Technical Steering Committee
       link: /community/tsc.html
-    - name: Meetings
-      link: /community/meetings.html
-    - name: Presentations
-      link: /community/presentations.html
-    - name: SPACE
-    - name: Join Community
-      link: /community/membership.html
+    # - name: Meetings
+    #   link: /community/meetings.html
+    # - name: Presentations
+    #   link: /community/presentations.html
+    # - name: SPACE
+    # - name: Join Community
+    #   link: /community/membership.html
 - name: Resources
   submenuitems:
     - name: Charter
       link: /resources/charter.html
-    - name: Code of Conduct
-      link: /resources/coc.html
-    - name: Roadmap
-      link: /resources/roadmap.html
-    - name: GitHub Policies
-      link: /resources/github_policies.html
-    - name: GitHub Repos
-      link: /resources/github_repos.html
-    - name: Data Guidance
-      link: /resources/instance_data.html
-    - name: SPACE
-    - header: Libraries
-    - name: Downloads
-      link: /resources/downloads.html
-    - name: Publications
-      link: /resources/publications.html
-    - name: Reference Material
-      link: /resources/references.html
-    - name: Media
-      link: /resources/media.html
+    # - name: Code of Conduct
+    #   link: /resources/coc.html
+    # - name: Roadmap
+    #   link: /resources/roadmap.html
+    # - name: GitHub Policies
+    #   link: /resources/github_policies.html
+    # - name: GitHub Repos
+    #   link: /resources/github_repos.html
+    # - name: Data Guidance
+    #   link: /resources/instance_data.html
+    # - name: SPACE
+    # - header: Libraries
+    # - name: Downloads
+    #   link: /resources/downloads.html
+    # - name: Publications
+    #   link: /resources/publications.html
+    # - name: Reference Material
+    #   link: /resources/references.html
+    # - name: Media
+    #   link: /resources/media.html
 - name: Contact
   link: /contact.html
