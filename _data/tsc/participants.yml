@@ -12,16 +12,6 @@
     submitted expert reports and prepared trial exhibits for computer forensic and cyber-crime cases. He is also an active member of the Digital/Multimedia
     Scientific Area Committee (DMSAC) of the NIST Organization for Scientific Area Committees (OSAC).
 - title: Government Participant
-  image: griffith.jpg
-  name: Ryan Griffith
-  subhead: DoD Cyber Crime Center
-  bio:
-    Ryan Griffith has worked for the Department of Defense Cyber Crime Center (DC3) for 15 years in the field of Digital Forensics.
-    Throughout his tenure with DC3 he has served as a validator, developer, and researcher of digital forensics technologies, served as the
-    lead mobile forensics exploitation engineer, lead technologist, and the Cyber Innovation Group Chair. Current work focuses on leading
-    research and development initatives for mobile and IoT exploitation and promoting CASE adoption across the DoD. Ryan has co-authored several
-    CASE publications and presented on the subject matter at numerous conferences and workshops.
-- title: Government Participant
   image: nelson.jpg
   name: Alex Nelson
   subhead: National Institute of Standards & Technology
@@ -32,6 +22,16 @@
     serving as the inaugural CASE Ontology Committee Chair, and has had substantial input and experience in CASE's Adoption Committee and Unified Cyber
     Ontology's Ontology Committee.  Dr. Nelson is a coauthor on multiple CASE publications, and has established many policies to enable the CASE ontology
     release process and resource development.
+- title: Government Participant
+  image: griffith.jpg
+  name: Ryan Griffith
+  subhead: DoD Cyber Crime Center
+  bio:
+    Ryan Griffith has worked for the Department of Defense Cyber Crime Center (DC3) for 15 years in the field of Digital Forensics.
+    Throughout his tenure with DC3 he has served as a validator, developer, and researcher of digital forensics technologies, served as the
+    lead mobile forensics exploitation engineer, lead technologist, and the Cyber Innovation Group Chair. Current work focuses on leading
+    research and development initatives for mobile and IoT exploitation and promoting CASE adoption across the DoD. Ryan has co-authored several
+    CASE publications and presented on the subject matter at numerous conferences and workshops.
 - title: For-profit Participant
   image: westman.jpg
   name: Martin Westman
