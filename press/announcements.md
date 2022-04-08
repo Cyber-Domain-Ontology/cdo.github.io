@@ -3,7 +3,7 @@ title: Announcements
 jumbo_desc: Cyber Domain Ontology Project a Series of LF Projects, LLC
 ---
 
-_08 Apr 2021_
+_2022-04-08_
 
 ## The Unified Cyber Ontology Transitions to Linux Foundation
 
