@@ -44,5 +44,9 @@
     #   link: /resources/references.html
     # - name: Media
     #   link: /resources/media.html
+- name: Press
+  submenuitems:
+    - name: Announcements
+      link: /press/announcements.html
 - name: Contact
   link: /contact.html
