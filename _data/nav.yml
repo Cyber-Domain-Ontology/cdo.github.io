@@ -4,9 +4,9 @@
       link: https://caseontology.org
     - name: Unified Cyber Ontology (UCO)
       link: https://unifiedcyberontology.org
-    # - name: SPACE
-    # - name: Latest Specification
-    #   link: /ontology/spec.html
+    - name: SPACE
+    - name: Development
+      link: /ontology/development/
 - name: Community
   submenuitems:
     # - name: 2020 Governance Committee Elections
