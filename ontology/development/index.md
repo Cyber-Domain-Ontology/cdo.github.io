@@ -12,7 +12,8 @@ This page houses practices followed for development of CDO ontologies.  It is th
 
 CDO ontology Git repositories (e.g. [CASE's ontology repository](https://github.com/casework/CASE/) and [UCO's](https://github.com/ucoProject/UCO/)) follow the "Git Flow" branching model outlined on [this page](https://nvie.com/posts/a-successful-git-branching-model/).  That branching model identifies some points of varying degrees of stability, named as branches:
 
-* `master` - This is the branch that receives tags for the current release of the ontology.  (Note that due to some needs to program the interface provided by Github, especially Issue and Pull Request templates, some non-release commits are made against the `master` branch without triggering a tagged release.)
+* `master` - This is the branch that receives tags for the current release of the ontology.
+   - Note that due to some needs to program the interface provided by Github, especially Issue and Pull Request templates, some non-release commits are made against the `master` branch without triggering a tagged release.
 * `develop` - This is the branch where all proposals that have undergone committee review and affirmative votes have been merged, and are effectively staged for the upcoming release.
 * Feature branches - these other branches split off of `develop`, and undergo revisions as committee input and test results are processed.
 
@@ -27,7 +28,7 @@ These are monolithic and syntax-normalized builds of the CASE and UCO ontologies
 * [Versus the develop state](https://github.com/casework/casework.github.io/blob/master/examples/asgard/src/asgard_validation-develop.ttl)
 * [Versus the unstable state](https://github.com/casework/casework.github.io/blob/master/examples/asgard/src/asgard_validation-unstable.ttl)
 
-`CASE-develop.ttl` is built according to `develop` branch states of CASE and UCO, and thus incorporates all of the proposals that are committee-approved and staged for the next release.  `CASE-unstable.ttl` follows an implementation practice that is, well, unstable: Most, or all, proposals under consideration, are merged into one branch.
+`CASE-develop.ttl` is built according to `develop` branch states of CASE and UCO, and thus incorporates all of the proposals that are committee-approved and staged for the next release.  `CASE-unstable.ttl` follows an implementation practice that is, well, unstable: Most, or all, proposals under consideration are merged into one branch, before committee review or approvals that would see the proposals merged into `develop`.
 
 CDO ontologies maintain a `-Archive` Git repository ([CASE's](https://github.com/casework/CASE-Archive/), [UCO's](https://github.com/ucoProject/UCO-Archive/)), whose primary functions are these:
 
@@ -38,7 +39,7 @@ CDO ontologies maintain a `-Archive` Git repository ([CASE's](https://github.com
 
 What makes the `unstable` branch worth its own archive repository is *the branch will not guarantee preservation of its own Git history*.  Feature branches split off of `develop`, but do not have a single stable joining point in the ontology development repository where all of their effects can be considered in aggregate.  Yet, it is important to discover when in-flight proposals might conflict with one another, and sometimes this is only visible when considering all at once.  Meanwhile, the order in which these branches are tested might not be the order in which they are voted upon and accepted into `develop` by the committee.
 
-The `unstable` branch will be reset to `develop`, by the Ontology Committee Chair, Coordinator, or Product Manager, with some left-undefined frequency.  To ensure access to prior states of the `unstable` branch, the `-Archive` repository will maintain named branches at the time of reset, e.g. [`archive/unstable-2022-04-01`](https://github.com/casework/CASE-Archive/tree/archive/unstable-2022-04-01).  (This can benefit users who test by using Git submodules and/or Git Bisect, rather than website downloads.  The [CASE-Examples repository](https://github.com/casework/CASE-Examples/) and CASE website both track with submodules.)
+The `unstable` branch will be reset to `develop`, by the Ontology Committee Chair, Coordinator, or Product Manager, with some left-undefined frequency.  To ensure access to prior states of the `unstable` branch, the `-Archive` repository will maintain named branches at the time of reset, e.g. [`archive/unstable-2022-04-01`](https://github.com/casework/CASE-Archive/tree/archive/unstable-2022-04-01).  (This can benefit users who test by using [Git submodules](https://git-scm.com/docs/git-submodule) and/or [Git Bisect](https://git-scm.com/docs/git-bisect), rather than website downloads.  The [CASE-Examples repository](https://github.com/casework/CASE-Examples/) and CASE website both track with submodules.)
 
 To summarize, if a developer wishes to test against some "Prerelease" state:
 
