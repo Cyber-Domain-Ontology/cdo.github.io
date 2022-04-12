@@ -26,7 +26,7 @@ The Ontology Committee is led by Dr. Alex Nelson. The Adoption Committee brings 
 Recent UCO developments include the release of v0.7.0 that supports the conversion of UCO ontologies to leverage the Shapes Constraint Language (SHACL) for instance-data validation, and adds a Continuous Integration (CI) method for testing and verifying the ontology. The UCO community is adding support for automated documentation generation and is currently developing domain-specific application ontologies for cyber risk management and cyber deception application domains.
 
 The UCO community has multiple collaborative repositories and activities for developing and supporting shared tooling for adopters in each application domain. UCO uses the Apache-2.0 license.
-Organizations and individuals interested in contributing to UCO can go to https://unifiedcyberontology.org.
+Organizations and individuals interested in contributing to UCO can go to [https://unifiedcyberontology.org](https://unifiedcyberontology.org).
 
 #### Supporting Comments
 
