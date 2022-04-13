@@ -25,6 +25,10 @@ github_username: casework
 markdown: kramdown
 highlighter: rouge
 
+# Pagination
+paginate: 5
+paginate_path: "/posts/page:num/"
+
 # theme: minima
 plugins:
   - jekyll-feed

@@ -1,9 +1,10 @@
 ---
-title: Announcements
-jumbo_desc: Cyber Domain Ontology Project a Series of LF Projects, LLC
+layout: post
+title: "Unified Cyber Ontology transitions to the Linux Foundation"
+author: "CDO Technical Steering Committee"
+subtitle: "The Linux Foundation, the nonprofit organization enabling mass innovation through open source, today announced that Unified Cyber Ontology (UCO) is becoming a community project as part of the ​​Cyber Domain Ontology (CDO) project under the Linux Foundation."
+date: 2021-12-07
 ---
-
-_2022-04-08_
 
 ## The Unified Cyber Ontology Transitions to Linux Foundation
 
@@ -26,7 +27,7 @@ The Ontology Committee is led by Dr. Alex Nelson. The Adoption Committee brings 
 Recent UCO developments include the release of v0.7.0 that supports the conversion of UCO ontologies to leverage the Shapes Constraint Language (SHACL) for instance-data validation, and adds a Continuous Integration (CI) method for testing and verifying the ontology. The UCO community is adding support for automated documentation generation and is currently developing domain-specific application ontologies for cyber risk management and cyber deception application domains.
 
 The UCO community has multiple collaborative repositories and activities for developing and supporting shared tooling for adopters in each application domain. UCO uses the Apache-2.0 license.
-Organizations and individuals interested in contributing to UCO can go to https://unifiedcyberontology.org.
+Organizations and individuals interested in contributing to UCO can go to [https://unifiedcyberontology.org](https://unifiedcyberontology.org).
 
 #### Supporting Comments
 

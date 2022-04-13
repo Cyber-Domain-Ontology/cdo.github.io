@@ -15,7 +15,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -36,4 +36,15 @@ h6 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+h3.post-subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+}
+p.post-meta,
+span.meta {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.75rem;
 }
