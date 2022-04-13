@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unified Cyber Ontology transitions to the Linux Foundation"
+title: "UCO transitions to the Linux Foundation"
 author: "CDO Technical Steering Committee"
 subtitle: "The Linux Foundation, the nonprofit organization enabling mass innovation through open source, today announced that Unified Cyber Ontology (UCO) is becoming a community project as part of the ​​Cyber Domain Ontology (CDO) project under the Linux Foundation."
 date: 2021-12-07
