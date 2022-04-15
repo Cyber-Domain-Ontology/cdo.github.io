@@ -48,3 +48,6 @@ span.meta {
   font-weight: 300;
   font-size: 0.75rem;
 }
+.post-heading {
+  margin-bottom: 15px;
+}
