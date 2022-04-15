@@ -45,8 +45,6 @@
     # - name: Media
     #   link: /resources/media.html
 - name: Press
-  submenuitems:
-    - name: Announcements
-      link: /press/announcements.html
+  link: /posts/
 - name: Contact
   link: /contact.html
