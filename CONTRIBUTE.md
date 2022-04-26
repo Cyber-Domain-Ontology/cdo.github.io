@@ -64,3 +64,62 @@ pushd ${HOME}/local/src
   popd #cdo.github.io
 popd #${HOME}/local/src
 ```
+
+
+## Review checklists
+
+
+### Issue progress
+
+```markdown
+# Coordination
+
+- Tracking in Jira ticket [TODO](#TODO-link)
+- [ ] Administrative review to be completed
+- [ ] Requirements to be discussed in Ontology Committee (OC) meeting, date TBD
+<!--
+If this is deemed a "Fast-track" proposal, delete the above line and Requirements Review vote line.
+-->
+- [ ] Requirements Review vote has not occurred
+<!--
+One of these lines can be swapped in when ready:
+- [ ] Requirements Review vote is open until TODO-datetime
+- [x] Requirements Review vote occurred, passing, on TODO-date
+- [x] Requirements Review vote occurred, not passing, on TODO-date
+In event of the latter, delete the remainder of the list.
+-->
+- [ ] *Requirements development phase completed.*
+- [ ] Solutions Approval to be discussed in OC meeting, date TBD
+- [ ] Solutions Approval vote has not occurred
+<!--
+One of these lines can be swapped in when ready:
+- [ ] Solutions Approval vote is open until TODO-datetime
+- [x] Solutions Approval vote occurred, passing, on TODO-date
+- [x] Solutions Approval vote occurred, not passing, on TODO-date
+In event of the latter, delete the remainder of the list.
+-->
+- [ ] *Solutions development phase completed.*
+- [ ] Implementation has not been merged into `develop`
+<!--
+This line can be swapped in when ready:
+- [x] Implementation [merged](#TODO-link-to-resolved-PR) into `develop`
+-->
+- [ ] Milestone linked
+- [ ] Documentation logged in pending release page
+```
+
+
+### Pull request review
+
+To be inlined into the initial Pull Request description, as an edit by OC Chair or Coordinator:
+
+```markdown
+Review steps taken:
+
+- Tracking in Jira ticket [TODO](#TODO-link) (if no Issue is associated)
+- [ ] Pull request is against correct branch
+- [ ] CI passes in (CASE/UCO) feature branch
+- [ ] CI passes in (CASE/UCO) current unstable branch ([merge-commit](#TODO-commit))
+- [ ] Impact on SHACL validation [reviewed](#TODO-commit) for CASE-Examples
+- [ ] Impact on SHACL validation [reviewed](#TODO-commit) for casework.github.io
+```
