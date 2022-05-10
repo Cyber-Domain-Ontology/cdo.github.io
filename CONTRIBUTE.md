@@ -85,7 +85,7 @@ If this is deemed a "Fast-track" proposal, delete the above line and Requirement
 One of these lines can be swapped in when ready:
 - [ ] Requirements Review vote is open until TODO-datetime
 - [x] Requirements Review vote occurred, passing, on TODO-date
-- [x] Requirements Review vote occurred, not passing, on TODO-date
+- [x] Requirements Review vote occurred, not passing and not planned to revisit, on TODO-date
 In event of the latter, delete the remainder of the list.
 -->
 - [ ] *Requirements development phase completed.*
