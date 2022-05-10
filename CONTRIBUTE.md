@@ -75,6 +75,9 @@ popd #${HOME}/local/src
 # Coordination
 
 - Tracking in Jira ticket [TODO](#TODO-link)
+<!--
+Include in administrative review how well the competencies demonstrate the requirements.
+-->
 - [ ] Administrative review to be completed
 - [ ] Requirements to be discussed in Ontology Committee (OC) meeting, date TBD
 <!--
