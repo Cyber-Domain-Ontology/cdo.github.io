@@ -78,7 +78,7 @@ popd #${HOME}/local/src
 <!--
 Include in administrative review how well the competencies demonstrate the requirements.
 -->
-- [ ] Administrative review to be completed
+- [ ] Administrative review completed, proposal announced to Ontology Committees (OCs) on *(TODO-date)*
 - [ ] Requirements to be discussed in Ontology Committee (OC) meeting, date TBD
 <!--
 If this is deemed a "Fast-track" proposal, delete the above line and Requirements Review vote line.
