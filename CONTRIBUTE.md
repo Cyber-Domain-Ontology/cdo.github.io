@@ -124,5 +124,7 @@ Review steps taken:
 - [ ] CI passes in (CASE/UCO) feature branch
 - [ ] CI passes in (CASE/UCO) current unstable branch ([merge-commit](#TODO-commit))
 - [ ] Impact on SHACL validation [reviewed](#TODO-commit) for CASE-Examples
+- [ ] Impact on SHACL validation [remediated](#TODO-commit) for CASE-Examples <!--In primary or feature branch, no ...validation-unstable.ttl files show negative impact from PR.-->
 - [ ] Impact on SHACL validation [reviewed](#TODO-commit) for casework.github.io
+- [ ] Impact on SHACL validation [remediated](#TODO-commit) for casework.github.io <!--In primary or feature branch, no ...validation-unstable.ttl files show negative impact from PR.-->
 ```
