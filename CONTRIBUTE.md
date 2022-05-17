@@ -92,6 +92,7 @@ One of these lines can be swapped in when ready:
 In event of the latter, delete the remainder of the list.
 -->
 - [ ] *Requirements development phase completed.*
+- [ ] Solution announced to OCs on *(TODO-date)*
 - [ ] Solutions Approval to be discussed in OC meeting, date TBD
 - [ ] Solutions Approval vote has not occurred
 <!--
