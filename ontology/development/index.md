@@ -4,6 +4,62 @@ title: Development of CDO Ontologies
 
 This page houses practices followed for development of CDO ontologies.  It is the result of needs identified over the early years of CDO ontologies' socialization and software review processes.  Before the 1.0.0 release of the CDO ontologies, it is likely practices on this page will continue to adapt as workflows are refined.
 
+# Ontology Committee 
+
+The CDO ontologies are community developed and governed. This section describes the requirements to support contributions by community members, e.g., the various committees that exist, becoming a member of a committee, submitting Change Proposals, the voting procedures that apply, and more.
+
+## Voting procedures
+
+**--> PB: Changes with respect to the original (CASE or UCO) docs are in *italic font* (additions) or ~~strike through~~ (deletions)**
+
+### CP Requirements 
+*A Change Proposal (CP) describes requirements and competencies that are deemed necessary by any member to include in an ontology. To submit a CP it suffices to create either a [UCO Issue](https://github.com/ucoProject/UCO/issues/new/choose) or a [CASE Issue](https://github.com/casework/CASE/issues/new/choose), select the ***Change Request*** form and specify your request accordingly. The Ontology Committee chair or coordinator will process your request and will, in close collaboration with you, clarify any questions that may rise or complete it with additional information when deemed necessary. For instance, in processing your request it will be determined whether the CP falls within the scope of the CASE or the UCO ontology and will move it to the appropriate git space, if necessary.*
+
+#### Posting and Scheduling
+The Ontology Committee Coordinator notifies the Ontology Committee of the meeting at which the CP will be initially reviewed. The Ontology Committee Chair and Coordinator determine the date of the initial review, allowing a minimum of ten days between the posting of the CP and the Ontology Committee meeting, in order to allow time for members to review the proposal prior to the meeting.
+
+#### CP Requirements Review
+The purpose of the requirements review is to evaluate whether the CDO Community has a need for the competencies proposed in the CP and should engage resources to address it. 
+
+The Coordinator shall provide a listing of CPs to be considered at the next Ontology Committee meeting, including linked access to the submitted CP forms and any supporting materials, along with the mechanism for providing review comments.
+
+Ontology Committee members shall review CPs prior to the committee meeting. Written comments should be submitted not later than twenty-four hours before the meeting. At the option of the Ontology Committee Chair, new comments may be contributed at the meeting during the discussion, if there is time. The Chair may request one or more individual Ontology Committee members to analyze a submitted CP and prepare a report on the impact of its requested changes to the CDO ontology and/or to recommend the priority of its requirements.
+
+At the meeting, the Ontology Committee Chair (or their designate) shall brief each scheduled CP to the Ontology Committee, including a summary of any comments received during the review period. (CP submitters should coordinate with the Ontology Chair if they wish to brief their own CP.) During the meeting, the Ontology Committee should evaluate each CP for need, relevance, urgency, coherence, alternative Community positions, the feasibility of proposed changes, and the scope of the proposed competencies.
+
+~~The Committee review should determine whether the topic of the Change Proposal falls within the domain of UCO rather than CASE. If so, then, if approved, the request would be transferred to UCO for development (see below). If the topic falls within the domain of CASE, then the CP would proceed to CASE solutions development. For topics requiring solutions in the CASE domain, consideration should be given to the available resources of the Committee and to the priorities of CASE ontology development consistent with the Three-Year Strategic Plan set by the Technical Director.~~
+
+
+#### CP Requirements Vote
+
+The Ontology Committee shall vote to decide whether the briefed CP proposes changes that are required by the CASE standard. Voting shall conform to the requirements described in the **...**
+
+*--> PB: Does the following still hold?*
+> **...** CASE Community Bylaws, clause 8.3 (Article VIII, Section C).
+
+*--> PB: If not, shall we include that part of the bylaws here?*
+
+The voting options for a CP Requirements Review are: “Yes”, “No” and *“Abstain”*. Positive voting outcomes shall proceed as described in the ~~following~~ *CP Solutions* section. If the Requirements Review results in a negative vote, then the Coordinator shall report the decision to the submitter(s), and the outcome and the reason for non-approval are recorded on the CP, which is then closed.
+
+The Chair may postpone a vote in cases where the Chair or other Committee members want additional information written into the submitted proposal, requiring more time. Reasons to postpone should only be reasons pertaining to refinement of the proposal, or for lack of a present quorum of voting members. The Chair may request more information from submitters or may assign other Ontology Committee members to further evaluate a request. In those cases, the Requirements Review is extended to the next meeting of the Ontology Committee. Postponement of a vote is reported to the original submitter(s) by the Coordinator.
+
+Where a vote is required, ~~committees~~ *the CDO Committee will* vote via a simple majority, meaning that if the changes or products adhere to ...
+
+*--> PB: Does the following still hold? Do we need to merge the Bylaws?*
+> ... Article III principles ...
+
+... and if 60% or more of the appointed voting committee members, or their self-appointed proxies, vote in the affirmative, then the measure is passed.
+
+*--> PB: I suggest to move the following to (any of) the Bylaws* 
+> Voting Limits and Committee Composition: no committee chairperson shall appoint more than one voting member representing any single employer. Additional employees representing the same employer may serve as non-voting members of the same committee. Three or more employers must be represented on each technical committee.
+
+
+Following the Ontology Committee meeting at which the requirements vote is taken, the Coordinator shall update the status of the considered CP in the Ontology Committee collaboration workspace. The Coordinator shall report to stakeholders any CP that was not approved, with the reason for non-approval. This includes reporting postponed requests.
+
+
+### CP Solutions 
+
+*--> PB: to be done*
 
 # Review checklists
 
