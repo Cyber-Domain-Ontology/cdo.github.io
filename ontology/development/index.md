@@ -27,8 +27,6 @@ Ontology Committee members shall review CPs prior to the committee meeting. Writ
 
 At the meeting, the Ontology Committee Chair (or their designate) shall brief each scheduled CP to the Ontology Committee, including a summary of any comments received during the review period. (CP submitters should coordinate with the Ontology Chair if they wish to brief their own CP.) During the meeting, the Ontology Committee should evaluate each CP for need, relevance, urgency, coherence, alternative Community positions, the feasibility of proposed changes, and the scope of the proposed competencies.
 
-~~The Committee review should determine whether the topic of the Change Proposal falls within the domain of UCO rather than CASE. If so, then, if approved, the request would be transferred to UCO for development (see below). If the topic falls within the domain of CASE, then the CP would proceed to CASE solutions development. For topics requiring solutions in the CASE domain, consideration should be given to the available resources of the Committee and to the priorities of CASE ontology development consistent with the Three-Year Strategic Plan set by the Technical Director.~~
-
 
 #### CP Requirements Vote
 
