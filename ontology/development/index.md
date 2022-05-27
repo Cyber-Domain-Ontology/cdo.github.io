@@ -10,10 +10,8 @@ The CDO ontologies are community developed and governed. This section describes 
 
 ## Voting procedures
 
-**--> PB: Changes with respect to the original (CASE or UCO) docs are in *italic font* (additions) or ~~strike through~~ (deletions)**
-
 ### CP Requirements 
-*A Change Proposal (CP) describes requirements and competencies that are deemed necessary by any member to include in an ontology. To submit a CP it suffices to create either a [UCO Issue](https://github.com/ucoProject/UCO/issues/new/choose) or a [CASE Issue](https://github.com/casework/CASE/issues/new/choose), select the ***Change Request*** form and specify your request accordingly. The Ontology Committee chair or coordinator will process your request and will, in close collaboration with you, clarify any questions that may rise or complete it with additional information when deemed necessary. For instance, in processing your request it will be determined whether the CP falls within the scope of the CASE or the UCO ontology and will move it to the appropriate git space, if necessary.*
+A Change Proposal (CP) describes requirements and competencies that are deemed necessary by any member to include in an ontology. To submit a CP it suffices to create either a [UCO Issue](https://github.com/ucoProject/UCO/issues/new/choose) or a [CASE Issue](https://github.com/casework/CASE/issues/new/choose), select the ***Change Request*** form and specify your request accordingly. The Ontology Committee chair or coordinator will process your request and will, in close collaboration with you, clarify any questions that may rise and/or complete it with additional information when deemed necessary. For instance, in processing your request it will be determined whether the CP falls within the scope of the CASE or the UCO ontology and will move it to the appropriate git space, if necessary.
 
 #### Posting and Scheduling
 The Ontology Committee Coordinator notifies the Ontology Committee of the meeting at which the CP will be initially reviewed. The Ontology Committee Chair and Coordinator determine the date of the initial review, allowing a minimum of ten days between the posting of the CP and the Ontology Committee meeting, in order to allow time for members to review the proposal prior to the meeting.
@@ -37,11 +35,11 @@ The Ontology Committee shall vote to decide whether the briefed CP proposes chan
 
 *--> PB: If not, shall we include that part of the bylaws here?*
 
-The voting options for a CP Requirements Review are: “Yes”, “No” and *“Abstain”*. Positive voting outcomes shall proceed as described in the ~~following~~ *CP Solutions* section. If the Requirements Review results in a negative vote, then the Coordinator shall report the decision to the submitter(s), and the outcome and the reason for non-approval are recorded on the CP, which is then closed.
+The voting options for a CP Requirements Review are: “Yes”, “No” and “Abstain”. Positive voting outcomes shall proceed as described in the CP Solutions section. If the Requirements Review results in a negative vote, then the Coordinator shall report the decision to the submitter(s), and the outcome and the reason for non-approval are recorded on the CP, which is then closed.
 
 The Chair may postpone a vote in cases where the Chair or other Committee members want additional information written into the submitted proposal, requiring more time. Reasons to postpone should only be reasons pertaining to refinement of the proposal, or for lack of a present quorum of voting members. The Chair may request more information from submitters or may assign other Ontology Committee members to further evaluate a request. In those cases, the Requirements Review is extended to the next meeting of the Ontology Committee. Postponement of a vote is reported to the original submitter(s) by the Coordinator.
 
-Where a vote is required, the ~~committees~~ *the responsible CDO Ontology Committee (CASE OC or UCO OC) will* vote to accept or reject, meaning that if the changes or products adhere to ...
+Where a vote is required, the the responsible CDO Ontology Committee (CASE OC or UCO OC) will vote to accept or reject, meaning that if the changes or products adhere to ...
 
 *--> PB: Does the following still hold? Do we need to merge the Bylaws?*
 > ... Article III principles ...
