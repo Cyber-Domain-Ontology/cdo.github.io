@@ -17,7 +17,7 @@ Due to a display issue with website font colors, the checklists are presented in
 Github repositories in CDO follow two branching practices:
 
 
-<a id="branching-cdo-git-flow" style="padding-top: 4em;"></a>
+<a id="branching-cdo-git-flow" style="padding-top: 3em;"></a>
 ## "Git-flow" branching
 *([Link](#branching-cdo-git-flow))*
 
@@ -28,7 +28,7 @@ In this branching model, pull requests should target the `develop` branch, not t
 The head of the primary branch is typically the current release.  There may be some non-release commits made on the primary branch due to needing to program components of Github interface elements.
 
 
-<a id="branching-cdo-continuous" style="padding-top: 4em;"></a>
+<a id="branching-cdo-continuous" style="padding-top: 3em;"></a>
 ## "Continous-release" branching
 *([Link](#branching-cdo-continuous))*
 
@@ -43,11 +43,8 @@ In this branching model, pull requests should target the primary branch.
 <a id="testing-prereleases" style="padding-top: 3em;"></a>
 ## Testing prereleases
 
+The CDO ontology Git repositories (including [CASE's ontology repository](https://github.com/casework/CASE/) and [UCO's](https://github.com/ucoProject/UCO/)) follow the ["Git-flow"](#branching-cdo-git-flow) branching model.  There is additional consideration put into processing the `develop` and feature branches:
 
-CDO ontology Git repositories (e.g. [CASE's ontology repository](https://github.com/casework/CASE/) and [UCO's](https://github.com/ucoProject/UCO/)) follow the "Git Flow" branching model outlined on [this page](https://nvie.com/posts/a-successful-git-branching-model/).  That branching model identifies some points of varying degrees of stability, named as branches:
-
-* `master` - This is the branch that receives tags for the current release of the ontology.
-   - Note that due to some needs to program the interface provided by Github, especially Issue and Pull Request templates, some non-release commits are made against the `master` branch without triggering a tagged release.
 * `develop` - This is the branch where all proposals that have undergone committee review and affirmative votes have been merged, and are effectively staged for the upcoming release.
 * Feature branches - these other branches split off of `develop`, and undergo revisions as committee input and test results are processed.
 
