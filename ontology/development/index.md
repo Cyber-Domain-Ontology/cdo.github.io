@@ -7,25 +7,25 @@ This page houses practices followed for development of CDO ontologies.  It is th
 
 # Review checklists
 
-Github repositories for CDO ontology development use the following checklist templates for coordinating the issue's progression with the respective ontology committee.  To enable Github progress-tracking (based on checkbox counts), these templates are inlined as edits into the initial Issue or Pull Request description, as an [edit](https://docs.github.com/en/communities/moderating-comments-and-conversations/tracking-changes-in-a-comment) by OC Chair or Coordinator.
+GitHub repositories for CDO ontology development use the following checklist templates for coordinating the issue's progression with the respective ontology committee.  To enable GitHub progress-tracking (based on checkbox counts), these templates are inlined as edits into the initial Issue or Pull Request description, as an [edit](https://docs.github.com/en/communities/moderating-comments-and-conversations/tracking-changes-in-a-comment) by OC Chair or Coordinator.
 
 Due to a display issue with website font colors, the checklists are presented in the `CONTRIBUTE.md` file in the website's source repository, [here](https://github.com/Cyber-Domain-Ontology/cdo.github.io/blob/main/CONTRIBUTE.md#review-checklists).
 
 
 # Branching
 
-Github repositories in CDO follow two branching practices:
+GitHub repositories in CDO follow two branching practices:
 
 
 <a id="branching-cdo-git-flow" style="padding-top: 3em;"></a>
 ## "Git-flow" branching
 *([Link](#branching-cdo-git-flow))*
 
-The "Git-flow" branching model used by CDO is based on the [description](https://nvie.com/posts/a-successful-git-branching-model/) by Vincent Driessen, dated 2010-01-05.  Repositories following this branch model generally expect most development to be done in "Feature" branches, branching off of `develop`.  The "Primary" branch (typically named `master` or `main`) designates releases with tags and the Github release-list interface.
+The "Git-flow" branching model used by CDO is based on the [description](https://nvie.com/posts/a-successful-git-branching-model/) by Vincent Driessen, dated 2010-01-05.  Repositories following this branch model generally expect most development to be done in "Feature" branches, branching off of `develop`.  The "Primary" branch (typically named `master` or `main`) designates releases with tags and the GitHub release-list interface.
 
 In this branching model, pull requests should target the `develop` branch, not the primary branch. 
 
-The head of the primary branch is typically the current release.  There may be some non-release commits made on the primary branch due to needing to program components of Github interface elements.
+The head of the primary branch is typically the current release.  There may be some non-release commits made on the primary branch due to needing to program components of GitHub interface elements.
 
 
 <a id="branching-cdo-continuous" style="padding-top: 3em;"></a>
@@ -66,7 +66,7 @@ CDO ontologies maintain a `-Archive` Git repository ([CASE's](https://github.com
 1. Serve an `unstable` branch that represents every proposal under committee consideration.
 2. Store an archive of every prior state of the `unstable` branch.
 
-(The `-Archive` repositories are not "Github forks", in order to prevent interface confusion from Pull Requests.  They do, however, share the `master` and `develop` branch histories.)
+(The `-Archive` repositories are not "GitHub forks", in order to prevent interface confusion from Pull Requests.  They do, however, share the `master` and `develop` branch histories.)
 
 What makes the `unstable` branch worth its own archive repository is *the branch will not guarantee preservation of its own Git history*.  Feature branches split off of `develop`, but do not have a single stable joining point in the ontology development repository where all of their effects can be considered in aggregate.  Yet, it is important to discover when in-flight proposals might conflict with one another, and sometimes this is only visible when considering all at once.  Meanwhile, the order in which these branches are tested might not be the order in which they are voted upon and accepted into `develop` by the committee.
 
