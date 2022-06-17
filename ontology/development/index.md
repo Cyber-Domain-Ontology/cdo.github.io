@@ -12,6 +12,31 @@ Github repositories for CDO ontology development use the following checklist tem
 Due to a display issue with website font colors, the checklists are presented in the `CONTRIBUTE.md` file in the website's source repository, [here](https://github.com/Cyber-Domain-Ontology/cdo.github.io/blob/main/CONTRIBUTE.md#review-checklists).
 
 
+# Branching
+
+Github repositories in CDO follow two branching practices:
+
+
+<a id="branching-cdo-git-flow" style="padding-top: 4em;"></a>
+## "Git-flow" branching
+*([Link](#branching-cdo-git-flow))*
+
+The "Git-flow" branching model used by CDO is based on the [description](https://nvie.com/posts/a-successful-git-branching-model/) by Vincent Driessen, dated 2010-01-05.  Repositories following this branch model generally expect most development to be done in "Feature" branches, branching off of `develop`.  The "Primary" branch (typically named `master` or `main`) designates releases with tags and the Github release-list interface.
+
+In this branching model, pull requests should target the `develop` branch, not the primary branch. 
+
+The head of the primary branch is typically the current release.  There may be some non-release commits made on the primary branch due to needing to program components of Github interface elements.
+
+
+<a id="branching-cdo-continuous" style="padding-top: 4em;"></a>
+## "Continous-release" branching
+*([Link](#branching-cdo-continuous))*
+
+This branching model is used for repositories that do not designate releases.  The head of the primary branch (`master` or `main`) is the "Current release."
+
+In this branching model, pull requests should target the primary branch.
+
+
 # Testing
 
 
