@@ -7,19 +7,19 @@ The first step is to search the current CASE/UCO documentation to determine whet
 
 For example, consider the following properties embedded in a PDF file:
 
-	- PDF version:    1.5
-	- CreationDate:   2005-05-25T02:23:55Z
-	- ModDate:        2005-05-25T02:23:55Z
+- PDF version:    1.5
+- CreationDate:   2005-05-25T02:23:55Z
+- ModDate:        2005-05-25T02:23:55Z
 
 Searching [online documentation](https://ontology.unifiedcyberontology.org/uco/documentation/entities-tree-classes.html) for string "pdf" returns observable:PDFFileFacet:
 
 The current properties for PDFFileFacet are:
 
-	- observable:documentInformationDictionary
-	- observable:isOptimized	owl:DatatypeProperty	
-	- observable:pdfId0
-	- observable:pdfId1
-	- observable:version
+- observable:documentInformationDictionary
+- observable:isOptimized	owl:DatatypeProperty	
+- observable:pdfId0
+- observable:pdfId1
+- observable:version
 
 From this, we can map "PDF version" to `observable:version`, but need to add new properties to represent "CreationDate" and "ModDate".
 
@@ -29,7 +29,7 @@ Sample python is provided on GitHub in [CASE-Mapping-Template-Python](https://gi
 
 The template can be used to create a new script `pdf_info_txt_to_case.py` that sets the context and reads PDF embedded metadata as input.
 
-```
+```python
     # Initialize the basic CASE graph that will have the files appended
     case: dict = {
         "@context": {
@@ -51,14 +51,14 @@ The template can be used to create a new script `pdf_info_txt_to_case.py` that s
 
 For the data that already map to CASE/UCO, translate them to the corresponding property:
 
-```
+```python
             if input_key == "PDF version":
                 pdf_file_facet["uco-observable:version"] = input_value
 ```
 
 Generate the uuid for each instance of a PDF file, following the guidance on [instance data](https://caseontology.org/resources/instance_data.html)
 
-```
+```python
     import uuid
     pdf_file_facet = {
         "@type": "uco-observable:PDFFileFacet"
@@ -73,7 +73,7 @@ Generate the uuid for each instance of a PDF file, following the guidance on [in
 
 Finally, write the CASE graph to a file:
 
-```
+```python
     import json
     with open(args.output_path, "w") as case_file:
         json.dump(case, case_file, ensure_ascii=False, indent=4)
@@ -81,7 +81,7 @@ Finally, write the CASE graph to a file:
 
 Run the new script to translate the mapped PDF metadata to CASE/UCO.
 
-```
+```s
 % python3 ./pdf_info_txt_to_case.py your_case_output.json 000015.pdf.pdfinfo-isodates.txt
 ```
 
@@ -110,7 +110,7 @@ For example, see the [Issue 421](https://github.com/ucoProject/UCO/issues/421) c
 
 Once approved, these new properties can be added to the script to translate the data to CASE/UCO: 
 
-```
+```python
             elif input_key == "CreationDate":
                 pdf_file_facet["uco-observable:pdfCreatedDate"] = {
                     "@type": "xsd:dateTime",
@@ -127,15 +127,15 @@ Once approved, these new properties can be added to the script to translate the 
 
 Validation capabilities are baked into CASE/UCO using SHACL and can be perfored using the following command:
 
-```
-case_validate your_case_output.json
+```s
+% case_validate your_case_output.json
 ```
 
 The validation will ignore any properties that do not have a SHACL shape defined.
 
 Another validation step is to test whether you have generated valid graph data. This can be perfomed using `rdfpipe` to convert the JSON-LD to TTL:
 
-```
+```s
 % rdfpipe output.json 
 @prefix kb: <http://example.org/kb/> .
 @prefix uco-core: <https://ontology.unifiedcyberontology.org/uco/core/> .
@@ -155,7 +155,7 @@ kb:pdf-file-6832c97f-a4d9-4b5a-afa8-c7d9c54a52bd a uco-observable:PDFFile ;
 
 First, create a SPARQL query within a file:
 
-```
+```s
 PREFIX drafting: <http://example.org/ontology/drafting/>
 PREFIX uco-observable: <https://ontology.unifiedcyberontology.org/uco/observable/>
 
@@ -174,7 +174,7 @@ WHERE {
 
 Then run a SPARQL query using `case_sparql_select`:
 
-```
+```s
 % case_sparql_select out.md query.sparql input.json
 |    | ?nPDFFile                                                           | ?lAuthor                        |
 |----|---------------------------------------------------------------------|---------------------------------|
