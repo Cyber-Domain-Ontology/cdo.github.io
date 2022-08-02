@@ -9,8 +9,6 @@
       link: /ontology/development/
 - name: Community
   submenuitems:
-    # - name: 2020 Governance Committee Elections
-    #   link: /community/elections.html
     - name: Technical Steering Committee
       link: /community/tsc.html
     # - name: Meetings
@@ -24,16 +22,10 @@
   submenuitems:
     - name: Charter
       link: /resources/charter.html
-    # - name: Code of Conduct
-    #   link: /resources/coc.html
-    # - name: Roadmap
-    #   link: /resources/roadmap.html
     # - name: GitHub Policies
     #   link: /resources/github_policies.html
     # - name: GitHub Repos
     #   link: /resources/github_repos.html
-    # - name: Data Guidance
-    #   link: /resources/instance_data.html
     # - name: SPACE
     # - header: Libraries
     # - name: Downloads
@@ -46,5 +38,9 @@
     #   link: /resources/media.html
 - name: Press
   link: /posts/
-- name: Contact
-  link: /contact.html
+- name: Support
+  submenuitems:
+    - name: Manual
+      link: /support/manual.html
+    - name: Contact
+      link: /support/contact.html
