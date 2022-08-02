@@ -40,7 +40,7 @@
   link: /posts/
 - name: Support
   submenuitems:
-    # - name: Manual
-    #   link: /support/manual.html
+    - name: Manual
+      link: /support/manual.html
     - name: Contact
       link: /support/contact.html
