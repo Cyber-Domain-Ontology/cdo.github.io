@@ -124,10 +124,12 @@ Review steps taken:
 - Tracking in Jira ticket [TODO](#TODO-link) (if no Issue is associated)
 - [ ] Pull request is against correct branch
 - [ ] CI passes in (CASE/UCO) feature branch
-- [ ] CI passes in (CASE/UCO) current unstable branch ([merge-commit](#TODO-commit))
+- [ ] CI passes in UCO current `unstable` branch ([merge-commit](#TODO-commit))
+- [ ] CI passes in CASE current `unstable` branch tracking UCO's `unstable` as submodule ([merge-commit](#TODO-commit))
 - [ ] Impact on SHACL validation [reviewed](#TODO-commit) for CASE-Examples
 - [ ] Impact on SHACL validation [remediated](#TODO-commit) for CASE-Examples <!--In primary or feature branch, no ...validation-unstable.ttl files show negative impact from PR.-->
 - [ ] Impact on SHACL validation [reviewed](#TODO-commit) for casework.github.io
 - [ ] Impact on SHACL validation [remediated](#TODO-commit) for casework.github.io <!--In primary or feature branch, no ...validation-unstable.ttl files show negative impact from PR.-->
+- [ ] Milestone linked
 - [ ] Solutions Approval vote logged on corresponding Issue <!-- Non-applicable for PRs functioning under bugfix worflow -->
 ```
