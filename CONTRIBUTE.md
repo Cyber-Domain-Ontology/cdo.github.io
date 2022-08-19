@@ -78,7 +78,7 @@ popd #${HOME}/local/src
 <!--
 Include in administrative review how well the competencies demonstrate the requirements.
 -->
-- [ ] Administrative review completed, proposal announced to Ontology Committees (OCs) on *(TODO-date)*
+- [ ] Administrative review completed, proposal announced to Ontology Committees (OCs) on TODO-date
 - [ ] Requirements to be discussed in OC meeting, date TBD
 <!--
 If this is deemed a "Fast-track" proposal, delete the above line and Requirements Review vote line.
@@ -92,7 +92,7 @@ One of these lines can be swapped in when ready:
 In event of the latter, delete the remainder of the list.
 -->
 - [ ] *Requirements development phase completed.*
-- [ ] Solution announced to OCs on *(TODO-date)*
+- [ ] Solution announced to OCs on TODO-date
 - [ ] Solutions Approval to be discussed in OC meeting, date TBD
 - [ ] Solutions Approval vote has not occurred
 <!--
@@ -103,10 +103,9 @@ One of these lines can be swapped in when ready:
 In event of the latter, delete the remainder of the list.
 -->
 - [ ] *Solutions development phase completed.*
-- [ ] Implementation has not been merged into `develop`
+- [ ] [Implementation](#TODO-link-to-resolved-PR) merged into `develop`
 <!--
 This line can be swapped in when ready:
-- [x] Implementation [merged](#TODO-link-to-resolved-PR) into `develop`
 -->
 - [ ] Milestone linked
 - [ ] Documentation logged in pending release page
@@ -128,4 +127,5 @@ Review steps taken:
 - [ ] Impact on SHACL validation [remediated](#TODO-commit) for CASE-Examples <!--In primary or feature branch, no ...validation-unstable.ttl files show negative impact from PR.-->
 - [ ] Impact on SHACL validation [reviewed](#TODO-commit) for casework.github.io
 - [ ] Impact on SHACL validation [remediated](#TODO-commit) for casework.github.io <!--In primary or feature branch, no ...validation-unstable.ttl files show negative impact from PR.-->
+- [ ] Solutions Approval vote logged on corresponding Issue <!-- Non-applicable for PRs functioning under bugfix worflow -->
 ```
