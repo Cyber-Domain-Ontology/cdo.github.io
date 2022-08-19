@@ -68,6 +68,8 @@ popd #${HOME}/local/src
 
 ## Review checklists
 
+These checklists are documented on the [Development of CDO Ontologies page](https://cyberdomainontology.org/ontology/development/#review-checklists).  Due to a display issue with website font colors, they are presented here.
+
 
 ### Issue progress
 

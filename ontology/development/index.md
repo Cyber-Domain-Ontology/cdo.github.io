@@ -5,7 +5,9 @@ title: Development of CDO Ontologies
 This page houses practices followed for development of CDO ontologies.  It is the result of needs identified over the early years of CDO ontologies' socialization and software review processes.  Before the 1.0.0 release of the CDO ontologies, it is likely practices on this page will continue to adapt as workflows are refined.
 
 
+<a id="review-checklists" style="padding-top: 5em;"></a>
 # Review checklists
+*([Link](#review-checklists))*
 
 GitHub repositories for CDO ontology development use the following checklist templates for coordinating the issue's progression with the respective ontology committee.  To enable GitHub progress-tracking (based on checkbox counts), these templates are inlined as edits into the initial Issue or Pull Request description, as an [edit](https://docs.github.com/en/communities/moderating-comments-and-conversations/tracking-changes-in-a-comment) by OC Chair or Coordinator.
 
@@ -17,7 +19,7 @@ Due to a display issue with website font colors, the checklists are presented in
 GitHub repositories in CDO follow two branching practices:
 
 
-<a id="branching-cdo-git-flow" style="padding-top: 3em;"></a>
+<a id="branching-cdo-git-flow" style="padding-top: 5em;"></a>
 ## "Git-flow" branching
 *([Link](#branching-cdo-git-flow))*
 
@@ -28,7 +30,7 @@ In this branching model, pull requests should target the `develop` branch, not t
 The head of the primary branch is typically the current release.  There may be some non-release commits made on the primary branch due to needing to program components of GitHub interface elements.
 
 
-<a id="branching-cdo-continuous" style="padding-top: 3em;"></a>
+<a id="branching-cdo-continuous" style="padding-top: 5em;"></a>
 ## "Continous-release" branching
 *([Link](#branching-cdo-continuous))*
 
@@ -40,7 +42,7 @@ In this branching model, pull requests should target the primary branch.
 # Testing
 
 
-<a id="testing-prereleases" style="padding-top: 3em;"></a>
+<a id="testing-prereleases" style="padding-top: 5em;"></a>
 ## Testing prereleases
 
 The CDO ontology Git repositories (including [CASE's ontology repository](https://github.com/casework/CASE/) and [UCO's](https://github.com/ucoProject/UCO/)) follow the ["Git-flow"](#branching-cdo-git-flow) branching model.  There is additional consideration put into processing the `develop` and feature branches:
