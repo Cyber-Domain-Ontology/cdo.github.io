@@ -119,10 +119,11 @@ This line can be swapped in when ready:
 To be inlined into the initial Pull Request description, as an edit by OC Chair or Coordinator:
 
 ```markdown
-Review steps taken:
+# Coordination
 
-- Tracking in Jira ticket [TODO](#TODO-link) (if no Issue is associated)
-- [ ] Pull request is against correct branch
+- Tracking in Jira ticket [TODO](#TODO-link) <!-- Only for when no Issue is associated -->
+- [ ] Pull Request is against correct branch
+- [ ] Pull Request is in, or reverted to, Draft status before Solutions Approval vote has passed.
 - [ ] CI passes in (CASE/UCO) feature branch
 - [ ] CI passes in UCO current `unstable` branch ([merge-commit](#TODO-commit))
 - [ ] CI passes in CASE current `unstable` branch tracking UCO's `unstable` as submodule ([merge-commit](#TODO-commit))
@@ -131,5 +132,5 @@ Review steps taken:
 - [ ] Impact on SHACL validation [reviewed](#TODO-commit) for casework.github.io
 - [ ] Impact on SHACL validation [remediated](#TODO-commit) for casework.github.io <!--In primary or feature branch, no ...validation-unstable.ttl files show negative impact from PR.-->
 - [ ] Milestone linked
-- [ ] Solutions Approval vote logged on corresponding Issue <!-- Non-applicable for PRs functioning under bugfix worflow -->
+- [ ] Solutions Approval vote logged on corresponding Issue (once logged, can be taken out of Draft PR status) <!-- Non-applicable for PRs functioning under bugfix worflow -->
 ```
