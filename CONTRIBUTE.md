@@ -126,7 +126,7 @@ To be inlined into the initial Pull Request description, as an edit by OC Chair 
 - [ ] Pull Request is in, or reverted to, Draft status before Solutions Approval vote has passed.
 - [ ] CI passes in (CASE/UCO) feature branch
 - [ ] CI passes in UCO current `unstable` branch ([merge-commit](#TODO-commit))
-- [ ] CI passes in CASE current `unstable` branch tracking UCO's `unstable` as submodule ([merge-commit](#TODO-commit))
+- [ ] CI passes in CASE current `unstable` branch tracking UCO's `unstable` as submodule ([merge-commit](#TODO-commit)) <!--If this is a purely additive change, this box may be checked with a note of "*(skipped - additive change)*" -->
 - [ ] Impact on SHACL validation [reviewed](#TODO-commit) for CASE-Examples
 - [ ] Impact on SHACL validation [remediated](#TODO-commit) for CASE-Examples <!--In primary or feature branch, no ...validation-unstable.ttl files show negative impact from PR.-->
 - [ ] Impact on SHACL validation [reviewed](#TODO-commit) for casework.github.io
