@@ -106,9 +106,6 @@ In event of the latter, delete the remainder of the list.
 -->
 - [ ] *Solutions development phase completed.*
 - [ ] [Implementation](#TODO-link-to-resolved-PR) merged into `develop`
-<!--
-This line can be swapped in when ready:
--->
 - [ ] Milestone linked
 - [ ] Documentation logged in pending release page
 ```
