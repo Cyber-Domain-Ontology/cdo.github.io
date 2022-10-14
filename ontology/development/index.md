@@ -93,6 +93,14 @@ CDO ontologies have need of adopting existing efforts in other domains, especial
 
 UCO can explore alignment between, say, `uco-location:Location` and [GeoNames' `Feature`](https://www.geonames.org/ontology#Feature), but should not do so at the expense of other geospatial representations, such as [GeoSPARQL 1.1's `Feature`](https://github.com/opengeospatial/ogc-geosparql/blob/master/1.1/geo.ttl#L946), or [BFO 2.0's `spatial region`](https://github.com/BFO-ontology/BFO/blob/v2019-08-26/releases/2.0/bfo.owl#L499).  To explore alignment, CDO ontologies are using "Profile" repositories on Github.
 
+Profiles serve three use cases, which have different strategic objectives:
+
+* A **top-level** profile - The objective is grounding, finding inconsistencies in CDO's ontology or between different groundings.
+* An **adopting** profile - The objective is improving quality of existing CDO usage; improving interoperability; and improving development efficiency for the CDO community.
+* A **mimicking** profile - The objective is as with the **adopting** profile use case, except for a difference in conclusion.  The other ontology in a mimicking case would not be imported, e.g., due to finding something disagreeable with CDO needs, whether in knowledge model (such as being an RDFS model incompatible with OWL), or maintenance (such as being abandoned).  The experiential re-use still improves development efficiency for CDO.
+
+Though the objectives for each of these use cases differ significantly, the overall implementation method remains consistent for the three, except for the mimicking profile declining to relate UCO to the external ontology with subclassing.
+
 Each "Profile" repository follows this pattern:
 
 * The repository tracks its corresponding CDO ontology, and some external ontology, as Git submodules.
