@@ -82,3 +82,34 @@ To summarize, if a developer wishes to test against some "Prerelease" state:
    - Branches merged into the `unstable` branch today are **not guaranteed** to be merged in tomorrow.
 * These ontology builds can be downloaded from the website if one's development follows a "Nightly build" practice.
 * These ontology builds can be "frozen" by tracking the [website repository](https://github.com/casework/casework.github.io/) as a Git submodule.
+
+
+<a id="profiles" style="padding-top: 5em;"></a>
+# Profiles
+
+The ontologies within CDO, including UCO, are designed as "mid-level" domain ontologies, generally but not entirely scoped within the cyber domain.  A "mid-level" ontology is distinct from ["top-level" (aka "foundational" or "upper") ontologies](https://en.wikipedia.org/wiki/Upper_ontology).  The rationale for being "mid-level" has been to avoid excluding other potential ontological alignments that exist as independent efforts modeling other domains, such as [provenance](https://www.w3.org/TR/prov-o/).  Because top-level ontologies are generally not compatible with one another ("Foundational" typically being a distinct status within a knowledge model), to adopt one top-level ontology potentially declines interoperability with another and all adopters of the other.  Similarly, other ontologies that do not consider themselves "top-level" are not necessarily compatible with any "top-level" ontology that might be adopted.
+
+CDO ontologies have need of adopting existing efforts in other domains, especially when there is a demonstrated need for something that is adjacent to the cyber domain, such as photographing physical objects.  UCO can provide description of the camera; CASE, the photograph-subject's relevance to an investigation; but, neither CASE nor UCO have, say, the class of [Motorcycle](https://schema.org/Motorcycle)s as photograph-subject in their scope, nor the photograph's location being "near" [this particular conceptualization of the Washington Monument](https://www.geonames.org/4141033/).
+
+UCO can explore alignment between, say, `uco-location:Location` and [GeoNames' `Feature`](https://www.geonames.org/ontology#Feature), but should not do so at the expense of other geospatial representations, such as [GeoSPARQL 1.1's `Feature`](https://github.com/opengeospatial/ogc-geosparql/blob/master/1.1/geo.ttl#L946), or [BFO 2.0's `spatial region`](https://github.com/BFO-ontology/BFO/blob/v2019-08-26/releases/2.0/bfo.owl#L499).  To explore alignment, CDO ontologies are using "Profile" repositories on Github.
+
+Profiles serve three use cases, which have different strategic objectives:
+
+* A **top-level** profile - The objective is grounding, finding inconsistencies in CDO's ontology or between different groundings.
+* An **adopting** profile - The objective is improving quality of existing CDO usage; improving interoperability; and improving development efficiency for the CDO community.
+* A **mimicking** profile - The objective is as with the **adopting** profile use case, except for a difference in conclusion.  The other ontology in a mimicking case would not be imported, e.g., due to finding something disagreeable with CDO needs, whether in knowledge model (such as being an RDFS model incompatible with OWL), or maintenance (such as being abandoned).  The experiential re-use still improves development efficiency for CDO.
+
+Though the objectives for each of these use cases differ significantly, the overall implementation method remains consistent for the three, except for the mimicking profile declining to relate UCO to the external ontology with subclassing.
+
+Each "Profile" repository follows this pattern:
+
+* The repository tracks its corresponding CDO ontology, and some external ontology, as Git submodules.
+* A new ontology is defined that imports the CDO ontology and the external ontology.
+* The new ontology declares the CDO concept as a subclass of the external concept.
+   - For example, in the UCO Profile for BFO, `uco-role:Role` would be a subclass of [BFO 2.0's `role`](https://github.com/BFO-ontology/BFO/blob/v2019-08-26/releases/2.0/bfo.owl#L974), and `uco-identity:Person` would be a subclass of BFO 2.0's `material entity` (per the example of "[a human being](https://github.com/BFO-ontology/BFO/blob/v2019-08-26/releases/2.0/bfo.owl#L1379)").
+* As CDO classes are aligned with external classes, certain relationships between classes or properties are inherited.
+   - For example, with the noted BFO-based subclassings of `uco-role:Role` and `uco-identity:Person`, UCO's `Role` and `Person` are disjoint classes due to the class hierarchy in BFO.  (In BFO, this ultimately comes from the [disjointedness](https://github.com/BFO-ontology/BFO/blob/v2019-08-26/releases/2.0/bfo.owl#L436) of `independent continuant` and `specifically dependent continuant`.)  Importing the disjointedness relationship between `Role` and `Person` back into UCO brings UCO a step closer to aligning with use cases involving BFO, without inducing a commitment to UCO adopting BFO.
+
+These repositories can be brought together to review how well current examples adhere to the profiles' ontological alignments, whether by confirming graph-individuals' disjointedness through RDFS expansion, or through a consistency review through OWL-DL expansion.  (A Github repository attempting this is currently under development.)  Bringing these profiles together is one reason the CDO class is a subclass of the external class, rather than an equivalent class.  One of the objectives is to explore whether multiple profiles reveal an inconsistency in unrelated ontologies, when exercised in a CDO example.  (The other reason equivalent-class designations are avoided is to avoid inappropriate scope-expansions of CDO rules within adopters' knowledge graphs, such as individuals under UCO hierarchies generally being [urged to end with UUIDs](https://github.com/ucoProject/UCO/blob/1.0.0/ontology/uco/core/core.ttl#L429).)
+
+These repositories are each designated as "Exploratory".  Their contents are neither official, versioned beyond Git commit mechanisms, nor subject to Ontology Committee workflows for revisions.  They are expected to change as modeling needs are demonstrated through new class, property, and example development.  Those wishing to adopt a Profile are encouraged to do so using a Git submodule.  Contributions or requests for alignment explorations are welcome.
