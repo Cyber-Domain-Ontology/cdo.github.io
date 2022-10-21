@@ -58,9 +58,9 @@ Part of the testing process for the ontology is assessing impact of proposals, a
 
 These are monolithic and syntax-normalized builds of the CASE and UCO ontologies.  Their states are used to review each of the CASE examples, and their validation SHACL results are stored as files alongside the examples' source materials.  For instance, here are the current validation results for the [website's Asgard example](https://caseontology.org/examples/asgard/):
 
-* [Versus the current release](https://github.com/casework/casework.github.io/blob/master/examples/asgard/src/asgard_validation.ttl)
-* [Versus the develop state](https://github.com/casework/casework.github.io/blob/master/examples/asgard/src/asgard_validation-develop.ttl)
-* [Versus the unstable state](https://github.com/casework/casework.github.io/blob/master/examples/asgard/src/asgard_validation-unstable.ttl)
+* [Versus the current release](https://github.com/casework/casework.github.io/blob/master/examples/asgard/asgard_validation.ttl)
+* [Versus the develop state](https://github.com/casework/casework.github.io/blob/master/examples/asgard/asgard_validation-develop.ttl)
+* [Versus the unstable state](https://github.com/casework/casework.github.io/blob/master/examples/asgard/asgard_validation-unstable.ttl)
 
 `CASE-develop.ttl` is built according to `develop` branch states of CASE and UCO, and thus incorporates all of the proposals that are committee-approved and staged for the next release.  `CASE-unstable.ttl` follows an implementation practice that is, well, unstable: Most, or all, proposals under consideration are merged into one branch, before committee review or approvals that would see the proposals merged into `develop`.
 
