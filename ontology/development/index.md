@@ -44,6 +44,7 @@ In this branching model, pull requests should target the primary branch.
 
 <a id="testing-prereleases" style="padding-top: 5em;"></a>
 ## Testing prereleases
+*([Link](#testing-prereleases))*
 
 The CDO ontology Git repositories (including [CASE's ontology repository](https://github.com/casework/CASE/) and [UCO's](https://github.com/ucoProject/UCO/)) follow the ["Git-flow"](#branching-cdo-git-flow) branching model.  There is additional consideration put into processing the `develop` and feature branches:
 
@@ -86,6 +87,7 @@ To summarize, if a developer wishes to test against some "Prerelease" state:
 
 <a id="profiles" style="padding-top: 5em;"></a>
 # Profiles
+*([Link](#profiles))*
 
 The ontologies within CDO, including UCO, are designed as "mid-level" domain ontologies, generally but not entirely scoped within the cyber domain.  A "mid-level" ontology is distinct from ["top-level" (aka "foundational" or "upper") ontologies](https://en.wikipedia.org/wiki/Upper_ontology).  The rationale for being "mid-level" has been to avoid excluding other potential ontological alignments that exist as independent efforts modeling other domains, such as [provenance](https://www.w3.org/TR/prov-o/).  Because top-level ontologies are generally not compatible with one another ("Foundational" typically being a distinct status within a knowledge model), to adopt one top-level ontology potentially declines interoperability with another and all adopters of the other.  Similarly, other ontologies that do not consider themselves "top-level" are not necessarily compatible with any "top-level" ontology that might be adopted.
 
