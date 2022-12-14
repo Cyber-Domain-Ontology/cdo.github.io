@@ -22,6 +22,8 @@
   submenuitems:
     - name: Charter
       link: /resources/charter.html
+    - name: Project Release Flow
+      link: /resources/project_release_flow.html
     # - name: GitHub Policies
     #   link: /resources/github_policies.html
     # - name: GitHub Repos
