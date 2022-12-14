@@ -131,3 +131,15 @@ To be inlined into the initial Pull Request description, as an edit by OC Chair 
 - [ ] Milestone linked
 - [ ] Solutions Approval vote logged on corresponding Issue (once logged, can be taken out of Draft PR status) <!-- Non-applicable for PRs functioning under bugfix worflow -->
 ```
+
+
+## Maintaining the Project Release Flow diagram
+
+[This page](https://cyberdomainontology.org/resources/project_release_flow.html) links to a diagram showing the release flow of various CDO projects and their consumers.
+
+Updates to the diagram are welcome from the community.  The logistics of updating are as follows:
+
+* If an update to one of the referenced elements is made and the diagram has fallen out of sync., notice of the update as a [GitHub Issue on this repository](https://github.com/Cyber-Domain-Ontology/cdo.github.io/issues) is sufficient for an update to be made.  The community member should let the website maintainers know they'd like assistance with finishing the request.
+* If a community member wishes to make the update themselves, the records are maintained in a Dot (i.e. [GraphViz](https://graphviz.org/)) file, [here](https://github.com/Cyber-Domain-Ontology/cdo.github.io/blob/main/resources/project_release_flow.dot).  The appropriate definition can be updated, and a pull request filed.
+* The CDO website currently does not *fully* automate updates to the rendered figure when the Dot source is updated.  Part of the Pull Request review will include a website maintainer pulling the update down and running `make` to regenerate the figure, if the community member did not do that themselves.  (And, this is understandable - Make and GraphViz are not provisioned by default in some computing environments.)
+   - It is certainly welcome for the community member to take the extra step of running `make` locally after making their edits to the `.dot` file.

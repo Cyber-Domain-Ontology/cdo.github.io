@@ -14,25 +14,17 @@
 SHELL := /bin/bash
 
 all: \
-  all-resources
-
-.PHONY: \
-  all-resources \
-  check-resources
-
-all-resources:
-	$(MAKE) \
-	  --directory resources
+  project_release_flow.svg
 
 check: \
-  check-resources
-
-check-resources:
-	$(MAKE) \
-	  --directory resources \
-	  check
+  project_release_flow.svg
 
 clean:
-	@$(MAKE) \
-	  --directory resources \
-	  clean
+	@rm -f \
+	  _* \
+	  *.svg
+
+project_release_flow.svg: \
+  project_release_flow.dot
+	dot -T svg -o _$@ $<
+	mv _$@ $@

@@ -1,0 +1,104 @@
+digraph "cdo_release_flow" {
+  label = "Release flow of CDO ontologies\n\nNodes link to the respective Git repository." ;
+  rankdir = "LR" ;
+  node [shape="rectangle" style="filled,rounded" fillcolor="#8EC7D2" color="#0D6986"] ;
+
+
+  // Define nodes in their corresponding progress subgraph.
+
+  subgraph cluster_case_0_3_0 {
+    label = "Adoption of CASE 0.3.0" ;
+
+    _GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL [URL="https://github.com/casework/CASE-Implementation-ExifTool" label="CASE-Implementation-ExifTool\nadopts new case-utils"] ;
+  }
+
+  subgraph cluster_case_utils_0_3_0 {
+    label = "Adoption of case-utils 0.3.0" ;
+
+    _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [URL="https://github.com/casework/CASE-Implementation-GNU-Time" label="CASE-Implementation-GNU-Time\nadopts new case-utils"] ;
+  }
+
+  subgraph cluster_uco_0_9_1 {
+    label = "Adoption of UCO 0.9.1" ;
+
+    _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
+    _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
+  }
+  subgraph cluster_uco_1_1_0 {
+    label = "Adoption of UCO 1.1.0" ;
+
+    _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
+
+    subgraph cluster_case_1_1_0 {
+      label = "Adoption of CASE 1.1.0" ;
+
+      _GH__CASEWORK__CASE [URL="https://github.com/casework/CASE" label="CASE Ontology\nreleases"] ;
+
+      subgraph cluster_case_utils_0_9_0 {
+        label = "Adoption of case-utils 0.9.0" ;
+
+        _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [URL="https://github.com/ajnelson-nist/CASE-Examples-QC" label="CASE-Examples-QC\nadopts CASE-Examples and\nCASE website updates"] ;
+        _GH__CASEWORK__CASE_EXAMPLES [URL="https://github.com/casework/CASE-Examples" label="CASE-Examples\nadopts new case-utils"] ;
+        _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
+        _GH__CASEWORK__CASEWORK_GITHUB_IO [URL="https://github.com/casework/casework.github.io" label="CASE website\nadopts new case-utils"] ;
+
+        subgraph cluster_case_prov_0_6_0 {
+          label = "Adoption of case-prov 0.6.0" ;
+
+          _GH__CASEWORK__CASE_CORPORA [URL="https://github.com/casework/CASE-Corpora" label="CASE-Corpora\nadopts new case-prov"] ;
+          _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O [URL="https://github.com/casework/CASE-Implementation-PROV-O" label="case-prov\nreleases"] ;
+        }
+
+        subgraph cluster_case_validation_action_2_3 {
+          label = "Adoption of case-validation-action 2.3" ;
+
+          _GH__CASEWORK__CASE_IMPLEMENTATON_UFED_XML [URL="https://github.com/casework/CASE-Implementation-UFED-XML" label="CASE-Implementation-UFED-XML\nadopts new case-validation-action"] ;
+        }
+
+        subgraph cluster_case_validation_action_2_4 {
+          label = "Adoption of case-validation-action 2.4" ;
+
+          _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON [URL="https://github.com/casework/CASE-Mapping-Template-Python" label="CASE-Mapping-Template-Python\nadopts new case-validation-action"] ;
+        }
+
+        subgraph cluster_case_validation_action_2_5 {
+          label = "Adoption of case-validation-action 2.5" ;
+
+          _GH__CASEWORK__CASE_IMPLEMENTATON_XRY [URL="https://github.com/casework/CASE-Implementation-XRY" label="CASE-Implementation-XRY adopts\nnew case-validation-action"] ;
+          _GH__KCHASON__CASE_VALIDATION_ACTION [URL="https://github.com/kchason/case-validation-action" label="case-validation-action\nreleases"] ;
+        }
+      }
+    }
+  }
+
+  _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD [URL="https://github.com/casework/CASE-Implementation-PyPI-Exifread" label="CASE-Implementation-PyPI-Exifread\nadopts new case-validation-action"] ;
+  _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_PILLOW [URL="https://github.com/casework/CASE-Implementation-PyPI-Pillow" label="CASE-Implementation-PyPI-Pillow\nadopts new case-validation-action"] ;
+  _GH__DOD_CYBER_CRIME_CENTER__SQLITE_DISSECT [URL="https://github.com/dod-cyber-crime-center/sqlite-dissect" label="sqlite-dissect\nadopts new case-validation-action"] ;
+
+
+  // Begin edges
+
+  _GH__AJNELSON_NIST__CASE_EXAMPLES_QC -> _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O [label="Git sub-\nmodule"] ;
+  _GH__CASEWORK__CASE -> _GH__CASEWORK__CASE_UTILITIES_PYTHON [label="Git sub-\nmodule"] ;
+  _GH__CASEWORK__CASE -> _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [label="Git sub-\nmodule"] ; 
+  _GH__CASEWORK__CASE_EXAMPLES -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
+  _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O -> _GH__CASEWORK__CASE_CORPORA [label="PyPI"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="PyPI"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_EXAMPLES [label="PyPI"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL [label="TODO: Integrate"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [label="TODO: Update"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O [label="PyPI"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__KCHASON__CASE_VALIDATION_ACTION [label="PyPI"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASEWORK_GITHUB_IO [label="PyPI"] ;
+  _GH__CASEWORK__CASEWORK_GITHUB_IO -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
+  _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__DOD_CYBER_CRIME_CENTER__SQLITE_DISSECT [URL="https://github.com/dod-cyber-crime-center/sqlite-dissect/pull/31" label="TODO: PR 31"] ;
+  _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD [label="TODO: Integrate"] ;
+  _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_PILLOW [label="TODO: Integrate"] ;
+  _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_IMPLEMENTATON_UFED_XML [label="GitHub\nAction"] ;
+  _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_IMPLEMENTATON_XRY [label="GitHub\nAction"] ;
+  _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON [label="GitHub\nAction"] ;
+  _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG -> _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [label="Tech-\ncheck"];
+  _GH__UCOPROJECT__UCO -> _GH__CASEWORK__CASE [label="Git sub-\nmodule"] ;
+  _GH__UCOPROJECT__UCO -> _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [label="Git sub-\nmodule"] ;
+
+}
