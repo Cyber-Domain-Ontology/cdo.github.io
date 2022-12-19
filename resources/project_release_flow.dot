@@ -12,12 +12,6 @@ digraph "cdo_release_flow" {
     _GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL [URL="https://github.com/casework/CASE-Implementation-ExifTool" label="CASE-Implementation-ExifTool\nadopts new case-utils"] ;
   }
 
-  subgraph cluster_case_utils_0_3_0 {
-    label = "Adoption of case-utils 0.3.0" ;
-
-    _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [URL="https://github.com/casework/CASE-Implementation-GNU-Time" label="CASE-Implementation-GNU-Time\nadopts new case-utils"] ;
-  }
-
   subgraph cluster_uco_0_9_1 {
     label = "Adoption of UCO 0.9.1" ;
 
@@ -39,6 +33,7 @@ digraph "cdo_release_flow" {
 
         _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [URL="https://github.com/ajnelson-nist/CASE-Examples-QC" label="CASE-Examples-QC\nadopts CASE-Examples and\nCASE website updates"] ;
         _GH__CASEWORK__CASE_EXAMPLES [URL="https://github.com/casework/CASE-Examples" label="CASE-Examples\nadopts new case-utils"] ;
+        _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [URL="https://github.com/casework/CASE-Implementation-GNU-Time" label="CASE-Implementation-GNU-Time\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
         _GH__CASEWORK__CASEWORK_GITHUB_IO [URL="https://github.com/casework/casework.github.io" label="CASE website\nadopts new case-utils"] ;
 
@@ -80,7 +75,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_EXAMPLES [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL [label="TODO: Integrate"] ;
-  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [label="TODO: Update"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__KCHASON__CASE_VALIDATION_ACTION [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASEWORK_GITHUB_IO [label="PyPI"] ;
