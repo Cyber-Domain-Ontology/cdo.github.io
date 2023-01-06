@@ -105,7 +105,9 @@ One of these lines can be swapped in when ready:
 In event of the latter, delete the remainder of the list.
 -->
 - [ ] *Solutions development phase completed.*
-- [ ] [Implementation](#TODO-link-to-resolved-PR) merged into `develop`
+- [ ] [Backwards-compatible implementation](#TODO-link-to-PR) merged into `develop` for the next release
+- [ ] `develop` state with backwards-compatible implementation [merged](#TODO-link-to-PR) into `develop-2.0.0`
+- [ ] [Backwards-incompatible implementation](#TODO-link-to-PR) merged into `develop-2.0.0` (or *N/A*)
 - [ ] Milestone linked
 - [ ] Documentation logged in pending release page
 ```
@@ -120,8 +122,8 @@ To be inlined into the initial Pull Request description, as an edit by OC Chair 
 
 - Tracking in Jira ticket [TODO](#TODO-link) <!-- Only for when no Issue is associated -->
 - [ ] Pull Request is against correct branch
-- [ ] Pull Request is in, or reverted to, Draft status before Solutions Approval vote has passed.
-- [ ] CI passes in (CASE/UCO) feature branch
+- [ ] Pull Request is in, or reverted to, Draft status before Solutions Approval vote has passed
+- [ ] CI passes in (CASE/UCO) feature branch against (`develop`/`develop-2.0.0`)
 - [ ] CI passes in UCO current `unstable` branch ([merge-commit](#TODO-commit))
 - [ ] CI passes in CASE current `unstable` branch tracking UCO's `unstable` as submodule ([merge-commit](#TODO-commit)) <!--If this is a purely additive change, this box may be checked with a note of "*(skipped - additive change)*" -->
 - [ ] Impact on SHACL validation [reviewed](#TODO-commit) for CASE-Examples
@@ -130,6 +132,21 @@ To be inlined into the initial Pull Request description, as an edit by OC Chair 
 - [ ] Impact on SHACL validation [remediated](#TODO-commit) for casework.github.io <!--In primary or feature branch, no ...validation-unstable.ttl files show negative impact from PR.-->
 - [ ] Milestone linked
 - [ ] Solutions Approval vote logged on corresponding Issue (once logged, can be taken out of Draft PR status) <!-- Non-applicable for PRs functioning under bugfix worflow -->
+```
+
+
+#### Next-major pull request review
+
+This checklist is to be provided as the initial Pull Request description for PRs that catch `develop-2.0.0` up with the current `develop`.
+
+
+```markdown
+# Coordination
+
+- [ ] Pull Request is against correct branch
+- [ ] Pull Request is in Draft status before CI has passed
+- [ ] CI passes in (CASE/UCO) feature branch against `develop-2.0.0`
+- [ ] Milestone linked
 ```
 
 
