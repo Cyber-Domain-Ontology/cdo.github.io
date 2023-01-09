@@ -12,6 +12,13 @@ digraph "cdo_release_flow" {
     _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
   }
+  subgraph cluster_uco_1_0_0 {
+    label = "Adoption of UCO 1.0.0" ;
+    subgraph cluster_case_1_0_0 {
+      label = "Adoption of CASE 1.0.0" ;
+      _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP [URL="https://github.com/ciphertechsolutions/CASE-Bindings-CSharp" label="CASE-Bindings-CSharp\nadopts new ontology version"]
+    }
+  }
   subgraph cluster_uco_1_1_0 {
     label = "Adoption of UCO 1.1.0" ;
 
@@ -64,6 +71,7 @@ digraph "cdo_release_flow" {
 
   _GH__AJNELSON_NIST__CASE_EXAMPLES_QC -> _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE -> _GH__CASEWORK__CASE_UTILITIES_PYTHON [label="Git sub-\nmodule"] ;
+  _GH__CASEWORK__CASE -> _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP ;
   _GH__CASEWORK__CASE -> _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [label="Git sub-\nmodule"] ; 
   _GH__CASEWORK__CASE_EXAMPLES -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O -> _GH__CASEWORK__CASE_CORPORA [label="PyPI"] ;
