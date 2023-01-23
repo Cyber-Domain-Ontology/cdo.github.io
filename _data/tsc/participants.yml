@@ -1,4 +1,28 @@
-- title: Chair, Academia Participant
+- title: Chair, Non-profit Participant
+  image: hall.jpg
+  name: Cory Hall
+  subhead: Mitre
+  bio:
+    Cory Hall is a Group Leader, Project Leader, and Principal Cybersecurity Engineer at the MITRE Corporation. He leads research teams that are developing
+    capabilities for cyber-domain analysis, such as semantic ontologies, creating machine learning applications for studying cybercrime data, and developing
+    new forensic examination methods. He serves on the board of Project VIC International and leads the volunteer team (projectvic.org). He also serves on the
+    boards of the Tagliatella School of Engineering at the University of New Haven. He has an MS in cybersecurity and a BS in information technology. He is a
+    member of several INTERPOL-led digital investigative groups, as well as the American Academy of Forensic Science, the Digital Forensic Research Workshop,
+    and other organizations. Cory previously led several cybersecurity teams at Lockheed Martin, following earlier roles in cybersecurity and systems engineering
+    roles. Cory served as a musician and systems technician in the US Army. Since 2017, Cory’s contributions to this community have centered on establishing governance,
+    allocating resources, encouraging adoption, and fostering community involvement.
+- title: Vice-Chair, Gov Participant
+  image: nelson.jpg
+  name: Alex Nelson
+  subhead: National Institute of Standards & Technology
+  bio:
+    Dr. Alex Nelson is a Computer Scientist at NIST, working on research in security automation and contributing to the National Vulnerability Database.
+    Dr. Nelson has a dual B.A./B.S. in Mathematics and Computer Science from The Evergreen State College, and a M.S. and Ph.D. in Computer Science from the
+    University of California, Santa Cruz.  Dr. Nelson's research emphasizes foundational measurability of digital forensic processes.  Dr. Nelson is currently
+    serving as the inaugural CASE Ontology Committee Chair, and has had substantial input and experience in CASE's Adoption Committee and Unified Cyber
+    Ontology's Ontology Committee.  Dr. Nelson is a coauthor on multiple CASE publications, and has established many policies to enable the CASE ontology
+    release process and resource development.
+- title: Academia Participant
   image: casey.jpg
   name: Eoghan Casey
   subhead: University of Lausanne
@@ -11,25 +35,14 @@
     and networks. He has delivered expert testimony in civil and criminal matters in the United States, Canada, and international tribunals, and has
     submitted expert reports and prepared trial exhibits for computer forensic and cyber-crime cases. He is also an active member of the Digital/Multimedia
     Scientific Area Committee (DMSAC) of the NIST Organization for Scientific Area Committees (OSAC).
-- title: Vice-Chair, Government Participant
-  image: nelson.jpg
-  name: Alex Nelson
-  subhead: National Institute of Standards & Technology
-  bio:
-    Dr. Alex Nelson is a Computer Scientist at NIST, working on research in security automation and contributing to the National Vulnerability Database.
-    Dr. Nelson has a dual B.A./B.S. in Mathematics and Computer Science from The Evergreen State College, and a M.S. and Ph.D. in Computer Science from the
-    University of California, Santa Cruz.  Dr. Nelson's research emphasizes foundational measurability of digital forensic processes.  Dr. Nelson is currently
-    serving as the inaugural CASE Ontology Committee Chair, and has had substantial input and experience in CASE's Adoption Committee and Unified Cyber
-    Ontology's Ontology Committee.  Dr. Nelson is a coauthor on multiple CASE publications, and has established many policies to enable the CASE ontology
-    release process and resource development.
 - title: Government Participant
   image: griffith.jpg
   name: Ryan Griffith
   subhead: DoD Cyber Crime Center
   bio:
-    Ryan Griffith has worked for the Department of Defense Cyber Crime Center (DC3) for 15 years in the field of Digital Forensics.
-    Throughout his tenure with DC3 he has served as a validator, developer, and researcher of digital forensics technologies, served as the
-    lead mobile forensics exploitation engineer, lead technologist, and the Cyber Innovation Group Chair. Current work focuses on leading
+    Ryan Griffith has worked for the Department of Defense Cyber Crime Center (DC3) for 16 years in the field of Cyber Forensics.
+    Throughout his tenure with DC3 he has served as a validator, developer, and researcher of cyber forensics technologies. In this capacity Ryan has served as the
+    lead for mobile forensics exploitation, Chief Operations Officer for the Research &amp; Development branch of DC3, and chairperson for the DC3 Cyber Innovation Group. Current work focuses on leading
     research and development initatives for mobile and IoT exploitation and promoting CASE adoption across the DoD. Ryan has co-authored several
     CASE publications and presented on the subject matter at numerous conferences and workshops.
 - title: For-profit Participant
@@ -51,13 +64,13 @@
   image: henseler.jpg
   name: Hans Henseler
   subhead: University of Applied Sciences Leiden
-  bio: 
-    Hans Henseler is professor Digital Forensics & E-Discovery at the University of Applied Sciences Leiden and senior scientist digital forensics at the Netherlands Forensic Institute. 
-    He is chairman of the Board of Directors of DFRWS and was a member of the board of the Netherlands Register of Court Experts (NRGD). Hans received his M.Sc. in Computer Science from Delft 
-    University of Technology and holds a Ph.D. on Artificial Neural Networks from the University of Maastricht. In 1992 he founded the department of forensic computer science at the Netherlands 
-    Forensic science Institute (NFI) and in 1996 he was vice chairman of the International Organisation on Computer Evidence (IOCE). From 2000-2006 he was CTO at ZyLAB and responsible for 
-    ZyLAB's E-Discovery software suite devops, support and services. From 2006-2010 Hans was director of Forensic Technology Solutions at PwC Eurofirms. From 2010-2014 he was partner and 
-    business unit manager Forensics for incident response and e-discovery at Fox IT. In 2014 Hans was co-founder of Tracks Inspector where he became CEO responsible for the further international 
+  bio:
+    Hans Henseler is professor Digital Forensics & E-Discovery at the University of Applied Sciences Leiden and senior scientist digital forensics at the Netherlands Forensic Institute.
+    He is chairman of the Board of Directors of DFRWS and was a member of the board of the Netherlands Register of Court Experts (NRGD). Hans received his M.Sc. in Computer Science from Delft
+    University of Technology and holds a Ph.D. on Artificial Neural Networks from the University of Maastricht. In 1992 he founded the department of forensic computer science at the Netherlands
+    Forensic science Institute (NFI) and in 1996 he was vice chairman of the International Organisation on Computer Evidence (IOCE). From 2000-2006 he was CTO at ZyLAB and responsible for
+    ZyLAB's E-Discovery software suite devops, support and services. From 2006-2010 Hans was director of Forensic Technology Solutions at PwC Eurofirms. From 2010-2014 he was partner and
+    business unit manager Forensics for incident response and e-discovery at Fox IT. In 2014 Hans was co-founder of Tracks Inspector where he became CEO responsible for the further international
     growth which led to the acquisition by Magnet Forensics in 2018. At Magnet Forensics he became director of Digital Evidence Review until March 2020.
 - title: For-profit Participant
   image: blank.jpg
