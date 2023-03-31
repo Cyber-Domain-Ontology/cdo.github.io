@@ -17,9 +17,9 @@
 <text text-anchor="middle" x="273" y="-210.8" font-family="Times,serif" font-size="14.00">Adoption of UCO 0.9.1</text>
 </g>
 <g id="clust2" class="cluster">
-<title>cluster_case_0_9_1</title>
+<title>cluster_case_0_7_1</title>
 <polygon fill="none" stroke="black" points="197,-118 197,-195 349,-195 349,-118 197,-118"/>
-<text text-anchor="middle" x="273" y="-179.8" font-family="Times,serif" font-size="14.00">Adoption of CASE 0.9.1</text>
+<text text-anchor="middle" x="273" y="-179.8" font-family="Times,serif" font-size="14.00">Adoption of CASE 0.7.1</text>
 </g>
 <g id="clust3" class="cluster">
 <title>cluster_uco_1_1_0</title>
@@ -36,6 +36,11 @@
 <polygon fill="none" stroke="black" points="456,-296 456,-1073 1574,-1073 1574,-296 456,-296"/>
 <text text-anchor="middle" x="1015" y="-1057.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;utils 0.9.0</text>
 </g>
+<g id="clust6" class="cluster">
+<title>cluster_case_prov_0_6_0</title>
+<polygon fill="none" stroke="black" points="1284,-409 1284,-486 1566,-486 1566,-409 1284,-409"/>
+<text text-anchor="middle" x="1425" y="-470.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;prov 0.6.0</text>
+</g>
 <g id="clust7" class="cluster">
 <title>cluster_case_validation_action_2_3</title>
 <polygon fill="none" stroke="black" points="962.5,-965 962.5,-1042 1196.5,-1042 1196.5,-965 962.5,-965"/>
@@ -50,11 +55,6 @@
 <title>cluster_case_bindings_csharp_0_3_0</title>
 <polygon fill="none" stroke="black" points="639.5,-849 639.5,-926 1213,-926 1213,-849 639.5,-849"/>
 <text text-anchor="middle" x="926.25" y="-910.8" font-family="Times,serif" font-size="14.00">Adoption of CSharp bindings 0.3.0</text>
-</g>
-<g id="clust6" class="cluster">
-<title>cluster_case_prov_0_6_0</title>
-<polygon fill="none" stroke="black" points="1284,-409 1284,-486 1566,-486 1566,-409 1284,-409"/>
-<text text-anchor="middle" x="1425" y="-470.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;prov 0.6.0</text>
 </g>
 <!-- _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG -->
 <g id="node1" class="node">
