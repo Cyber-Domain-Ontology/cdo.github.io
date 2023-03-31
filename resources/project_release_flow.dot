@@ -11,8 +11,8 @@ digraph "cdo_release_flow" {
 
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
 
-    subgraph cluster_case_0_9_1 {
-      label = "Adoption of CASE 0.9.1" ;
+    subgraph cluster_case_0_7_1 {
+      label = "Adoption of CASE 0.7.1" ;
       _GH__CASEWORK__CASE_MAPPING_TEMPLATE_STUBS [URL="https://github.com/casework/CASE-Mapping-Template-Stubs" label="CASE Mapping\nTemplate Stubs"] ;
     }
   }
