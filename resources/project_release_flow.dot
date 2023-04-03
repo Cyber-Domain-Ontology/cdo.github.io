@@ -50,7 +50,6 @@ digraph "cdo_release_flow" {
           _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_PILLOW [URL="https://github.com/casework/CASE-Implementation-PyPI-Pillow" label="CASE-Implementation-PyPI-Pillow\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATON_XRY [URL="https://github.com/casework/CASE-Implementation-XRY" label="CASE-Implementation-XRY adopts\nnew case-validation-action"] ;
           _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON [URL="https://github.com/casework/CASE-Mapping-Template-Python" label="CASE-Mapping-Template-Python\nadopts new case-validation-action"] ;
-          _GH__KCHASON__CASE_VALIDATION_ACTION [URL="https://github.com/kchason/case-validation-action" label="case-validation-action\nreleases"] ;
 
           subgraph cluster_case_bindings_csharp_0_3_0 {
             label = "Adoption of CSharp bindings 0.3.0" ;
@@ -74,8 +73,15 @@ digraph "cdo_release_flow" {
 
       subgraph cluster_case_utils_0_10_0 {
         label = "Adoption of case-utils 0.10.0" ;
+
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
         _GH__CASEWORK__CASE_EXAMPLES [URL="https://github.com/casework/CASE-Examples" label="CASE-Examples\nadopts new case-utils"] ;
+
+        subgraph cluster_case_validation_action_2_6 {
+          label = "Adoption of case-validation-action 2.6" ;
+
+          _GH__KCHASON__CASE_VALIDATION_ACTION [URL="https://github.com/kchason/case-validation-action" label="case-validation-action\nreleases"] ;
+        }
       }
     }
   }
