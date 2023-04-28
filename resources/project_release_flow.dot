@@ -36,6 +36,7 @@ digraph "cdo_release_flow" {
 
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
     _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
+    _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [URL="https://github.com/ucoProject/UCO-Profile-Example" label="UCO Profile Example\nupdates"] ;
 
     subgraph cluster_case_1_2_0 {
       label = "Adoption of CASE 1.2.0" ;
@@ -108,5 +109,5 @@ digraph "cdo_release_flow" {
   _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG -> _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [label="Tech-\ncheck"];
   _GH__UCOPROJECT__UCO -> _GH__CASEWORK__CASE [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO -> _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [label="Git sub-\nmodule"] ;
-
+  _GH__UCOPROJECT__UCO -> _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [label="Git sub-\nmodule"] ;
 }
