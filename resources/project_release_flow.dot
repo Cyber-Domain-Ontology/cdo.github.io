@@ -36,6 +36,7 @@ digraph "cdo_release_flow" {
 
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
     _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
+    _GH__UCOPROJECT__UCO_PROFILE_BFO [URL="https://github.com/ucoProject/UCO-Profile-BFO" label="UCO BFO profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [URL="https://github.com/ucoProject/UCO-Profile-Example" label="UCO example profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_FOAF [URL="https://github.com/ucoProject/UCO-Profile-FOAF" label="UCO FOAF profile\nupdates"] ;
 
@@ -111,5 +112,6 @@ digraph "cdo_release_flow" {
   _GH__UCOPROJECT__UCO -> _GH__CASEWORK__CASE [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO -> _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO -> _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [label="Git sub-\nmodule"] ;
+  _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -> _GH__UCOPROJECT__UCO_PROFILE_BFO [label="Git merge of\nbase branch"] ;
   _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -> _GH__UCOPROJECT__UCO_PROFILE_FOAF [label="Git merge of\nbase branch"] ;
 }
