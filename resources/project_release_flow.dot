@@ -53,7 +53,6 @@ digraph "cdo_release_flow" {
         _GH__CASEWORK__CASE_EXAMPLES [URL="https://github.com/casework/CASE-Examples" label="CASE-Examples\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL [URL="https://github.com/casework/CASE-Implementation-ExifTool" label="CASE-Implementation-ExifTool\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [URL="https://github.com/casework/CASE-Implementation-GNU-Time" label="CASE-Implementation-GNU-Time\nadopts new case-utils"] ;
-        _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
         _GH__CASEWORK__CASEWORK_GITHUB_IO [URL="https://github.com/casework/casework.github.io" label="CASE website\nadopts new case-utils"] ;
 
         subgraph cluster_case_prov_0_7_0 {
@@ -78,6 +77,12 @@ digraph "cdo_release_flow" {
             _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP [URL="https://github.com/ciphertechsolutions/CASE-Bindings-CSharp" label="CASE-Bindings-CSharp\nadopts new ontology version"]
           }
         }
+      }
+
+      subgraph cluster_case_utils_0_11_0 {
+        label = "Adoption of case-utils 0.11.0" ;
+
+        _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
       }
     }
   }
