@@ -14,23 +14,7 @@ digraph "cdo_release_flow" {
       _GH__CASEWORK__CASE_MAPPING_TEMPLATE_STUBS [URL="https://github.com/casework/CASE-Mapping-Template-Stubs" label="CASE Mapping\nTemplate Stubs"] ;
     }
   }
-  subgraph cluster_uco_1_1_0 {
-    label = "Adoption of UCO 1.1.0" ;
 
-    subgraph cluster_case_1_1_0 {
-      label = "Adoption of CASE 1.1.0" ;
-
-      subgraph cluster_case_utils_0_9_0 {
-        label = "Adoption of case-utils 0.9.0" ;
-
-        subgraph cluster_case_validation_action_2_5 {
-          label = "Adoption of case-validation-action 2.5" ;
-
-          _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD [URL="https://github.com/casework/CASE-Implementation-PyPI-Exifread" label="CASE-Implementation-PyPI-Exifread\nadopts new case-validation-action"] ;
-        }
-      }
-    }
-  }
   subgraph cluster_uco_1_2_0 {
     label = "Adoption of UCO 1.2.0" ;
 
@@ -61,6 +45,7 @@ digraph "cdo_release_flow" {
         subgraph cluster_case_validation_action_2_6 {
           label = "Adoption of case-validation-action 2.6" ;
 
+          _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD [URL="https://github.com/casework/CASE-Implementation-PyPI-Exifread" label="CASE-Implementation-PyPI-Exifread\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_PILLOW [URL="https://github.com/casework/CASE-Implementation-PyPI-Pillow" label="CASE-Implementation-PyPI-Pillow\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATON_UFED_XML [URL="https://github.com/casework/CASE-Implementation-UFED-XML" label="CASE-Implementation-UFED-XML\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATON_XRY [URL="https://github.com/casework/CASE-Implementation-XRY" label="CASE-Implementation-XRY adopts\nnew case-validation-action"] ;
