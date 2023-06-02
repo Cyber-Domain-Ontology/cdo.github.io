@@ -28,6 +28,7 @@ digraph "cdo_release_flow" {
       label = "Adoption of CASE 1.2.0" ;
 
       _GH__CASEWORK__CASE [URL="https://github.com/casework/CASE" label="CASE Ontology\nreleases"] ;
+      _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [URL="https://github.com/casework/CASE-Examples-Conversion" label="CASE Conversion Examples"]
       _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
 
       subgraph cluster_case_utils_0_10_0 {
