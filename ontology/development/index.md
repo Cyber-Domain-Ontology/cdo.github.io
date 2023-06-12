@@ -131,6 +131,9 @@ To bridge potential understanding gaps, and to better understand external ontolo
 
 The shape repositories can be found on GitHub or on the [CDO Project Release Flow](https://cyberdomainontology.org/resources/project_release_flow.html) diagram, searching for "`-Shapes-`".
 
+
+## Practices
+
 The shape repositories follow these practices:
 
 * Each repository is conceptually scoped to one RDF-based data model.
@@ -161,6 +164,9 @@ The shape graphs follow the below practices.
 * `owl:Restriction`s using `owl:maxCardinality` or `owl:maxQualifiedCardinality` are turned into class-specific SHACL maximum-count constraints.
 * `owl:Restriction`s using `owl:someValuesFrom`, `owl:minCardinality`, or `owl:minQualifiedCardinality` are ignored.
    - While OWL's open world assumption allows for a node to be expected to exist, raising a SHACL result when one is not found is likely to be more harm than help.  To quell that result, a node would need to be invented, and there are too-possible scenarios where that would not be appropriate because one might be found later in a workflow, and would then need to be de-conflicted with the invented node.  (This also pertains to the shapes graphs not attempting compatibility with `owl:sameAs`.)  For `owl:DatatypeProperty`s, this is further stymied by OWL lacking an explicit "Null" or "Not yet known" literal-value that could be used as a stand-in value.
+
+
+## Notes
 
 At this time, no programmatic support is provided to convert an OWL ontology into a SHACL graph.  Some procedures are known to be algorithmically specifiable---for instance, most of the above list is likely scriptable.  However, at least one community member's experience has found defining SHACL shapes to be a beneficial exercise in actively reading ontologies, as well as finding challenges in defining rules pertaining to some OWL constructs.
 
