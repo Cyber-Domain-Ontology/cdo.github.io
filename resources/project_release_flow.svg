@@ -84,7 +84,7 @@
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF -->
 <g id="node3" class="node">
 <title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF</title>
-<g id="a_node3"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" xlink:title="CDO FOAF shapes\nupdates">
+<g id="a_node3"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-FOAF" xlink:title="CDO FOAF shapes\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M627.5,-232C627.5,-232 528.5,-232 528.5,-232 522.5,-232 516.5,-226 516.5,-220 516.5,-220 516.5,-206 516.5,-206 516.5,-200 522.5,-194 528.5,-194 528.5,-194 627.5,-194 627.5,-194 633.5,-194 639.5,-200 639.5,-206 639.5,-206 639.5,-220 639.5,-220 639.5,-226 633.5,-232 627.5,-232"/>
 <text text-anchor="middle" x="578" y="-216.8" font-family="Times,serif" font-size="14.00">CDO FOAF shapes</text>
 <text text-anchor="middle" x="578" y="-201.8" font-family="Times,serif" font-size="14.00">updates</text>
