@@ -19,6 +19,7 @@ digraph "cdo_release_flow" {
     label = "Adoption of UCO 1.2.0" ;
 
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" label="CDO example-base shapes\nupdates"]
+    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" label="CDO FOAF shapes\nupdates"]
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
     _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
     _GH__UCOPROJECT__UCO_PROFILE_BFO [URL="https://github.com/ucoProject/UCO-Profile-BFO" label="UCO BFO profile\nupdates"] ;
@@ -99,6 +100,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASEWORK_GITHUB_IO [label="PyPI"] ;
   _GH__CASEWORK__CASEWORK_GITHUB_IO -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP -> _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR [label="NuGet"] ;
+  _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [label="Git sub-\nmodule"] ;
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR [label="GitHub\nAction"] ;
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [label="GitHub\nAction"];
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD [label="GitHub\nAction"] ;
