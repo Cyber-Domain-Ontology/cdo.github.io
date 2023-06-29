@@ -18,9 +18,9 @@ digraph "cdo_release_flow" {
   subgraph cluster_uco_1_2_0 {
     label = "Adoption of UCO 1.2.0" ;
 
-    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-BFO" label="CDO BFO shapes\nupdates"]
-    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" label="CDO example-base shapes\nupdates"]
-    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-FOAF" label="CDO FOAF shapes\nupdates"]
+    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-BFO" label="CDO BFO shapes\nupdates"] ;
+    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" label="CDO example-base shapes\nupdates"] ;
+    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-FOAF" label="CDO FOAF shapes\nupdates"] ;
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
     _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
     _GH__UCOPROJECT__UCO_PROFILE_BFO [URL="https://github.com/ucoProject/UCO-Profile-BFO" label="UCO BFO profile\nupdates"] ;
@@ -49,7 +49,7 @@ digraph "cdo_release_flow" {
             label = "Adoption of CSharp bindings 0.4.0" ;
 
             _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR [URL="https://github.com/casework/CASE-Bindings-CSharp-Monitor" label="CASE Bindings CSharp Monitor\ntests NuGet package with validation action"] ;
-            _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP [URL="https://github.com/ciphertechsolutions/CASE-Bindings-CSharp" label="CASE-Bindings-CSharp\nadopts new ontology version"]
+            _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP [URL="https://github.com/ciphertechsolutions/CASE-Bindings-CSharp" label="CASE-Bindings-CSharp\nadopts new ontology version"] ;
           }
         }
       }
@@ -73,7 +73,7 @@ digraph "cdo_release_flow" {
         subgraph cluster_case_validation_action_2_6_1 {
           label = "Adoption of case-validation-action 2.6.1" ;
 
-          _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [URL="https://github.com/casework/CASE-Examples-Conversion" label="CASE Conversion Examples"]
+          _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [URL="https://github.com/casework/CASE-Examples-Conversion" label="CASE Conversion Examples"] ;
           _GH__KCHASON__CASE_VALIDATION_ACTION [URL="https://github.com/kchason/case-validation-action" label="case-validation-action\nreleases"] ;
         }
       }
