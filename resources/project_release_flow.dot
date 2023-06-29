@@ -3,7 +3,6 @@ digraph "cdo_release_flow" {
   rankdir = "LR" ;
   node [shape="rectangle" style="filled,rounded" fillcolor="#8EC7D2" color="#0D6986"] ;
 
-
   // Define nodes in their corresponding progress subgraph.
 
   subgraph cluster_uco_0_9_1 {
@@ -80,6 +79,7 @@ digraph "cdo_release_flow" {
     }
   }
 
+  _GH__CASEWORK__CASE_UTILITY_SHACL_INHERITANCE_REVIEWER [URL="https://github.com/casework/CASE-Utility-SHACL-Inheritance-Reviewer" label="SHIR utility\nreleases"] ;
   _GH__DOD_CYBER_CRIME_CENTER__SQLITE_DISSECT [URL="https://github.com/dod-cyber-crime-center/sqlite-dissect" label="sqlite-dissect\nadopts new case-validation-action"] ;
 
   // Begin edges
@@ -98,6 +98,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__KCHASON__CASE_VALIDATION_ACTION [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASEWORK_GITHUB_IO [label="PyPI"] ;
+  _GH__CASEWORK__CASE_UTILITY_SHACL_INHERITANCE_REVIEWER -> _GH__UCOPROJECT__UCO [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASEWORK_GITHUB_IO -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP -> _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR [label="NuGet"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO -> _GH__UCOPROJECT__UCO_PROFILE_BFO [label="Git sub-\nmodule"] ;
