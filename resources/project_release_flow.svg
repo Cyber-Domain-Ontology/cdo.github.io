@@ -51,15 +51,15 @@
 <polygon fill="none" stroke="black" points="524,-681 524,-1092 1869,-1092 1869,-681 524,-681"/>
 <text text-anchor="middle" x="1196.5" y="-1076.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;utils 0.11.0</text>
 </g>
-<g id="clust9" class="cluster">
-<title>cluster_case_prov_0_8_0</title>
-<polygon fill="none" stroke="black" points="1474,-831 1474,-908 1861,-908 1861,-831 1474,-831"/>
-<text text-anchor="middle" x="1667.5" y="-892.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;prov 0.8.0</text>
-</g>
 <g id="clust10" class="cluster">
 <title>cluster_case_validation_action_2_6_1</title>
 <polygon fill="none" stroke="black" points="784,-689 784,-776 1293.5,-776 1293.5,-689 784,-689"/>
 <text text-anchor="middle" x="1038.75" y="-760.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;validation&#45;action 2.6.1</text>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_case_prov_0_8_0</title>
+<polygon fill="none" stroke="black" points="1474,-831 1474,-908 1861,-908 1861,-831 1474,-831"/>
+<text text-anchor="middle" x="1667.5" y="-892.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;prov 0.8.0</text>
 </g>
 <!-- _GH__CASEWORK__CASE_MAPPING_TEMPLATE_STUBS -->
 <g id="node1" class="node">
