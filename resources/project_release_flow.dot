@@ -69,11 +69,6 @@ digraph "cdo_release_flow" {
           _GH__CASEWORK__CASE_CORPORA [URL="https://github.com/casework/CASE-Corpora" label="CASE-Corpora\nadopts new case-prov"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O [URL="https://github.com/casework/CASE-Implementation-PROV-O" label="case-prov\nreleases"] ;
         }
-        subgraph cluster_case_validation_action_2_6_1 {
-          label = "Adoption of case-validation-action 2.6.1" ;
-
-          _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [URL="https://github.com/casework/CASE-Examples-Conversion" label="CASE Conversion Examples"] ;
-        }
       }
 
       subgraph cluster_case_utils_0_12_0 {
@@ -82,6 +77,8 @@ digraph "cdo_release_flow" {
 
         subgraph cluster_case_validation_action_2_7_0 {
           label = "Adoption of case-validation-action 2.7.0" ;
+
+          _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [URL="https://github.com/casework/CASE-Examples-Conversion" label="CASE Conversion Examples"] ;
           _GH__KCHASON__CASE_VALIDATION_ACTION [URL="https://github.com/kchason/case-validation-action" label="case-validation-action\nreleases"] ;
         }
       }
