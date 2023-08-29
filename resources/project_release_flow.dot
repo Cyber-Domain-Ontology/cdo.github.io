@@ -5,6 +5,15 @@ digraph "cdo_release_flow" {
 
   // Define nodes in their corresponding progress subgraph.
 
+  subgraph cluster_uco_0_6_0 {
+    label = "Adoption of UCO 0.6.0" ;
+
+    subgraph cluster_case_0_4_0 {
+      label = "Adoption of CASE 0.4.0" ;
+      _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM [URL="https://github.com/casework/CASE-Implementation-Axiom" label="CASE-Implementation-Axiom"] ;
+    }
+  }
+
   subgraph cluster_uco_0_9_1 {
     label = "Adoption of UCO 0.9.1" ;
 
