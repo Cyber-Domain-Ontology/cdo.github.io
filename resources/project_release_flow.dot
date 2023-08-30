@@ -49,13 +49,6 @@ digraph "cdo_release_flow" {
           label = "Adoption of case-validation-action 2.6" ;
 
           _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD [URL="https://github.com/casework/CASE-Implementation-PyPI-Exifread" label="CASE-Implementation-PyPI-Exifread\nadopts new case-validation-action"] ;
-
-          subgraph cluster_case_bindings_csharp_0_4_0 {
-            label = "Adoption of CSharp bindings 0.4.0" ;
-
-            _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR [URL="https://github.com/casework/CASE-Bindings-CSharp-Monitor" label="CASE Bindings CSharp Monitor\ntests NuGet package with validation action"] ;
-            _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP [URL="https://github.com/ciphertechsolutions/CASE-Bindings-CSharp" label="CASE-Bindings-CSharp\nadopts new ontology version"] ;
-          }
         }
       }
 
@@ -85,6 +78,13 @@ digraph "cdo_release_flow" {
           _GH__CASEWORK__CASE_IMPLEMENTATON_UFED_XML [URL="https://github.com/casework/CASE-Implementation-UFED-XML" label="CASE-Implementation-UFED-XML\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATON_XRY [URL="https://github.com/casework/CASE-Implementation-XRY" label="CASE-Implementation-XRY adopts\nnew case-validation-action"] ;
           _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON [URL="https://github.com/casework/CASE-Mapping-Template-Python" label="CASE-Mapping-Template-Python\nadopts new case-validation-action"] ;
+
+          subgraph cluster_case_bindings_csharp_0_4_0 {
+            label = "Adoption of CSharp bindings 0.4.0" ;
+
+            _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR [URL="https://github.com/casework/CASE-Bindings-CSharp-Monitor" label="CASE Bindings CSharp Monitor\ntests NuGet package with validation action"] ;
+            _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP [URL="https://github.com/ciphertechsolutions/CASE-Bindings-CSharp" label="CASE-Bindings-CSharp\nadopts new ontology version"] ;
+          }
         }
       }
     }
