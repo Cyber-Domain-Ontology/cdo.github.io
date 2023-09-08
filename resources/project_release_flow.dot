@@ -5,6 +5,8 @@ digraph "cdo_release_flow" {
 
   // Define nodes in their corresponding progress subgraph.
 
+  _GH__CASEWORK__CASE_MAPPING_PYTHON [URL="https://github.com/casework/CASE-Mapping-Python/" label="CASE-Mapping-Python"] ;
+
   subgraph cluster_uco_0_6_0 {
     label = "Adoption of UCO 0.6.0" ;
 
