@@ -57,7 +57,6 @@ digraph "cdo_release_flow" {
       subgraph cluster_case_utils_0_13_0 {
         label = "Adoption of case-utils 0.13.0" ;
 
-        _GH__CASEWORK__CASE_EXAMPLES [URL="https://github.com/casework/CASE-Examples" label="CASE-Examples\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL [URL="https://github.com/casework/CASE-Implementation-ExifTool" label="CASE-Implementation-ExifTool\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [URL="https://github.com/casework/CASE-Implementation-GNU-Time" label="CASE-Implementation-GNU-Time\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
@@ -68,6 +67,7 @@ digraph "cdo_release_flow" {
 
           _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [URL="https://github.com/ajnelson-nist/CASE-Examples-QC" label="CASE-Examples-QC\nadopts CASE-Examples and\nCASE website updates"] ;
           _GH__CASEWORK__CASE_CORPORA [URL="https://github.com/casework/CASE-Corpora" label="CASE-Corpora\nadopts new case-prov"] ;
+          _GH__CASEWORK__CASE_EXAMPLES [URL="https://github.com/casework/CASE-Examples" label="CASE-Examples\nadopts new case-utils"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O [URL="https://github.com/casework/CASE-Implementation-PROV-O" label="case-prov\nreleases"] ;
         }
 
@@ -106,6 +106,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE -> _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [label="Git sub-\nmodule"] ; 
   _GH__CASEWORK__CASE_EXAMPLES -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O -> _GH__CASEWORK__CASE_CORPORA [label="PyPI"] ;
+  _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O -> _GH__CASEWORK__CASE_EXAMPLES [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_EXAMPLES [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL [label="PyPI"] ;
