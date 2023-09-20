@@ -390,9 +390,9 @@
 <path fill="none" stroke="black" d="M559.5,-850.57C571.62,-752.36 627.52,-338.35 717.75,-251.5 798.73,-173.55 932.4,-159.74 1023.2,-160.64"/>
 <polygon fill="black" stroke="black" points="1022.99,-164.16 1033.05,-160.82 1023.11,-157.16 1022.99,-164.16"/>
 </g>
-<!-- _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD -->
+<!-- _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD -->
 <g id="node15" class="node">
-<title>_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD</title>
+<title>_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD</title>
 <g id="a_node15"><a xlink:href="https://github.com/casework/CASE-Implementation-PyPI-Exifread" xlink:title="CASE&#45;Implementation&#45;PyPI&#45;Exifread\nadopts new case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1594.12,-949C1594.12,-949 1394.38,-949 1394.38,-949 1388.38,-949 1382.38,-943 1382.38,-937 1382.38,-937 1382.38,-920 1382.38,-920 1382.38,-914 1388.38,-908 1394.38,-908 1394.38,-908 1594.12,-908 1594.12,-908 1600.12,-908 1606.12,-914 1606.12,-920 1606.12,-920 1606.12,-937 1606.12,-937 1606.12,-943 1600.12,-949 1594.12,-949"/>
 <text text-anchor="middle" x="1494.25" y="-931.7" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;PyPI&#45;Exifread</text>
@@ -400,9 +400,9 @@
 </a>
 </g>
 </g>
-<!-- _GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL -->
+<!-- _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL -->
 <g id="node16" class="node">
-<title>_GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL</title>
+<title>_GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL</title>
 <g id="a_node16"><a xlink:href="https://github.com/casework/CASE-Implementation-ExifTool" xlink:title="CASE&#45;Implementation&#45;ExifTool\nadopts new case&#45;utils">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1206.5,-792C1206.5,-792 1035.25,-792 1035.25,-792 1029.25,-792 1023.25,-786 1023.25,-780 1023.25,-780 1023.25,-763 1023.25,-763 1023.25,-757 1029.25,-751 1035.25,-751 1035.25,-751 1206.5,-751 1206.5,-751 1212.5,-751 1218.5,-757 1218.5,-763 1218.5,-763 1218.5,-780 1218.5,-780 1218.5,-786 1212.5,-792 1206.5,-792"/>
 <text text-anchor="middle" x="1120.88" y="-774.7" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;ExifTool</text>
@@ -410,9 +410,9 @@
 </a>
 </g>
 </g>
-<!-- _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME -->
+<!-- _GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME -->
 <g id="node17" class="node">
-<title>_GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME</title>
+<title>_GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME</title>
 <g id="a_node17"><a xlink:href="https://github.com/casework/CASE-Implementation-GNU-Time" xlink:title="CASE&#45;Implementation&#45;GNU&#45;Time\nadopts new case&#45;utils">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1213.62,-851C1213.62,-851 1028.12,-851 1028.12,-851 1022.12,-851 1016.12,-845 1016.12,-839 1016.12,-839 1016.12,-822 1016.12,-822 1016.12,-816 1022.12,-810 1028.12,-810 1028.12,-810 1213.62,-810 1213.62,-810 1219.62,-810 1225.62,-816 1225.62,-822 1225.62,-822 1225.62,-839 1225.62,-839 1225.62,-845 1219.62,-851 1213.62,-851"/>
 <text text-anchor="middle" x="1120.88" y="-833.7" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;GNU&#45;Time</text>
@@ -430,30 +430,30 @@
 </a>
 </g>
 </g>
-<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD -->
+<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD -->
 <g id="edge14" class="edge">
-<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD</title>
+<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD</title>
 <path fill="none" stroke="black" d="M833.06,-750.88C849.19,-754.1 867.87,-760.35 880.75,-772.5 897.32,-788.14 883.18,-803.87 898.75,-820.5 928.25,-852.01 945.76,-848.61 987.25,-860.5 1023.37,-870.85 1233.68,-897.33 1371.55,-914.02"/>
 <polygon fill="black" stroke="black" points="1370.82,-917.58 1381.17,-915.31 1371.66,-910.63 1370.82,-917.58"/>
 <text text-anchor="middle" x="1120.88" y="-901.7" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
-<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD -->
+<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD -->
 <g id="edge29" class="edge">
-<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD</title>
+<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD</title>
 <path fill="none" stroke="black" d="M833.21,-750.25C849.58,-753.28 868.44,-759.57 880.75,-772.5 902.9,-795.77 881.78,-815.22 898.75,-842.5 926.13,-886.52 938.81,-900.01 987.25,-918.5 1022.08,-931.79 1233.09,-931.86 1371.39,-930.39"/>
 <polygon fill="black" stroke="black" points="1371.09,-933.88 1381.05,-930.27 1371.01,-926.88 1371.09,-933.88"/>
 <text text-anchor="middle" x="1120.88" y="-933.7" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
-<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL -->
+<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL -->
 <g id="edge11" class="edge">
-<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL</title>
+<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL</title>
 <path fill="none" stroke="black" d="M832.95,-749.96C874.84,-753.1 949.51,-758.71 1012.18,-763.41"/>
 <polygon fill="black" stroke="black" points="1011.69,-766.96 1021.93,-764.22 1012.22,-759.98 1011.69,-766.96"/>
 <text text-anchor="middle" x="934" y="-762.7" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
-<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME -->
+<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME -->
 <g id="edge12" class="edge">
-<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME</title>
+<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME</title>
 <path fill="none" stroke="black" d="M833.05,-756.74C847.77,-761.13 865.27,-766.68 880.75,-772.5 888.94,-775.58 890.46,-777.7 898.75,-780.5 932.71,-791.97 970.5,-801.6 1005.09,-809.26"/>
 <polygon fill="black" stroke="black" points="1004.2,-812.87 1014.71,-811.57 1005.69,-806.03 1004.2,-812.87"/>
 <text text-anchor="middle" x="934" y="-802.7" font-family="Times,serif" font-size="14.00">PyPI</text>
@@ -489,9 +489,9 @@
 <polygon fill="black" stroke="black" points="1920.97,-704.12 1929.39,-697.68 1918.79,-697.46 1920.97,-704.12"/>
 <text text-anchor="middle" x="1494.25" y="-745.7" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
-<!-- _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O -->
+<!-- _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -->
 <g id="node24" class="node">
-<title>_GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O</title>
+<title>_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O</title>
 <g id="a_node24"><a xlink:href="https://github.com/casework/CASE-Implementation-PROV-O" xlink:title="case&#45;prov\nreleases">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1516.5,-657C1516.5,-657 1472,-657 1472,-657 1466,-657 1460,-651 1460,-645 1460,-645 1460,-628 1460,-628 1460,-622 1466,-616 1472,-616 1472,-616 1516.5,-616 1516.5,-616 1522.5,-616 1528.5,-622 1528.5,-628 1528.5,-628 1528.5,-645 1528.5,-645 1528.5,-651 1522.5,-657 1516.5,-657"/>
 <text text-anchor="middle" x="1494.25" y="-639.7" font-family="Times,serif" font-size="14.00">case&#45;prov</text>
@@ -499,9 +499,9 @@
 </a>
 </g>
 </g>
-<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O -->
+<!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -->
 <g id="edge13" class="edge">
-<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O</title>
+<title>_GH__CASEWORK__CASE_UTILITIES_PYTHON&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O</title>
 <path fill="none" stroke="black" d="M832.87,-743.84C848.75,-740.65 867.28,-734.68 880.75,-723.5 894.21,-712.33 886.21,-700.7 898.75,-688.5 930.02,-658.07 944.8,-656.09 987.25,-646 1153.87,-606.42 1360.1,-621.6 1449.03,-631.1"/>
 <polygon fill="black" stroke="black" points="1448.46,-634.67 1458.78,-632.29 1449.23,-627.71 1448.46,-634.67"/>
 <text text-anchor="middle" x="1120.88" y="-648.7" font-family="Times,serif" font-size="14.00">PyPI</text>
@@ -531,9 +531,9 @@
 <text text-anchor="middle" x="1665.38" y="-725.2" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
 <text text-anchor="middle" x="1665.38" y="-708.7" font-family="Times,serif" font-size="14.00">module</text>
 </g>
-<!-- _GH__CASEWORK__CASEWORK_GITHUB_IO&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O -->
+<!-- _GH__CASEWORK__CASEWORK_GITHUB_IO&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -->
 <g id="edge2" class="edge">
-<title>_GH__CASEWORK__CASEWORK_GITHUB_IO&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O</title>
+<title>_GH__CASEWORK__CASEWORK_GITHUB_IO&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O</title>
 <path fill="none" stroke="black" d="M1187.41,-681.79C1262.81,-670.63 1384.5,-652.61 1449.32,-643.01"/>
 <polygon fill="black" stroke="black" points="1449.6,-646.35 1458.98,-641.43 1448.57,-639.43 1449.6,-646.35"/>
 <text text-anchor="middle" x="1311.88" y="-688.2" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
@@ -575,31 +575,31 @@
 <text text-anchor="middle" x="1879.38" y="-645.2" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
 <text text-anchor="middle" x="1879.38" y="-628.7" font-family="Times,serif" font-size="14.00">module</text>
 </g>
-<!-- _GH__CASEWORK__CASE_EXAMPLES&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O -->
+<!-- _GH__CASEWORK__CASE_EXAMPLES&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -->
 <g id="edge1" class="edge">
-<title>_GH__CASEWORK__CASE_EXAMPLES&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O</title>
+<title>_GH__CASEWORK__CASE_EXAMPLES&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O</title>
 <path fill="none" stroke="black" d="M1705.99,-614.37C1654.69,-619.75 1584.67,-627.11 1539.7,-631.83"/>
 <polygon fill="black" stroke="black" points="1539.41,-628.45 1529.83,-632.97 1540.14,-635.41 1539.41,-628.45"/>
 <text text-anchor="middle" x="1665.38" y="-639.2" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
 <text text-anchor="middle" x="1665.38" y="-622.7" font-family="Times,serif" font-size="14.00">module</text>
 </g>
-<!-- _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O&#45;&gt;_GH__CASEWORK__CASE_CORPORA -->
+<!-- _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O&#45;&gt;_GH__CASEWORK__CASE_CORPORA -->
 <g id="edge8" class="edge">
-<title>_GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O&#45;&gt;_GH__CASEWORK__CASE_CORPORA</title>
+<title>_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O&#45;&gt;_GH__CASEWORK__CASE_CORPORA</title>
 <path fill="none" stroke="black" d="M1528.73,-641.2C1558.71,-645.36 1603.89,-651.54 1643.25,-656.5 1659.75,-658.58 1677.45,-660.72 1694.27,-662.7"/>
 <polygon fill="black" stroke="black" points="1693.84,-666.29 1704.18,-663.98 1694.65,-659.34 1693.84,-666.29"/>
 <text text-anchor="middle" x="1665.38" y="-664.7" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
-<!-- _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O&#45;&gt;_GH__CASEWORK__CASE_EXAMPLES -->
+<!-- _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O&#45;&gt;_GH__CASEWORK__CASE_EXAMPLES -->
 <g id="edge9" class="edge">
-<title>_GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O&#45;&gt;_GH__CASEWORK__CASE_EXAMPLES</title>
+<title>_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O&#45;&gt;_GH__CASEWORK__CASE_EXAMPLES</title>
 <path fill="none" stroke="black" d="M1528.81,-624.55C1558.47,-614.66 1603.12,-601.39 1643.25,-596 1662.74,-593.38 1667.88,-594.66 1687.5,-596 1690.04,-596.17 1692.61,-596.38 1695.21,-596.6"/>
 <polygon fill="black" stroke="black" points="1694.69,-600.17 1704.99,-597.66 1695.38,-593.2 1694.69,-600.17"/>
 <text text-anchor="middle" x="1665.38" y="-598.7" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
-<!-- _GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD -->
+<!-- _GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD -->
 <g id="edge30" class="edge">
-<title>_GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD</title>
+<title>_GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD</title>
 <path fill="none" stroke="black" d="M1188.68,-368.91C1212.91,-371.31 1238.29,-378.84 1254.5,-397.5 1282.88,-430.16 1252.86,-747.95 1272.5,-786.5 1292.85,-826.44 1324.58,-813.48 1351.25,-849.5 1362.07,-864.11 1353.1,-875.08 1366.38,-887.5 1372.55,-893.28 1379.56,-898.25 1387.02,-902.52"/>
 <polygon fill="black" stroke="black" points="1385.21,-906.04 1395.7,-907.56 1388.44,-899.83 1385.21,-906.04"/>
 <text text-anchor="middle" x="1311.88" y="-869.2" font-family="Times,serif" font-size="14.00">GitHub</text>
@@ -622,9 +622,9 @@
 <text text-anchor="middle" x="1311.88" y="-481.2" font-family="Times,serif" font-size="14.00">GitHub</text>
 <text text-anchor="middle" x="1311.88" y="-464.7" font-family="Times,serif" font-size="14.00">Action</text>
 </g>
-<!-- _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_PILLOW -->
+<!-- _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW -->
 <g id="node27" class="node">
-<title>_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_PILLOW</title>
+<title>_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW</title>
 <g id="a_node27"><a xlink:href="https://github.com/casework/CASE-Implementation-PyPI-Pillow" xlink:title="CASE&#45;Implementation&#45;PyPI&#45;Pillow\nadopts new case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1588.5,-275C1588.5,-275 1400,-275 1400,-275 1394,-275 1388,-269 1388,-263 1388,-263 1388,-246 1388,-246 1388,-240 1394,-234 1400,-234 1400,-234 1588.5,-234 1588.5,-234 1594.5,-234 1600.5,-240 1600.5,-246 1600.5,-246 1600.5,-263 1600.5,-263 1600.5,-269 1594.5,-275 1588.5,-275"/>
 <text text-anchor="middle" x="1494.25" y="-257.7" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;PyPI&#45;Pillow</text>
@@ -632,17 +632,17 @@
 </a>
 </g>
 </g>
-<!-- _GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_PILLOW -->
+<!-- _GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW -->
 <g id="edge31" class="edge">
-<title>_GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_PILLOW</title>
+<title>_GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW</title>
 <path fill="none" stroke="black" d="M1151.19,-351.64C1180.48,-331.87 1227.49,-302.97 1272.5,-287.5 1305.54,-276.14 1342.7,-268.69 1376.97,-263.8"/>
 <polygon fill="black" stroke="black" points="1377.07,-267.19 1386.5,-262.37 1376.12,-260.25 1377.07,-267.19"/>
 <text text-anchor="middle" x="1311.88" y="-307.2" font-family="Times,serif" font-size="14.00">GitHub</text>
 <text text-anchor="middle" x="1311.88" y="-290.7" font-family="Times,serif" font-size="14.00">Action</text>
 </g>
-<!-- _GH__CASEWORK__CASE_IMPLEMENTATON_UFED_XML -->
+<!-- _GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML -->
 <g id="node28" class="node">
-<title>_GH__CASEWORK__CASE_IMPLEMENTATON_UFED_XML</title>
+<title>_GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML</title>
 <g id="a_node28"><a xlink:href="https://github.com/casework/CASE-Implementation-UFED-XML" xlink:title="CASE&#45;Implementation&#45;UFED&#45;XML\nadopts new case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1590.75,-334C1590.75,-334 1397.75,-334 1397.75,-334 1391.75,-334 1385.75,-328 1385.75,-322 1385.75,-322 1385.75,-305 1385.75,-305 1385.75,-299 1391.75,-293 1397.75,-293 1397.75,-293 1590.75,-293 1590.75,-293 1596.75,-293 1602.75,-299 1602.75,-305 1602.75,-305 1602.75,-322 1602.75,-322 1602.75,-328 1596.75,-334 1590.75,-334"/>
 <text text-anchor="middle" x="1494.25" y="-316.7" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;UFED&#45;XML</text>
@@ -650,17 +650,17 @@
 </a>
 </g>
 </g>
-<!-- _GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_UFED_XML -->
+<!-- _GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML -->
 <g id="edge32" class="edge">
-<title>_GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_UFED_XML</title>
+<title>_GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML</title>
 <path fill="none" stroke="black" d="M1188.93,-353.87C1214.87,-347.24 1244.9,-340.24 1272.5,-335.5 1305.47,-329.84 1341.47,-325.48 1374.66,-322.21"/>
 <polygon fill="black" stroke="black" points="1374.71,-325.62 1384.33,-321.18 1374.04,-318.65 1374.71,-325.62"/>
 <text text-anchor="middle" x="1311.88" y="-355.2" font-family="Times,serif" font-size="14.00">GitHub</text>
 <text text-anchor="middle" x="1311.88" y="-338.7" font-family="Times,serif" font-size="14.00">Action</text>
 </g>
-<!-- _GH__CASEWORK__CASE_IMPLEMENTATON_XRY -->
+<!-- _GH__CASEWORK__CASE_IMPLEMENTATION_XRY -->
 <g id="node29" class="node">
-<title>_GH__CASEWORK__CASE_IMPLEMENTATON_XRY</title>
+<title>_GH__CASEWORK__CASE_IMPLEMENTATION_XRY</title>
 <g id="a_node29"><a xlink:href="https://github.com/casework/CASE-Implementation-XRY" xlink:title="CASE&#45;Implementation&#45;XRY adopts\nnew case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1588.88,-393C1588.88,-393 1399.62,-393 1399.62,-393 1393.62,-393 1387.62,-387 1387.62,-381 1387.62,-381 1387.62,-364 1387.62,-364 1387.62,-358 1393.62,-352 1399.62,-352 1399.62,-352 1588.88,-352 1588.88,-352 1594.88,-352 1600.88,-358 1600.88,-364 1600.88,-364 1600.88,-381 1600.88,-381 1600.88,-387 1594.88,-393 1588.88,-393"/>
 <text text-anchor="middle" x="1494.25" y="-375.7" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;XRY adopts</text>
@@ -668,9 +668,9 @@
 </a>
 </g>
 </g>
-<!-- _GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_XRY -->
+<!-- _GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_XRY -->
 <g id="edge33" class="edge">
-<title>_GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATON_XRY</title>
+<title>_GH__KCHASON__CASE_VALIDATION_ACTION&#45;&gt;_GH__CASEWORK__CASE_IMPLEMENTATION_XRY</title>
 <path fill="none" stroke="black" d="M1188.7,-372.5C1240.91,-372.5 1314.76,-372.5 1376.66,-372.5"/>
 <polygon fill="black" stroke="black" points="1376.28,-376 1386.28,-372.5 1376.28,-369 1376.28,-376"/>
 <text text-anchor="middle" x="1311.88" y="-392.2" font-family="Times,serif" font-size="14.00">GitHub</text>
