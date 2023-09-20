@@ -59,6 +59,7 @@ digraph "cdo_release_flow" {
 
         _GH__CASEWORK__CASE_IMPLEMENTATON_EXIFTOOL [URL="https://github.com/casework/CASE-Implementation-ExifTool" label="CASE-Implementation-ExifTool\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [URL="https://github.com/casework/CASE-Implementation-GNU-Time" label="CASE-Implementation-GNU-Time\nadopts new case-utils"] ;
+        _GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI [URL="https://github.com/casework/CASE-Implementation-Template-Python-CLI" label="CASE-Implementation-Template-Python-CLI\nadopts new case-utils"]
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
         _GH__CASEWORK__CASEWORK_GITHUB_IO [URL="https://github.com/casework/casework.github.io" label="CASE website\nadopts new case-utils"] ;
 
@@ -112,6 +113,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_GNU_TIME [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_PROV_O [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATON_PYPI_EXIFREAD [label="PyPI"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI [label="PyPI"];
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__KCHASON__CASE_VALIDATION_ACTION [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASEWORK_GITHUB_IO [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITY_SHACL_INHERITANCE_REVIEWER -> _GH__UCOPROJECT__UCO [label="Git sub-\nmodule"] ;
