@@ -5,8 +5,6 @@ digraph "cdo_release_flow" {
 
   // Define nodes in their corresponding progress subgraph.
 
-  _GH__CASEWORK__CASE_MAPPING_PYTHON [URL="https://github.com/casework/CASE-Mapping-Python/" label="CASE-Mapping-Python"] ;
-
   subgraph cluster_uco_0_6_0 {
     label = "Adoption of UCO 0.6.0" ;
 
@@ -80,6 +78,7 @@ digraph "cdo_release_flow" {
           _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW [URL="https://github.com/casework/CASE-Implementation-PyPI-Pillow" label="CASE-Implementation-PyPI-Pillow\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML [URL="https://github.com/casework/CASE-Implementation-UFED-XML" label="CASE-Implementation-UFED-XML\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATION_XRY [URL="https://github.com/casework/CASE-Implementation-XRY" label="CASE-Implementation-XRY adopts\nnew case-validation-action"] ;
+          _GH__CASEWORK__CASE_MAPPING_PYTHON [URL="https://github.com/casework/CASE-Mapping-Python/" label="CASE-Mapping-Python"] ;
           _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON [URL="https://github.com/casework/CASE-Mapping-Template-Python" label="CASE-Mapping-Template-Python\nadopts new case-validation-action"] ;
 
           subgraph cluster_case_bindings_csharp_0_4_0 {
@@ -132,6 +131,7 @@ digraph "cdo_release_flow" {
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW [label="GitHub\nAction"] ;
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML [label="GitHub\nAction"] ;
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_IMPLEMENTATION_XRY [label="GitHub\nAction"] ;
+  _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_MAPPING_PYTHON [label="GitHub\nAction"] ;
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON [label="GitHub\nAction"] ;
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__DOD_CYBER_CRIME_CENTER__SQLITE_DISSECT [URL="https://github.com/dod-cyber-crime-center/sqlite-dissect/pull/31" label="TODO: PR 31"] ;
   _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG -> _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [label="Tech-\ncheck"];
