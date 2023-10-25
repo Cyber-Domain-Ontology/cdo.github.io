@@ -61,8 +61,8 @@ digraph "cdo_release_flow" {
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
         _GH__CASEWORK__CASEWORK_GITHUB_IO [URL="https://github.com/casework/casework.github.io" label="CASE website\nadopts new case-utils"] ;
 
-        subgraph cluster_case_prov_0_9_0 {
-          label = "Adoption of case-prov 0.9.0" ;
+        subgraph cluster_case_prov_0_9_1 {
+          label = "Adoption of case-prov 0.9.1" ;
 
           _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [URL="https://github.com/ajnelson-nist/CASE-Examples-QC" label="CASE-Examples-QC\nadopts CASE-Examples and\nCASE website updates"] ;
           _GH__CASEWORK__CASE_CORPORA [URL="https://github.com/casework/CASE-Corpora" label="CASE-Corpora\nadopts new case-prov"] ;
@@ -97,10 +97,8 @@ digraph "cdo_release_flow" {
 
   // Begin edges
 
-  _GH__CASEWORK__CASE_EXAMPLES -> _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASEWORK_GITHUB_IO -> _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_CORPORA -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
-
   _GH__CASEWORK__CASE -> _GH__CASEWORK__CASE_UTILITIES_PYTHON [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE -> _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP ;
   _GH__CASEWORK__CASE -> _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [label="Git sub-\nmodule"] ; 
