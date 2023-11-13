@@ -61,7 +61,6 @@ digraph "cdo_release_flow" {
           _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [URL="https://github.com/ajnelson-nist/CASE-Examples-QC" label="CASE-Examples-QC\nadopts CASE-Examples and\nCASE website updates"] ;
           _GH__CASEWORK__CASE_CORPORA [URL="https://github.com/casework/CASE-Corpora" label="CASE-Corpora\nadopts new case-prov"] ;
           _GH__CASEWORK__CASE_EXAMPLES [URL="https://github.com/casework/CASE-Examples" label="CASE-Examples\nadopts new case-utils"] ;
-          _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O [URL="https://github.com/casework/CASE-Implementation-PROV-O" label="case-prov\nreleases"] ;
         }
 
         subgraph cluster_case_validation_action_2_8_0 {
@@ -92,6 +91,12 @@ digraph "cdo_release_flow" {
         _GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI [URL="https://github.com/casework/CASE-Implementation-Template-Python-CLI" label="CASE-Implementation-Template-Python-CLI\nadopts new case-utils"]
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
         _GH__CASEWORK__CASEWORK_GITHUB_IO [URL="https://github.com/casework/casework.github.io" label="CASE website\nadopts new case-utils"] ;
+
+        subgraph cluster_case_prov_0_10_0 {
+          label = "Adoption of case-prov 0.10.0" ;
+
+          _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O [URL="https://github.com/casework/CASE-Implementation-PROV-O" label="case-prov\nreleases"] ;
+        }
       }
     }
   }
