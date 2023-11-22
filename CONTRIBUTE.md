@@ -110,6 +110,8 @@ In event of the latter, delete the remainder of the list.
 - [ ] [Backwards-incompatible implementation](#TODO-link-to-PR) merged into `develop-2.0.0` (or *N/A*)
 - [ ] Milestone linked
 - [ ] Documentation logged in pending release page
+- [ ] _Prerelease publication_: CASE `develop` branch [updated](#TODO-link-to-CASE-PR) to track UCO's updated `develop` branch
+- [ ] _Prerelease publication_: CASE `develop-2.0.0` branch [updated](#TODO-link-to-CASE-PR) to track UCO's updated `develop-2.0.0` branch
 ```
 
 
