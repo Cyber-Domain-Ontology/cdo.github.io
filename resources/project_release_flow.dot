@@ -57,8 +57,6 @@ digraph "cdo_release_flow" {
       subgraph cluster_case_utils_0_13_0 {
         label = "Adoption of case-utils 0.13.0" ;
 
-        _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER [URL="https://github.com/casework/CASE-Implementation-macOS-System-Profiler" label="CASE-Implementation-macOS-System-Profiler\nadopts new case-utils"] ;
-
         subgraph cluster_case_validation_action_2_8_0 {
           label = "Adoption of case-validation-action 2.8.0" ;
 
@@ -99,6 +97,7 @@ digraph "cdo_release_flow" {
         label = "Adoption of case-utils 0.15.0" ;
 
         _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL [URL="https://github.com/casework/CASE-Implementation-ExifTool" label="CASE-Implementation-ExifTool\nadopts new case-utils"] ;
+        _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER [URL="https://github.com/casework/CASE-Implementation-macOS-System-Profiler" label="CASE-Implementation-macOS-System-Profiler\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI [URL="https://github.com/casework/CASE-Implementation-Template-Python-CLI" label="CASE-Implementation-Template-Python-CLI\nadopts new case-utils"]
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
       }
