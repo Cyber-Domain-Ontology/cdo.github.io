@@ -57,6 +57,8 @@ digraph "cdo_release_flow" {
       subgraph cluster_case_utils_0_13_0 {
         label = "Adoption of case-utils 0.13.0" ;
 
+        _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER [URL="https://github.com/casework/CASE-Implementation-macOS-System-Profiler" label="CASE-Implementation-macOS-System-Profiler\nadopts new case-utils"] ;
+
         subgraph cluster_case_validation_action_2_8_0 {
           label = "Adoption of case-validation-action 2.8.0" ;
 
@@ -119,6 +121,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME [label="PyPI"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI [label="PyPI"];
