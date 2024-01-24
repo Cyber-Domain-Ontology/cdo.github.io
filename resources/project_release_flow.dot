@@ -29,7 +29,6 @@ digraph "cdo_release_flow" {
     label = "Adoption of UCO 1.2.0" ;
 
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-BFO" label="CDO BFO shapes\nupdates"] ;
-    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" label="CDO example-base shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-FOAF" label="CDO FOAF shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-OWL" label="CDO OWL shapes\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_BFO [URL="https://github.com/ucoProject/UCO-Profile-BFO" label="UCO BFO profile\nupdates"] ;
@@ -100,6 +99,7 @@ digraph "cdo_release_flow" {
   subgraph cluster_uco_1_3_0 {
     label = "Adoption of UCO 1.3.0" ;
 
+    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" label="CDO example-base shapes\nupdates"] ;
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
     _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
   }
