@@ -41,6 +41,16 @@
 <polygon fill="none" stroke="black" points="1641.25,-525.14 1641.25,-1587.14 2331.75,-1587.14 2331.75,-525.14 1641.25,-525.14"/>
 <text text-anchor="middle" x="1986.5" y="-1569.84" font-family="Times,serif" font-size="14.00">Adoption of CASE 1.2.0</text>
 </g>
+<g id="clust12" class="cluster">
+<title>cluster_case_utils_0_15_0</title>
+<polygon fill="none" stroke="black" points="1649.25,-1189.14 1649.25,-1554.14 1943,-1554.14 1943,-1189.14 1649.25,-1189.14"/>
+<text text-anchor="middle" x="1796.12" y="-1536.84" font-family="Times,serif" font-size="14.00">Adoption of case&#45;utils 0.15.0</text>
+</g>
+<g id="clust13" class="cluster">
+<title>cluster_case_prov_0_11_0</title>
+<polygon fill="none" stroke="black" points="1702.5,-1197.14 1702.5,-1295.14 1889.75,-1295.14 1889.75,-1197.14 1702.5,-1197.14"/>
+<text text-anchor="middle" x="1796.12" y="-1277.84" font-family="Times,serif" font-size="14.00">Adoption of case&#45;prov 0.11.0</text>
+</g>
 <g id="clust7" class="cluster">
 <title>cluster_case_utils_0_10_0</title>
 <polygon fill="none" stroke="black" points="2046.88,-533.14 2046.88,-656.14 2302.62,-656.14 2302.62,-533.14 2046.88,-533.14"/>
@@ -65,16 +75,6 @@
 <title>cluster_case_bindings_csharp_0_4_0</title>
 <polygon fill="none" stroke="black" points="1701.75,-680.14 1701.75,-762.14 2307.75,-762.14 2307.75,-680.14 1701.75,-680.14"/>
 <text text-anchor="middle" x="2004.75" y="-744.84" font-family="Times,serif" font-size="14.00">Adoption of CSharp bindings 0.4.0</text>
-</g>
-<g id="clust12" class="cluster">
-<title>cluster_case_utils_0_15_0</title>
-<polygon fill="none" stroke="black" points="1649.25,-1189.14 1649.25,-1554.14 1943,-1554.14 1943,-1189.14 1649.25,-1189.14"/>
-<text text-anchor="middle" x="1796.12" y="-1536.84" font-family="Times,serif" font-size="14.00">Adoption of case&#45;utils 0.15.0</text>
-</g>
-<g id="clust13" class="cluster">
-<title>cluster_case_prov_0_11_0</title>
-<polygon fill="none" stroke="black" points="1702.5,-1197.14 1702.5,-1295.14 1889.75,-1295.14 1889.75,-1197.14 1702.5,-1197.14"/>
-<text text-anchor="middle" x="1796.12" y="-1277.84" font-family="Times,serif" font-size="14.00">Adoption of case&#45;prov 0.11.0</text>
 </g>
 <g id="clust14" class="cluster">
 <title>cluster_uco_1_3_0</title>
