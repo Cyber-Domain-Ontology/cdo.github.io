@@ -159,4 +159,5 @@ digraph "cdo_release_flow" {
   _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -> _GH__UCOPROJECT__UCO_PROFILE_BFO [label="Git merge of\nbase branch"] ;
   _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -> _GH__UCOPROJECT__UCO_PROFILE_FOAF [label="Git merge of\nbase branch"] ;
   _GH__UCOPROJECT__UCO_PROFILE_FOAF -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
+  _GH__UCOPROJECT__UCO_PROFILE_GUFO -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
 }
