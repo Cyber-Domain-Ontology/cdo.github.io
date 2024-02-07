@@ -7,15 +7,6 @@ digraph "cdo_release_flow" {
 
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_UTILITY_LOCAL_UUID [URL="https://github.com/Cyber-Domain-Ontology/CDO-Utility-Local-UUID" label="cdo-local-uuid\nreleases"] ;
 
-  subgraph cluster_uco_0_6_0 {
-    label = "Adoption of UCO 0.6.0" ;
-
-    subgraph cluster_case_0_4_0 {
-      label = "Adoption of CASE 0.4.0" ;
-      _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM [URL="https://github.com/casework/CASE-Implementation-Axiom" label="CASE-Implementation-Axiom"] ;
-    }
-  }
-
   subgraph cluster_uco_0_9_1 {
     label = "Adoption of UCO 0.9.1" ;
 
@@ -70,6 +61,7 @@ digraph "cdo_release_flow" {
       label = "Adoption of CASE 1.3.0" ;
 
       _GH__CASEWORK__CASE [URL="https://github.com/casework/CASE" label="CASE Ontology\nreleases"] ;
+      _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM [URL="https://github.com/casework/CASE-Implementation-Axiom" label="CASE-Implementation-Axiom"] ;
       _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
 
       subgraph cluster_case_utils_0_16_0 {
