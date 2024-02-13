@@ -61,7 +61,6 @@ digraph "cdo_release_flow" {
       label = "Adoption of CASE 1.3.0" ;
 
       _GH__CASEWORK__CASE [URL="https://github.com/casework/CASE" label="CASE Ontology\nreleases"] ;
-      _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM [URL="https://github.com/casework/CASE-Implementation-Axiom" label="CASE-Implementation-Axiom"] ;
       _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
 
       subgraph cluster_case_utils_0_16_0 {
@@ -91,6 +90,7 @@ digraph "cdo_release_flow" {
           _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW [URL="https://github.com/casework/CASE-Implementation-PyPI-Pillow" label="CASE-Implementation-PyPI-Pillow\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_MAPPING_PYTHON [URL="https://github.com/casework/CASE-Mapping-Python/" label="CASE-Mapping-Python"] ;
           _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON [URL="https://github.com/casework/CASE-Mapping-Template-Python" label="CASE-Mapping-Template-Python\nadopts new case-validation-action"] ;
+          _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM [URL="https://github.com/casework/CASE-Implementation-Axiom" label="CASE-Implementation-Axiom"] ;
           _GH__KCHASON__CASE_VALIDATION_ACTION [URL="https://github.com/kchason/case-validation-action" label="case-validation-action\nreleases"] ;
         }
       }
@@ -110,6 +110,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_EXAMPLES -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -> _GH__CASEWORK__CASE_CORPORA [label="PyPI"] ;
   _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -> _GH__CASEWORK__CASE_EXAMPLES [label="PyPI"] ;
+  _GH__CASEWORK__CASE_MAPPING_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER [label="PyPI"] ;
