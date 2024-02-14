@@ -36,20 +36,20 @@
 <polygon fill="none" stroke="black" points="667,-473.91 667,-1593.91 2045.25,-1593.91 2045.25,-473.91 667,-473.91"/>
 <text text-anchor="middle" x="1356.12" y="-1576.61" font-family="Times,serif" font-size="14.00">Adoption of case&#45;utils 0.16.0</text>
 </g>
-<g id="clust6" class="cluster">
-<title>cluster_case_prov_0_12_0</title>
-<polygon fill="none" stroke="black" points="1345.5,-481.91 1345.5,-629.91 2037.25,-629.91 2037.25,-481.91 1345.5,-481.91"/>
-<text text-anchor="middle" x="1691.38" y="-612.61" font-family="Times,serif" font-size="14.00">Adoption of case&#45;prov 0.12.0</text>
-</g>
 <g id="clust7" class="cluster">
 <title>cluster_case_validation_action_2_9_0</title>
 <polygon fill="none" stroke="black" points="906.75,-637.91 906.75,-1169.91 1785.75,-1169.91 1785.75,-637.91 906.75,-637.91"/>
 <text text-anchor="middle" x="1346.25" y="-1152.61" font-family="Times,serif" font-size="14.00">Adoption of case&#45;validation&#45;action 2.9.0</text>
 </g>
 <g id="clust8" class="cluster">
-<title>cluster_case_bindings_csharp_0_5_0</title>
+<title>cluster_case_bindings_csharp_0_5_1</title>
 <polygon fill="none" stroke="black" points="914.75,-645.91 914.75,-727.91 1520.75,-727.91 1520.75,-645.91 914.75,-645.91"/>
-<text text-anchor="middle" x="1217.75" y="-710.61" font-family="Times,serif" font-size="14.00">Adoption of CSharp bindings 0.5.0</text>
+<text text-anchor="middle" x="1217.75" y="-710.61" font-family="Times,serif" font-size="14.00">Adoption of CSharp bindings 0.5.1</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_case_prov_0_12_0</title>
+<polygon fill="none" stroke="black" points="1345.5,-481.91 1345.5,-629.91 2037.25,-629.91 2037.25,-481.91 1345.5,-481.91"/>
+<text text-anchor="middle" x="1691.38" y="-612.61" font-family="Times,serif" font-size="14.00">Adoption of case&#45;prov 0.12.0</text>
 </g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_UTILITY_LOCAL_UUID -->
 <g id="node1" class="node">
