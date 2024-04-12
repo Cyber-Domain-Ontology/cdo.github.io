@@ -82,3 +82,15 @@
   name: Sean Barnum
   subhead: Mitre
   bio: Coming soon.
+- title: Chair, CASE Ontology
+  image: brandt.jpg
+  name: Paul Brandt
+  subhead:
+  bio:
+    MSc. computer science from Delft University of Technology, currently holding positions as Sr. Ontologist / Semantic Architect at Dutch Police and Researcher with the Eindhoven University of Technology TU/e. Conducted research on 
+    ophthalmologic instrumentation and magnetic resonance imaging techniques (University Medical Centre Utrecht), on flight test instrumentation, air traffic management and satellite navigation (National Aerospace Laboratory NLR), on 
+    (mobile) information provisioning techniques, component based and service oriented architectures, semantic interoperability (TNO). Got interested in semantics in 2000 when XML came around; built expertise in semantic architectures 
+    and ontology engineering since 2010 with a part-time PhD research in Semantic Interoperability. Whenever possible teaching guest lectures on universities and stimulating and supporting students in their master graduation and 
+    post-master research.<br />
+    Expertises\:\ Semantic interoperability, semantic web, ontologies and ontology engineering, sensor networks, ICT architectures, service oriented architectures by web services and/or REST, complex event processing, requirements analysis, Scrum master & agile coach.<br />
+    Question\:\ do you know the difference between an otological model and a logic data model? If you want to know the distinction, get in touch!
