@@ -19,10 +19,10 @@
   bio:
     Dr. Alex Nelson is a Computer Scientist at NIST, working on research in security automation and contributing to the National Vulnerability Database.
     Dr. Nelson has a dual B.A./B.S. in Mathematics and Computer Science from The Evergreen State College, and a M.S. and Ph.D. in Computer Science from the
-    University of California, Santa Cruz.  Dr. Nelson's research emphasizes foundational measurability of digital forensic processes.  Dr. Nelson is currently
-    serving as the inaugural CASE Ontology Committee Chair, and has had substantial input and experience in CASE's Adoption Committee and Unified Cyber
-    Ontology's Ontology Committee.  Dr. Nelson is a coauthor on multiple CASE publications, and has established many policies to enable the CASE ontology
-    release process and resource development.
+    University of California, Santa Cruz.  Dr. Nelson's research emphasizes foundational measurability of digital forensic processes.  Dr. Nelson 
+    served as the inaugural CASE Ontology Committee Chair, currently serves as the UCO Ontology Committee Chair, and has had substantial input and
+    experience in CASE's Adoption Committee.  Dr. Nelson is a coauthor on multiple CASE publications, and has established many policies to enable the CASE
+    ontology release process and resource development.
 - title: Academia Participant
   image: casey.jpg
   name: Eoghan Casey
