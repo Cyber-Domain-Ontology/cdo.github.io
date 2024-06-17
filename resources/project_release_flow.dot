@@ -81,6 +81,7 @@ digraph "cdo_release_flow" {
   }
 
   _GH__CASEWORK__CASE_UTILITY_SHACL_INHERITANCE_REVIEWER [URL="https://github.com/casework/CASE-Utility-SHACL-Inheritance-Reviewer" label="SHIR utility\nreleases"] ;
+  _GH__CASEWORK__RDF_TOOLKIT_ACTION [URL="https://github.com/casework/rdf-toolkit-action" label="rdf-toolkit-action\nreleases"] ;
   _GH__DOD_CYBER_CRIME_CENTER__SQLITE_DISSECT [URL="https://github.com/dod-cyber-crime-center/sqlite-dissect" label="sqlite-dissect\nadopts new case-validation-action"] ;
 
   // Begin edges
@@ -104,6 +105,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASEWORK_GITHUB_IO [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITY_SHACL_INHERITANCE_REVIEWER -> _GH__UCOPROJECT__UCO [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASEWORK_GITHUB_IO -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
+  _GH__CASEWORK__RDF_TOOLKIT_ACTION -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE [label="pre-commit\nhook"] ;
   _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP -> _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR [label="NuGet"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_UTILITY_LOCAL_UUID -> _GH__CASEWORK__CASE_MAPPING_PYTHON [label="PyPI"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_UTILITY_LOCAL_UUID -> _GH__CASEWORK__CASE_UTILITIES_PYTHON [label="PyPI"] ;
