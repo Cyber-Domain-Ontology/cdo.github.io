@@ -24,6 +24,7 @@ digraph "cdo_release_flow" {
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-FOAF" label="CDO FOAF shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-gufo" label="CDO gUFO shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-OWL" label="CDO OWL shapes\nupdates"] ;
+    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Time" label="CDO Time shapes\nupdates"] ;
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
     _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
     _GH__UCOPROJECT__UCO_PROFILE_BFO [URL="https://github.com/ucoProject/UCO-Profile-BFO" label="UCO BFO profile\nupdates"] ;
@@ -115,6 +116,7 @@ digraph "cdo_release_flow" {
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL [label="Git sub-\nmodule"] ;
+  _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF -> _GH__UCOPROJECT__UCO_PROFILE_FOAF [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO -> _GH__UCOPROJECT__UCO_PROFILE_GUFO [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [label="Git sub-\nmodule"] ;
