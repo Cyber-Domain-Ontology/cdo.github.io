@@ -6,7 +6,7 @@ This page illustrates the release flow of CDO ontologies and consumer-projects o
 
 * The [CASE ontology repository](https://github.com/casework/CASE) tracks [UCO's ontology repository](https://github.com/ucoProject/UCO) as a Git submodule, and creates releases with each release of UCO.
 * The [CASE Python Utilities](https://github.com/casework/CASE-Utilities-Python) then compile a monolithic build of the CASE ontology, exporting that build via PyPI at [`case-utils`](https://pypi.org/project/case-utils/).
-* A GitHub validation action, [`case-validation-action`](https://github.com/casework/CASE-Utilities-Python) references the new `case-utils` version as a `pip` dependency, and uses that new version for validation with GitHub Actions in projects that adopt `case-validation-action`.
+* A GitHub validation action, [`case-validation-action`](https://github.com/kchason/case-validation-action) references the new `case-utils` version as a `pip` dependency, and uses that new version for validation with GitHub Actions in projects that adopt `case-validation-action`.
 
 The flow shows various practices with consuming the UCO and CASE ontologies, frequently as part of data validation in Continuous Integration workflows.
 
