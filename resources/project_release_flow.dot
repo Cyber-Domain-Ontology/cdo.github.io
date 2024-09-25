@@ -7,15 +7,6 @@ digraph "cdo_release_flow" {
 
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_UTILITY_LOCAL_UUID [URL="https://github.com/Cyber-Domain-Ontology/CDO-Utility-Local-UUID" label="cdo-local-uuid\nreleases"] ;
 
-  subgraph cluster_uco_0_9_1 {
-    label = "Adoption of UCO 0.9.1" ;
-
-    subgraph cluster_case_0_7_1 {
-      label = "Adoption of CASE 0.7.1" ;
-      _GH__CASEWORK__CASE_MAPPING_TEMPLATE_STUBS [URL="https://github.com/casework/CASE-Mapping-Template-Stubs" label="CASE Mapping\nTemplate Stubs"] ;
-    }
-  }
-
   subgraph cluster_uco_1_3_0 {
     label = "Adoption of UCO 1.3.0" ;
 
@@ -46,6 +37,7 @@ digraph "cdo_release_flow" {
         _GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME [URL="https://github.com/casework/CASE-Implementation-GNU-Time" label="CASE-Implementation-GNU-Time\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER [URL="https://github.com/casework/CASE-Implementation-macOS-System-Profiler" label="CASE-Implementation-macOS-System-Profiler\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI [URL="https://github.com/casework/CASE-Implementation-Template-Python-CLI" label="CASE-Implementation-Template-Python-CLI\nadopts new case-utils"]
+        _GH__CASEWORK__CASE_MAPPING_TEMPLATE_STUBS [URL="https://github.com/casework/CASE-Mapping-Template-Stubs" label="CASE Mapping\nTemplate Stubs"] ;
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
         _GH__CASEWORK__CASEWORK_GITHUB_IO [URL="https://github.com/casework/casework.github.io" label="CASE website\nadopts new case-utils"] ;
 
@@ -113,6 +105,7 @@ digraph "cdo_release_flow" {
   _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP -> _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR [label="NuGet"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_UTILITY_LOCAL_UUID -> _GH__CASEWORK__CASE_MAPPING_PYTHON [label="PyPI"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_UTILITY_LOCAL_UUID -> _GH__CASEWORK__CASE_UTILITIES_PYTHON [label="PyPI"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_MAPPING_TEMPLATE_STUBS [label="PyPI"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO -> _GH__UCOPROJECT__UCO_PROFILE_BFO [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO [label="Git merge of\nbase branch"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [label="Git merge of\nbase branch"] ;
