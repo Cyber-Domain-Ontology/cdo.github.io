@@ -33,6 +33,7 @@ digraph "cdo_release_flow" {
       subgraph cluster_case_utils_0_16_0 {
         label = "Adoption of case-utils 0.16.0" ;
 
+        _GH__CASEWORK__CASE_APPLICATION_NAVIGATOR [URL="https://github.com/casework/CASE-Application-Navigator" label="CASE Navigator testing\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL [URL="https://github.com/casework/CASE-Implementation-ExifTool" label="CASE-Implementation-ExifTool\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME [URL="https://github.com/casework/CASE-Implementation-GNU-Time" label="CASE-Implementation-GNU-Time\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER [URL="https://github.com/casework/CASE-Implementation-macOS-System-Profiler" label="CASE-Implementation-macOS-System-Profiler\nadopts new case-utils"] ;
@@ -90,6 +91,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -> _GH__CASEWORK__CASE_EXAMPLES [label="PyPI"] ;
   _GH__CASEWORK__CASE_MAPPING_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_MAPPING_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML [label="Git sub-\nmodule"] ;
+  _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_APPLICATION_NAVIGATOR [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER [label="PyPI"] ;
