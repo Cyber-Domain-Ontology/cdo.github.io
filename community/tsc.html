@@ -1,9 +1,12 @@
 ---
 title: CDO Technical Steering Committee
 jumbo_desc: The Technical Steering Committee (TSC) will be responsible for all technical oversight of the open source Project in accordance with project policy and foundational principles.
+custom_js: tsc
+custom_css: tsc
 ---
 
-<div class="row text-center">
+<div id="module" class="row text-center">
+  {% assign pID = 1 %}
   {% for participant in site.data.tsc.participants %}
   <div class="col-lg-4">
     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
@@ -15,9 +18,11 @@ jumbo_desc: The Technical Steering Committee (TSC) will be responsible for all t
       />
       <h5>{{ participant.name }}</h5>
       <h6 class="text-black-50">{{ participant.subhead }}</h6>
-      <p class="font-weight-light mb-5 text-justify">{{ participant.bio }}</p>
+      <p class="collapse text-justify" id="collapseExample_{{ pID }}" aria-expanded="false">{{ participant.bio }}</p>
+      <a role="button" class="collapsed mb-5 btn btn-outline-dark btn-block" data-toggle="collapse" href="#collapseExample_{{ pID }}" aria-expanded="false" aria-controls="collapseExample_{{ pID }}"></a>
     </div>
   </div>
+  {% assign pID = pID | plus: 1 %}
   {% endfor %}
 </div>
 <p>

@@ -1,7 +1,7 @@
 - title: Chair, Non-profit Participant
   image: hall.jpg
   name: Cory Hall
-  subhead: Mitre
+  subhead: Project VIC International
   bio:
     Cory Hall is a technologist and board member at Project VIC International, a US-based charity that discovers, creates, evaluates, and transitions
     technologies to the law enforcement community for use to find and rescue children from sexual exploitation (projectvic.org). Formerly he was a Group
@@ -74,11 +74,16 @@
   image: blank.jpg
   name: Sean Barnum
   subhead: Mitre
-  bio: Coming soon.
+  bio:
+- title: Academia Participant
+  image: blank.jpg
+  name: Vahid Behzadan
+  subhead: University of New Haven
+  bio:
 - title: Chair, CASE Ontology
   image: brandt.jpg
   name: Paul Brandt
-  subhead: 
+  subhead: Eindhoven University of Technology
   bio:
     MSc. computer science from Delft University of Technology, currently holding positions as Sr. Ontologist / Semantic Architect at Dutch Police and Researcher with the Eindhoven University of Technology TU/e. Conducted research on 
     ophthalmologic instrumentation and magnetic resonance imaging techniques (University Medical Centre Utrecht), on flight test instrumentation, air traffic management and satellite navigation (National Aerospace Laboratory NLR), on 

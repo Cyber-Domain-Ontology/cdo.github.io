@@ -1,0 +1,22 @@
+#module {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+#module .collapse:not(.show) {
+  display: block;
+  height: 15rem;
+  overflow: hidden;
+}
+
+#module .collapsing {
+  height: 15rem;
+}
+
+#module a.collapsed::after {
+  content: '+ Show More';
+}
+
+#module a:not(.collapsed)::after {
+  content: '- Show Less';
+}
