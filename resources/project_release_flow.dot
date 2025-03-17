@@ -23,6 +23,7 @@ digraph "cdo_release_flow" {
     _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [URL="https://github.com/ucoProject/UCO-Profile-Example" label="UCO example-base profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_FOAF [URL="https://github.com/ucoProject/UCO-Profile-FOAF" label="UCO FOAF profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_GUFO [URL="https://github.com/ucoProject/UCO-Profile-gufo" label="UCO gUFO profile\nupdates"] ;
+    _GH__UCOPROJECT__UCO_PROFILE_TIME [URL="https://github.com/ucoProject/UCO-Profile-Time" label="UCO Time profile\nupdates"] ;
 
     subgraph cluster_case_1_3_0 {
       label = "Adoption of CASE 1.3.0" ;
@@ -120,6 +121,7 @@ digraph "cdo_release_flow" {
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO -> _GH__UCOPROJECT__UCO_PROFILE_GUFO [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME -> _GH__CASEWORK__CASE_CORPORA [label="Git sub-\nmodule"] ;
+  _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME -> _GH__UCOPROJECT__UCO_PROFILE_TIME [label="Git sub-\nmodule"] ;
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR [label="GitHub\nAction"] ;
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [label="GitHub\nAction"];
   _GH__KCHASON__CASE_VALIDATION_ACTION -> _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD [label="GitHub\nAction"] ;
