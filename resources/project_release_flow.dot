@@ -23,6 +23,7 @@ digraph "cdo_release_flow" {
     _GH__UCOPROJECT__UCO_PROFILE_BFO [URL="https://github.com/ucoProject/UCO-Profile-BFO" label="UCO BFO profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [URL="https://github.com/ucoProject/UCO-Profile-Example" label="UCO example-base profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_FOAF [URL="https://github.com/ucoProject/UCO-Profile-FOAF" label="UCO FOAF profile\nupdates"] ;
+    _GH__UCOPROJECT__UCO_PROFILE_GEOSPARQL [URL="https://github.com/ucoProject/UCO-Profile-GeoSPARQL" label="UCO GeoSPARQL profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_GUFO [URL="https://github.com/ucoProject/UCO-Profile-gufo" label="UCO gUFO profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_TIME [URL="https://github.com/ucoProject/UCO-Profile-Time" label="UCO Time profile\nupdates"] ;
 
@@ -120,6 +121,7 @@ digraph "cdo_release_flow" {
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_PROV_O [label="Git merge of\nbase branch"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME [label="Git merge of\nbase branch"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF -> _GH__UCOPROJECT__UCO_PROFILE_FOAF [label="Git sub-\nmodule"] ;
+  _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GEOSPARQL -> _GH__UCOPROJECT__UCO_PROFILE_GEOSPARQL [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO -> _GH__UCOPROJECT__UCO_PROFILE_GUFO [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF [label="Git sub-\nmodule"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME -> _GH__CASEWORK__CASE_CORPORA [label="Git sub-\nmodule"] ;
