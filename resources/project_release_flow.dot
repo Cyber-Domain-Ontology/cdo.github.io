@@ -19,7 +19,6 @@ digraph "cdo_release_flow" {
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Time" label="CDO Time shapes\nupdates"] ;
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
     _GH__UCOPROJECT__UCO_PROFILE_BFO [URL="https://github.com/ucoProject/UCO-Profile-BFO" label="UCO BFO profile\nupdates"] ;
-    _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [URL="https://github.com/ucoProject/UCO-Profile-Example" label="UCO example-base profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_FOAF [URL="https://github.com/ucoProject/UCO-Profile-FOAF" label="UCO FOAF profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_GEOSPARQL [URL="https://github.com/ucoProject/UCO-Profile-GeoSPARQL" label="UCO GeoSPARQL profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_GUFO [URL="https://github.com/ucoProject/UCO-Profile-gufo" label="UCO gUFO profile\nupdates"] ;
@@ -84,6 +83,7 @@ digraph "cdo_release_flow" {
 
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" label="CDO example-base shapes\nupdates"] ;
     _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
+    _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [URL="https://github.com/ucoProject/UCO-Profile-Example" label="UCO example-base profile\nupdates"] ;
   }
 
 
