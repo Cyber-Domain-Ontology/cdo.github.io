@@ -7,12 +7,6 @@ digraph "cdo_release_flow" {
 
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_UTILITY_LOCAL_UUID [URL="https://github.com/Cyber-Domain-Ontology/CDO-Utility-Local-UUID" label="cdo-local-uuid\nreleases"] ;
 
-  subgraph cluster_uco_1_4_0 {
-    label = "Adoption of UCO 1.4.0" ;
-
-    _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
-  }
-
   subgraph cluster_uco_1_3_0 {
     label = "Adoption of UCO 1.3.0" ;
 
@@ -85,6 +79,13 @@ digraph "cdo_release_flow" {
       }
     }
   }
+
+  subgraph cluster_uco_1_4_0 {
+    label = "Adoption of UCO 1.4.0" ;
+
+    _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
+  }
+
 
   _GH__CASEWORK__CASE_UTILITY_SHACL_INHERITANCE_REVIEWER [URL="https://github.com/casework/CASE-Utility-SHACL-Inheritance-Reviewer" label="SHIR utility\nreleases"] ;
   _GH__CASEWORK__RDF_TOOLKIT_ACTION [URL="https://github.com/casework/rdf-toolkit-action" label="rdf-toolkit-action\nreleases"] ;
