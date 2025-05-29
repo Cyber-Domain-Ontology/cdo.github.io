@@ -12,39 +12,39 @@
 <text text-anchor="middle" x="1069.38" y="-39.7" font-family="Times,serif" font-size="14.00">Release flow of CDO ontologies</text>
 <text text-anchor="middle" x="1069.38" y="-7.2" font-family="Times,serif" font-size="14.00">Nodes link to the respective Git repository.</text>
 <g id="clust1" class="cluster">
-<title>cluster_uco_1_4_0</title>
-<polygon fill="none" stroke="black" points="159.88,-906.1 159.88,-988.1 305.62,-988.1 305.62,-906.1 159.88,-906.1"/>
-<text text-anchor="middle" x="232.75" y="-970.8" font-family="Times,serif" font-size="14.00">Adoption of UCO 1.4.0</text>
-</g>
-<g id="clust2" class="cluster">
 <title>cluster_uco_1_3_0</title>
 <polygon fill="none" stroke="black" points="395,-206.1 395,-2168.1 2130.75,-2168.1 2130.75,-206.1 395,-206.1"/>
 <text text-anchor="middle" x="1262.88" y="-2150.8" font-family="Times,serif" font-size="14.00">Adoption of UCO 1.3.0</text>
 </g>
-<g id="clust3" class="cluster">
+<g id="clust2" class="cluster">
 <title>cluster_case_1_3_0</title>
 <polygon fill="none" stroke="black" points="423.88,-214.1 423.88,-1521.1 2122.75,-1521.1 2122.75,-214.1 423.88,-214.1"/>
 <text text-anchor="middle" x="1273.31" y="-1503.8" font-family="Times,serif" font-size="14.00">Adoption of CASE 1.3.0</text>
 </g>
-<g id="clust4" class="cluster">
+<g id="clust3" class="cluster">
 <title>cluster_case_utils_0_16_0</title>
 <polygon fill="none" stroke="black" points="709.5,-351.1 709.5,-1488.1 2114.75,-1488.1 2114.75,-351.1 709.5,-351.1"/>
 <text text-anchor="middle" x="1412.12" y="-1470.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;utils 0.16.0</text>
 </g>
-<g id="clust5" class="cluster">
+<g id="clust4" class="cluster">
 <title>cluster_case_prov_0_12_0</title>
 <polygon fill="none" stroke="black" points="1382.75,-1307.1 1382.75,-1455.1 2106.75,-1455.1 2106.75,-1307.1 1382.75,-1307.1"/>
 <text text-anchor="middle" x="1744.75" y="-1437.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;prov 0.12.0</text>
 </g>
-<g id="clust6" class="cluster">
+<g id="clust5" class="cluster">
 <title>cluster_case_validation_action_2_9_0</title>
 <polygon fill="none" stroke="black" points="978.5,-418.1 978.5,-1005.1 1855.25,-1005.1 1855.25,-418.1 978.5,-418.1"/>
 <text text-anchor="middle" x="1416.88" y="-987.8" font-family="Times,serif" font-size="14.00">Adoption of case&#45;validation&#45;action 2.9.0</text>
 </g>
-<g id="clust7" class="cluster">
+<g id="clust6" class="cluster">
 <title>cluster_case_bindings_csharp_0_5_1</title>
 <polygon fill="none" stroke="black" points="986.5,-426.1 986.5,-508.1 1558,-508.1 1558,-426.1 986.5,-426.1"/>
 <text text-anchor="middle" x="1272.25" y="-490.8" font-family="Times,serif" font-size="14.00">Adoption of CSharp bindings 0.5.1</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_uco_1_4_0</title>
+<polygon fill="none" stroke="black" points="159.88,-906.1 159.88,-988.1 305.62,-988.1 305.62,-906.1 159.88,-906.1"/>
+<text text-anchor="middle" x="232.75" y="-970.8" font-family="Times,serif" font-size="14.00">Adoption of UCO 1.4.0</text>
 </g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_UTILITY_LOCAL_UUID -->
 <g id="node1" class="node">
@@ -57,9 +57,9 @@
 </g>
 </g>
 <!-- _GH__CASEWORK__CASE_UTILITIES_PYTHON -->
-<g id="node28" class="node">
+<g id="node27" class="node">
 <title>_GH__CASEWORK__CASE_UTILITIES_PYTHON</title>
-<g id="a_node28"><a xlink:href="https://github.com/casework/CASE-Utilities-Python" xlink:title="case&#45;utils\nreleases">
+<g id="a_node27"><a xlink:href="https://github.com/casework/CASE-Utilities-Python" xlink:title="case&#45;utils\nreleases">
 <path fill="#8ec7d2" stroke="#0d6986" d="M772.5,-1209.6C772.5,-1209.6 729.5,-1209.6 729.5,-1209.6 723.5,-1209.6 717.5,-1203.6 717.5,-1197.6 717.5,-1197.6 717.5,-1180.6 717.5,-1180.6 717.5,-1174.6 723.5,-1168.6 729.5,-1168.6 729.5,-1168.6 772.5,-1168.6 772.5,-1168.6 778.5,-1168.6 784.5,-1174.6 784.5,-1180.6 784.5,-1180.6 784.5,-1197.6 784.5,-1197.6 784.5,-1203.6 778.5,-1209.6 772.5,-1209.6"/>
 <text text-anchor="middle" x="751" y="-1192.3" font-family="Times,serif" font-size="14.00">case&#45;utils</text>
 <text text-anchor="middle" x="751" y="-1175.8" font-family="Times,serif" font-size="14.00">releases</text>
@@ -74,9 +74,9 @@
 <text text-anchor="middle" x="616.25" y="-2152.8" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
 <!-- _GH__CASEWORK__CASE_MAPPING_PYTHON -->
-<g id="node39" class="node">
+<g id="node38" class="node">
 <title>_GH__CASEWORK__CASE_MAPPING_PYTHON</title>
-<g id="a_node39"><a xlink:href="https://github.com/casework/CASE-Mapping-Python/" xlink:title="CASE&#45;Mapping&#45;Python">
+<g id="a_node38"><a xlink:href="https://github.com/casework/CASE-Mapping-Python/" xlink:title="CASE&#45;Mapping&#45;Python">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1486.62,-972.1C1486.62,-972.1 1363.38,-972.1 1363.38,-972.1 1357.38,-972.1 1351.38,-966.1 1351.38,-960.1 1351.38,-960.1 1351.38,-948.1 1351.38,-948.1 1351.38,-942.1 1357.38,-936.1 1363.38,-936.1 1363.38,-936.1 1486.62,-936.1 1486.62,-936.1 1492.62,-936.1 1498.62,-942.1 1498.62,-948.1 1498.62,-948.1 1498.62,-960.1 1498.62,-960.1 1498.62,-966.1 1492.62,-972.1 1486.62,-972.1"/>
 <text text-anchor="middle" x="1425" y="-949.05" font-family="Times,serif" font-size="14.00">CASE&#45;Mapping&#45;Python</text>
 </a>
@@ -89,92 +89,10 @@
 <polygon fill="black" stroke="black" points="1413.36,-984.34 1414.45,-973.8 1407.03,-981.36 1413.36,-984.34"/>
 <text text-anchor="middle" x="888.75" y="-2290.15" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
-<!-- _GH__UCOPROJECT__UCO -->
-<g id="node2" class="node">
-<title>_GH__UCOPROJECT__UCO</title>
-<g id="a_node2"><a xlink:href="https://github.com/ucoProject/UCO" xlink:title="UCO Ontology\nreleases">
-<path fill="#8ec7d2" stroke="#0d6986" d="M269.88,-955.6C269.88,-955.6 194.62,-955.6 194.62,-955.6 188.62,-955.6 182.62,-949.6 182.62,-943.6 182.62,-943.6 182.62,-926.6 182.62,-926.6 182.62,-920.6 188.62,-914.6 194.62,-914.6 194.62,-914.6 269.88,-914.6 269.88,-914.6 275.88,-914.6 281.88,-920.6 281.88,-926.6 281.88,-926.6 281.88,-943.6 281.88,-943.6 281.88,-949.6 275.88,-955.6 269.88,-955.6"/>
-<text text-anchor="middle" x="232.25" y="-938.3" font-family="Times,serif" font-size="14.00">UCO Ontology</text>
-<text text-anchor="middle" x="232.25" y="-921.8" font-family="Times,serif" font-size="14.00">releases</text>
-</a>
-</g>
-</g>
-<!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -->
-<g id="node4" class="node">
-<title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE</title>
-<g id="a_node4"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" xlink:title="CDO example&#45;base shapes\nupdates">
-<path fill="#8ec7d2" stroke="#0d6986" d="M820.5,-1707.6C820.5,-1707.6 681.5,-1707.6 681.5,-1707.6 675.5,-1707.6 669.5,-1701.6 669.5,-1695.6 669.5,-1695.6 669.5,-1678.6 669.5,-1678.6 669.5,-1672.6 675.5,-1666.6 681.5,-1666.6 681.5,-1666.6 820.5,-1666.6 820.5,-1666.6 826.5,-1666.6 832.5,-1672.6 832.5,-1678.6 832.5,-1678.6 832.5,-1695.6 832.5,-1695.6 832.5,-1701.6 826.5,-1707.6 820.5,-1707.6"/>
-<text text-anchor="middle" x="751" y="-1690.3" font-family="Times,serif" font-size="14.00">CDO example&#45;base shapes</text>
-<text text-anchor="middle" x="751" y="-1673.8" font-family="Times,serif" font-size="14.00">updates</text>
-</a>
-</g>
-</g>
-<!-- _GH__UCOPROJECT__UCO&#45;&gt;_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -->
-<g id="edge57" class="edge">
-<title>_GH__UCOPROJECT__UCO&#45;&gt;_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE</title>
-<path fill="none" stroke="black" d="M233.99,-914.44C238.53,-801.67 266.82,-262.59 395,-177.1 442.26,-145.58 616.32,-163.28 648.5,-210.1 668.67,-239.45 659.1,-1457.26 666.5,-1492.1 679.51,-1553.35 712.07,-1619.25 732.47,-1656.61"/>
-<polygon fill="black" stroke="black" points="729.23,-1657.99 737.14,-1665.04 735.36,-1654.6 729.23,-1657.99"/>
-<text text-anchor="middle" x="484.5" y="-196.8" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
-<text text-anchor="middle" x="484.5" y="-180.3" font-family="Times,serif" font-size="14.00">module</text>
-</g>
-<!-- _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG -->
-<g id="node11" class="node">
-<title>_GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG</title>
-<g id="a_node11"><a xlink:href="https://github.com/ucoProject/ontology.unifiedcyberontology.org" xlink:title="UCO documentation\nregenerated">
-<path fill="#8ec7d2" stroke="#0d6986" d="M537.12,-1570.6C537.12,-1570.6 431.88,-1570.6 431.88,-1570.6 425.88,-1570.6 419.88,-1564.6 419.88,-1558.6 419.88,-1558.6 419.88,-1541.6 419.88,-1541.6 419.88,-1535.6 425.88,-1529.6 431.88,-1529.6 431.88,-1529.6 537.12,-1529.6 537.12,-1529.6 543.12,-1529.6 549.12,-1535.6 549.12,-1541.6 549.12,-1541.6 549.12,-1558.6 549.12,-1558.6 549.12,-1564.6 543.12,-1570.6 537.12,-1570.6"/>
-<text text-anchor="middle" x="484.5" y="-1553.3" font-family="Times,serif" font-size="14.00">UCO documentation</text>
-<text text-anchor="middle" x="484.5" y="-1536.8" font-family="Times,serif" font-size="14.00">regenerated</text>
-</a>
-</g>
-</g>
-<!-- _GH__UCOPROJECT__UCO&#45;&gt;_GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG -->
-<g id="edge58" class="edge">
-<title>_GH__UCOPROJECT__UCO&#45;&gt;_GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG</title>
-<path fill="none" stroke="black" d="M236.18,-955.86C249.94,-1050.54 311.02,-1440.47 395,-1525.1 399.29,-1529.42 404.26,-1533.01 409.62,-1535.99"/>
-<polygon fill="black" stroke="black" points="407.72,-1538.96 418.25,-1540.07 410.71,-1532.63 407.72,-1538.96"/>
-<text text-anchor="middle" x="352.75" y="-1531.37" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
-<text text-anchor="middle" x="352.75" y="-1514.87" font-family="Times,serif" font-size="14.00">module</text>
-</g>
-<!-- _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -->
-<g id="node13" class="node">
-<title>_GH__UCOPROJECT__UCO_PROFILE_EXAMPLE</title>
-<g id="a_node13"><a xlink:href="https://github.com/ucoProject/UCO-Profile-Example" xlink:title="UCO example&#45;base profile\nupdates">
-<path fill="#8ec7d2" stroke="#0d6986" d="M554,-1938.6C554,-1938.6 415,-1938.6 415,-1938.6 409,-1938.6 403,-1932.6 403,-1926.6 403,-1926.6 403,-1909.6 403,-1909.6 403,-1903.6 409,-1897.6 415,-1897.6 415,-1897.6 554,-1897.6 554,-1897.6 560,-1897.6 566,-1903.6 566,-1909.6 566,-1909.6 566,-1926.6 566,-1926.6 566,-1932.6 560,-1938.6 554,-1938.6"/>
-<text text-anchor="middle" x="484.5" y="-1921.3" font-family="Times,serif" font-size="14.00">UCO example&#45;base profile</text>
-<text text-anchor="middle" x="484.5" y="-1904.8" font-family="Times,serif" font-size="14.00">updates</text>
-</a>
-</g>
-</g>
-<!-- _GH__UCOPROJECT__UCO&#45;&gt;_GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -->
-<g id="edge59" class="edge">
-<title>_GH__UCOPROJECT__UCO&#45;&gt;_GH__UCOPROJECT__UCO_PROFILE_EXAMPLE</title>
-<path fill="none" stroke="black" d="M234.14,-955.93C237.95,-1034.88 255.74,-1322.65 320.5,-1549.1 358,-1680.22 432.77,-1825.38 466.4,-1887.34"/>
-<polygon fill="black" stroke="black" points="463.22,-1888.82 471.09,-1895.92 469.37,-1885.46 463.22,-1888.82"/>
-<text text-anchor="middle" x="352.75" y="-1734.49" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
-<text text-anchor="middle" x="352.75" y="-1717.99" font-family="Times,serif" font-size="14.00">module</text>
-</g>
-<!-- _GH__CASEWORK__CASE -->
-<g id="node19" class="node">
-<title>_GH__CASEWORK__CASE</title>
-<g id="a_node19"><a xlink:href="https://github.com/casework/CASE" xlink:title="CASE Ontology\nreleases">
-<path fill="#8ec7d2" stroke="#0d6986" d="M525.12,-342.6C525.12,-342.6 443.88,-342.6 443.88,-342.6 437.88,-342.6 431.88,-336.6 431.88,-330.6 431.88,-330.6 431.88,-313.6 431.88,-313.6 431.88,-307.6 437.88,-301.6 443.88,-301.6 443.88,-301.6 525.12,-301.6 525.12,-301.6 531.12,-301.6 537.12,-307.6 537.12,-313.6 537.12,-313.6 537.12,-330.6 537.12,-330.6 537.12,-336.6 531.12,-342.6 525.12,-342.6"/>
-<text text-anchor="middle" x="484.5" y="-325.3" font-family="Times,serif" font-size="14.00">CASE Ontology</text>
-<text text-anchor="middle" x="484.5" y="-308.8" font-family="Times,serif" font-size="14.00">releases</text>
-</a>
-</g>
-</g>
-<!-- _GH__UCOPROJECT__UCO&#45;&gt;_GH__CASEWORK__CASE -->
-<g id="edge56" class="edge">
-<title>_GH__UCOPROJECT__UCO&#45;&gt;_GH__CASEWORK__CASE</title>
-<path fill="none" stroke="black" d="M236.19,-914.41C250,-820.05 311.25,-431.42 395,-347.1 402.11,-339.94 411.11,-334.79 420.62,-331.1"/>
-<polygon fill="black" stroke="black" points="421.67,-334.44 430.08,-327.99 419.48,-327.79 421.67,-334.44"/>
-<text text-anchor="middle" x="352.75" y="-521.15" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
-<text text-anchor="middle" x="352.75" y="-504.65" font-family="Times,serif" font-size="14.00">module</text>
-</g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO</title>
-<g id="a_node3"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-BFO" xlink:title="CDO BFO shapes\nupdates">
+<g id="a_node2"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-BFO" xlink:title="CDO BFO shapes\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1126,-1976.6C1126,-1976.6 1035.75,-1976.6 1035.75,-1976.6 1029.75,-1976.6 1023.75,-1970.6 1023.75,-1964.6 1023.75,-1964.6 1023.75,-1947.6 1023.75,-1947.6 1023.75,-1941.6 1029.75,-1935.6 1035.75,-1935.6 1035.75,-1935.6 1126,-1935.6 1126,-1935.6 1132,-1935.6 1138,-1941.6 1138,-1947.6 1138,-1947.6 1138,-1964.6 1138,-1964.6 1138,-1970.6 1132,-1976.6 1126,-1976.6"/>
 <text text-anchor="middle" x="1080.88" y="-1959.3" font-family="Times,serif" font-size="14.00">CDO BFO shapes</text>
 <text text-anchor="middle" x="1080.88" y="-1942.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -182,9 +100,9 @@
 </g>
 </g>
 <!-- _GH__UCOPROJECT__UCO_PROFILE_BFO -->
-<g id="node12" class="node">
+<g id="node11" class="node">
 <title>_GH__UCOPROJECT__UCO_PROFILE_BFO</title>
-<g id="a_node12"><a xlink:href="https://github.com/ucoProject/UCO-Profile-BFO" xlink:title="UCO BFO profile\nupdates">
+<g id="a_node11"><a xlink:href="https://github.com/ucoProject/UCO-Profile-BFO" xlink:title="UCO BFO profile\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1470.12,-1989.6C1470.12,-1989.6 1379.88,-1989.6 1379.88,-1989.6 1373.88,-1989.6 1367.88,-1983.6 1367.88,-1977.6 1367.88,-1977.6 1367.88,-1960.6 1367.88,-1960.6 1367.88,-1954.6 1373.88,-1948.6 1379.88,-1948.6 1379.88,-1948.6 1470.12,-1948.6 1470.12,-1948.6 1476.12,-1948.6 1482.12,-1954.6 1482.12,-1960.6 1482.12,-1960.6 1482.12,-1977.6 1482.12,-1977.6 1482.12,-1983.6 1476.12,-1989.6 1470.12,-1989.6"/>
 <text text-anchor="middle" x="1425" y="-1972.3" font-family="Times,serif" font-size="14.00">UCO BFO profile</text>
 <text text-anchor="middle" x="1425" y="-1955.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -199,6 +117,16 @@
 <text text-anchor="middle" x="1259.88" y="-1977.8" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
 <text text-anchor="middle" x="1259.88" y="-1961.3" font-family="Times,serif" font-size="14.00">module</text>
 </g>
+<!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -->
+<g id="node3" class="node">
+<title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE</title>
+<g id="a_node3"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" xlink:title="CDO example&#45;base shapes\nupdates">
+<path fill="#8ec7d2" stroke="#0d6986" d="M820.5,-1707.6C820.5,-1707.6 681.5,-1707.6 681.5,-1707.6 675.5,-1707.6 669.5,-1701.6 669.5,-1695.6 669.5,-1695.6 669.5,-1678.6 669.5,-1678.6 669.5,-1672.6 675.5,-1666.6 681.5,-1666.6 681.5,-1666.6 820.5,-1666.6 820.5,-1666.6 826.5,-1666.6 832.5,-1672.6 832.5,-1678.6 832.5,-1678.6 832.5,-1695.6 832.5,-1695.6 832.5,-1701.6 826.5,-1707.6 820.5,-1707.6"/>
+<text text-anchor="middle" x="751" y="-1690.3" font-family="Times,serif" font-size="14.00">CDO example&#45;base shapes</text>
+<text text-anchor="middle" x="751" y="-1673.8" font-family="Times,serif" font-size="14.00">updates</text>
+</a>
+</g>
+</g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE&#45;&gt;_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO -->
 <g id="edge31" class="edge">
 <title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE&#45;&gt;_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_BFO</title>
@@ -208,9 +136,9 @@
 <text text-anchor="middle" x="888.75" y="-1866.3" font-family="Times,serif" font-size="14.00">base branch</text>
 </g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_FOAF</title>
-<g id="a_node5"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-FOAF" xlink:title="CDO FOAF shapes\nupdates">
+<g id="a_node4"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-FOAF" xlink:title="CDO FOAF shapes\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1474.25,-1763.6C1474.25,-1763.6 1375.75,-1763.6 1375.75,-1763.6 1369.75,-1763.6 1363.75,-1757.6 1363.75,-1751.6 1363.75,-1751.6 1363.75,-1734.6 1363.75,-1734.6 1363.75,-1728.6 1369.75,-1722.6 1375.75,-1722.6 1375.75,-1722.6 1474.25,-1722.6 1474.25,-1722.6 1480.25,-1722.6 1486.25,-1728.6 1486.25,-1734.6 1486.25,-1734.6 1486.25,-1751.6 1486.25,-1751.6 1486.25,-1757.6 1480.25,-1763.6 1474.25,-1763.6"/>
 <text text-anchor="middle" x="1425" y="-1746.3" font-family="Times,serif" font-size="14.00">CDO FOAF shapes</text>
 <text text-anchor="middle" x="1425" y="-1729.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -226,9 +154,9 @@
 <text text-anchor="middle" x="1080.88" y="-1744.73" font-family="Times,serif" font-size="14.00">base branch</text>
 </g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GEOSPARQL -->
-<g id="node6" class="node">
+<g id="node5" class="node">
 <title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GEOSPARQL</title>
-<g id="a_node6"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-GeoSPARQL" xlink:title="CDO GeoSPARQL shapes\nupdates">
+<g id="a_node5"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-GeoSPARQL" xlink:title="CDO GeoSPARQL shapes\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1149.62,-1896.6C1149.62,-1896.6 1012.12,-1896.6 1012.12,-1896.6 1006.12,-1896.6 1000.12,-1890.6 1000.12,-1884.6 1000.12,-1884.6 1000.12,-1867.6 1000.12,-1867.6 1000.12,-1861.6 1006.12,-1855.6 1012.12,-1855.6 1012.12,-1855.6 1149.62,-1855.6 1149.62,-1855.6 1155.62,-1855.6 1161.62,-1861.6 1161.62,-1867.6 1161.62,-1867.6 1161.62,-1884.6 1161.62,-1884.6 1161.62,-1890.6 1155.62,-1896.6 1149.62,-1896.6"/>
 <text text-anchor="middle" x="1080.88" y="-1879.3" font-family="Times,serif" font-size="14.00">CDO GeoSPARQL shapes</text>
 <text text-anchor="middle" x="1080.88" y="-1862.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -244,9 +172,9 @@
 <text text-anchor="middle" x="888.75" y="-1810.3" font-family="Times,serif" font-size="14.00">base branch</text>
 </g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO -->
-<g id="node7" class="node">
+<g id="node6" class="node">
 <title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO</title>
-<g id="a_node7"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-gufo" xlink:title="CDO gUFO shapes\nupdates">
+<g id="a_node6"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-gufo" xlink:title="CDO gUFO shapes\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1129.75,-1837.6C1129.75,-1837.6 1032,-1837.6 1032,-1837.6 1026,-1837.6 1020,-1831.6 1020,-1825.6 1020,-1825.6 1020,-1808.6 1020,-1808.6 1020,-1802.6 1026,-1796.6 1032,-1796.6 1032,-1796.6 1129.75,-1796.6 1129.75,-1796.6 1135.75,-1796.6 1141.75,-1802.6 1141.75,-1808.6 1141.75,-1808.6 1141.75,-1825.6 1141.75,-1825.6 1141.75,-1831.6 1135.75,-1837.6 1129.75,-1837.6"/>
 <text text-anchor="middle" x="1080.88" y="-1820.3" font-family="Times,serif" font-size="14.00">CDO gUFO shapes</text>
 <text text-anchor="middle" x="1080.88" y="-1803.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -262,9 +190,9 @@
 <text text-anchor="middle" x="888.75" y="-1754.3" font-family="Times,serif" font-size="14.00">base branch</text>
 </g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL -->
-<g id="node8" class="node">
+<g id="node7" class="node">
 <title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL</title>
-<g id="a_node8"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-OWL" xlink:title="CDO OWL shapes\nupdates">
+<g id="a_node7"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-OWL" xlink:title="CDO OWL shapes\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1128.25,-1708.6C1128.25,-1708.6 1033.5,-1708.6 1033.5,-1708.6 1027.5,-1708.6 1021.5,-1702.6 1021.5,-1696.6 1021.5,-1696.6 1021.5,-1679.6 1021.5,-1679.6 1021.5,-1673.6 1027.5,-1667.6 1033.5,-1667.6 1033.5,-1667.6 1128.25,-1667.6 1128.25,-1667.6 1134.25,-1667.6 1140.25,-1673.6 1140.25,-1679.6 1140.25,-1679.6 1140.25,-1696.6 1140.25,-1696.6 1140.25,-1702.6 1134.25,-1708.6 1128.25,-1708.6"/>
 <text text-anchor="middle" x="1080.88" y="-1691.3" font-family="Times,serif" font-size="14.00">CDO OWL shapes</text>
 <text text-anchor="middle" x="1080.88" y="-1674.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -280,9 +208,9 @@
 <text text-anchor="middle" x="888.75" y="-1690.8" font-family="Times,serif" font-size="14.00">base branch</text>
 </g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_PROV_O -->
-<g id="node9" class="node">
+<g id="node8" class="node">
 <title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_PROV_O</title>
-<g id="a_node9"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-PROV-O" xlink:title="CDO PROV&#45;O shapes\nupdates">
+<g id="a_node8"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-PROV-O" xlink:title="CDO PROV&#45;O shapes\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1481.75,-1570.6C1481.75,-1570.6 1368.25,-1570.6 1368.25,-1570.6 1362.25,-1570.6 1356.25,-1564.6 1356.25,-1558.6 1356.25,-1558.6 1356.25,-1541.6 1356.25,-1541.6 1356.25,-1535.6 1362.25,-1529.6 1368.25,-1529.6 1368.25,-1529.6 1481.75,-1529.6 1481.75,-1529.6 1487.75,-1529.6 1493.75,-1535.6 1493.75,-1541.6 1493.75,-1541.6 1493.75,-1558.6 1493.75,-1558.6 1493.75,-1564.6 1487.75,-1570.6 1481.75,-1570.6"/>
 <text text-anchor="middle" x="1425" y="-1553.3" font-family="Times,serif" font-size="14.00">CDO PROV&#45;O shapes</text>
 <text text-anchor="middle" x="1425" y="-1536.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -298,9 +226,9 @@
 <text text-anchor="middle" x="1080.88" y="-1570.3" font-family="Times,serif" font-size="14.00">base branch</text>
 </g>
 <!-- _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME -->
-<g id="node10" class="node">
+<g id="node9" class="node">
 <title>_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME</title>
-<g id="a_node10"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Time" xlink:title="CDO Time shapes\nupdates">
+<g id="a_node9"><a xlink:href="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Time" xlink:title="CDO Time shapes\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1471.25,-1629.6C1471.25,-1629.6 1378.75,-1629.6 1378.75,-1629.6 1372.75,-1629.6 1366.75,-1623.6 1366.75,-1617.6 1366.75,-1617.6 1366.75,-1600.6 1366.75,-1600.6 1366.75,-1594.6 1372.75,-1588.6 1378.75,-1588.6 1378.75,-1588.6 1471.25,-1588.6 1471.25,-1588.6 1477.25,-1588.6 1483.25,-1594.6 1483.25,-1600.6 1483.25,-1600.6 1483.25,-1617.6 1483.25,-1617.6 1483.25,-1623.6 1477.25,-1629.6 1471.25,-1629.6"/>
 <text text-anchor="middle" x="1425" y="-1612.3" font-family="Times,serif" font-size="14.00">CDO Time shapes</text>
 <text text-anchor="middle" x="1425" y="-1595.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -316,9 +244,9 @@
 <text text-anchor="middle" x="1080.88" y="-1629.3" font-family="Times,serif" font-size="14.00">base branch</text>
 </g>
 <!-- _GH__UCOPROJECT__UCO_PROFILE_FOAF -->
-<g id="node14" class="node">
+<g id="node13" class="node">
 <title>_GH__UCOPROJECT__UCO_PROFILE_FOAF</title>
-<g id="a_node14"><a xlink:href="https://github.com/ucoProject/UCO-Profile-FOAF" xlink:title="UCO FOAF profile\nupdates">
+<g id="a_node13"><a xlink:href="https://github.com/ucoProject/UCO-Profile-FOAF" xlink:title="UCO FOAF profile\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1788,-1763.6C1788,-1763.6 1689.5,-1763.6 1689.5,-1763.6 1683.5,-1763.6 1677.5,-1757.6 1677.5,-1751.6 1677.5,-1751.6 1677.5,-1734.6 1677.5,-1734.6 1677.5,-1728.6 1683.5,-1722.6 1689.5,-1722.6 1689.5,-1722.6 1788,-1722.6 1788,-1722.6 1794,-1722.6 1800,-1728.6 1800,-1734.6 1800,-1734.6 1800,-1751.6 1800,-1751.6 1800,-1757.6 1794,-1763.6 1788,-1763.6"/>
 <text text-anchor="middle" x="1738.75" y="-1746.3" font-family="Times,serif" font-size="14.00">UCO FOAF profile</text>
 <text text-anchor="middle" x="1738.75" y="-1729.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -334,9 +262,9 @@
 <text text-anchor="middle" x="1590.12" y="-1746.3" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__UCOPROJECT__UCO_PROFILE_GEOSPARQL -->
-<g id="node15" class="node">
+<g id="node14" class="node">
 <title>_GH__UCOPROJECT__UCO_PROFILE_GEOSPARQL</title>
-<g id="a_node15"><a xlink:href="https://github.com/ucoProject/UCO-Profile-GeoSPARQL" xlink:title="UCO GeoSPARQL profile\nupdates">
+<g id="a_node14"><a xlink:href="https://github.com/ucoProject/UCO-Profile-GeoSPARQL" xlink:title="UCO GeoSPARQL profile\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1807.5,-1892.6C1807.5,-1892.6 1670,-1892.6 1670,-1892.6 1664,-1892.6 1658,-1886.6 1658,-1880.6 1658,-1880.6 1658,-1863.6 1658,-1863.6 1658,-1857.6 1664,-1851.6 1670,-1851.6 1670,-1851.6 1807.5,-1851.6 1807.5,-1851.6 1813.5,-1851.6 1819.5,-1857.6 1819.5,-1863.6 1819.5,-1863.6 1819.5,-1880.6 1819.5,-1880.6 1819.5,-1886.6 1813.5,-1892.6 1807.5,-1892.6"/>
 <text text-anchor="middle" x="1738.75" y="-1875.3" font-family="Times,serif" font-size="14.00">UCO GeoSPARQL profile</text>
 <text text-anchor="middle" x="1738.75" y="-1858.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -352,9 +280,9 @@
 <text text-anchor="middle" x="1425" y="-1877.96" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__UCOPROJECT__UCO_PROFILE_GUFO -->
-<g id="node16" class="node">
+<g id="node15" class="node">
 <title>_GH__UCOPROJECT__UCO_PROFILE_GUFO</title>
-<g id="a_node16"><a xlink:href="https://github.com/ucoProject/UCO-Profile-gufo" xlink:title="UCO gUFO profile\nupdates">
+<g id="a_node15"><a xlink:href="https://github.com/ucoProject/UCO-Profile-gufo" xlink:title="UCO gUFO profile\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1473.88,-1837.6C1473.88,-1837.6 1376.12,-1837.6 1376.12,-1837.6 1370.12,-1837.6 1364.12,-1831.6 1364.12,-1825.6 1364.12,-1825.6 1364.12,-1808.6 1364.12,-1808.6 1364.12,-1802.6 1370.12,-1796.6 1376.12,-1796.6 1376.12,-1796.6 1473.88,-1796.6 1473.88,-1796.6 1479.88,-1796.6 1485.88,-1802.6 1485.88,-1808.6 1485.88,-1808.6 1485.88,-1825.6 1485.88,-1825.6 1485.88,-1831.6 1479.88,-1837.6 1473.88,-1837.6"/>
 <text text-anchor="middle" x="1425" y="-1820.3" font-family="Times,serif" font-size="14.00">UCO gUFO profile</text>
 <text text-anchor="middle" x="1425" y="-1803.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -378,9 +306,9 @@
 <text text-anchor="middle" x="1259.88" y="-1710.3" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__UCOPROJECT__UCO_PROFILE_PROV_O -->
-<g id="node17" class="node">
+<g id="node16" class="node">
 <title>_GH__UCOPROJECT__UCO_PROFILE_PROV_O</title>
-<g id="a_node17"><a xlink:href="https://github.com/ucoProject/UCO-Profile-PROV-O" xlink:title="UCO PROV&#45;O profile\nupdates">
+<g id="a_node16"><a xlink:href="https://github.com/ucoProject/UCO-Profile-PROV-O" xlink:title="UCO PROV&#45;O profile\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1795.5,-1629.6C1795.5,-1629.6 1682,-1629.6 1682,-1629.6 1676,-1629.6 1670,-1623.6 1670,-1617.6 1670,-1617.6 1670,-1600.6 1670,-1600.6 1670,-1594.6 1676,-1588.6 1682,-1588.6 1682,-1588.6 1795.5,-1588.6 1795.5,-1588.6 1801.5,-1588.6 1807.5,-1594.6 1807.5,-1600.6 1807.5,-1600.6 1807.5,-1617.6 1807.5,-1617.6 1807.5,-1623.6 1801.5,-1629.6 1795.5,-1629.6"/>
 <text text-anchor="middle" x="1738.75" y="-1612.3" font-family="Times,serif" font-size="14.00">UCO PROV&#45;O profile</text>
 <text text-anchor="middle" x="1738.75" y="-1595.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -396,9 +324,9 @@
 <text text-anchor="middle" x="1590.12" y="-1556.3" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__CASEWORK__CASE_CORPORA -->
-<g id="node31" class="node">
+<g id="node30" class="node">
 <title>_GH__CASEWORK__CASE_CORPORA</title>
-<g id="a_node31"><a xlink:href="https://github.com/casework/CASE-Corpora" xlink:title="CASE&#45;Corpora\nadopts new case&#45;prov">
+<g id="a_node30"><a xlink:href="https://github.com/casework/CASE-Corpora" xlink:title="CASE&#45;Corpora\nadopts new case&#45;prov">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1793.62,-1418.6C1793.62,-1418.6 1683.88,-1418.6 1683.88,-1418.6 1677.88,-1418.6 1671.88,-1412.6 1671.88,-1406.6 1671.88,-1406.6 1671.88,-1389.6 1671.88,-1389.6 1671.88,-1383.6 1677.88,-1377.6 1683.88,-1377.6 1683.88,-1377.6 1793.62,-1377.6 1793.62,-1377.6 1799.62,-1377.6 1805.62,-1383.6 1805.62,-1389.6 1805.62,-1389.6 1805.62,-1406.6 1805.62,-1406.6 1805.62,-1412.6 1799.62,-1418.6 1793.62,-1418.6"/>
 <text text-anchor="middle" x="1738.75" y="-1401.3" font-family="Times,serif" font-size="14.00">CASE&#45;Corpora</text>
 <text text-anchor="middle" x="1738.75" y="-1384.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;prov</text>
@@ -414,9 +342,9 @@
 <text text-anchor="middle" x="1590.12" y="-1438.3" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__UCOPROJECT__UCO_PROFILE_TIME -->
-<g id="node18" class="node">
+<g id="node17" class="node">
 <title>_GH__UCOPROJECT__UCO_PROFILE_TIME</title>
-<g id="a_node18"><a xlink:href="https://github.com/ucoProject/UCO-Profile-Time" xlink:title="UCO Time profile\nupdates">
+<g id="a_node17"><a xlink:href="https://github.com/ucoProject/UCO-Profile-Time" xlink:title="UCO Time profile\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1785,-1570.6C1785,-1570.6 1692.5,-1570.6 1692.5,-1570.6 1686.5,-1570.6 1680.5,-1564.6 1680.5,-1558.6 1680.5,-1558.6 1680.5,-1541.6 1680.5,-1541.6 1680.5,-1535.6 1686.5,-1529.6 1692.5,-1529.6 1692.5,-1529.6 1785,-1529.6 1785,-1529.6 1791,-1529.6 1797,-1535.6 1797,-1541.6 1797,-1541.6 1797,-1558.6 1797,-1558.6 1797,-1564.6 1791,-1570.6 1785,-1570.6"/>
 <text text-anchor="middle" x="1738.75" y="-1553.3" font-family="Times,serif" font-size="14.00">UCO Time profile</text>
 <text text-anchor="middle" x="1738.75" y="-1536.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -439,10 +367,20 @@
 <text text-anchor="middle" x="1590.12" y="-1520.8" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
 <text text-anchor="middle" x="1590.12" y="-1504.3" font-family="Times,serif" font-size="14.00">module</text>
 </g>
+<!-- _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG -->
+<g id="node10" class="node">
+<title>_GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG</title>
+<g id="a_node10"><a xlink:href="https://github.com/ucoProject/ontology.unifiedcyberontology.org" xlink:title="UCO documentation\nregenerated">
+<path fill="#8ec7d2" stroke="#0d6986" d="M537.12,-1570.6C537.12,-1570.6 431.88,-1570.6 431.88,-1570.6 425.88,-1570.6 419.88,-1564.6 419.88,-1558.6 419.88,-1558.6 419.88,-1541.6 419.88,-1541.6 419.88,-1535.6 425.88,-1529.6 431.88,-1529.6 431.88,-1529.6 537.12,-1529.6 537.12,-1529.6 543.12,-1529.6 549.12,-1535.6 549.12,-1541.6 549.12,-1541.6 549.12,-1558.6 549.12,-1558.6 549.12,-1564.6 543.12,-1570.6 537.12,-1570.6"/>
+<text text-anchor="middle" x="484.5" y="-1553.3" font-family="Times,serif" font-size="14.00">UCO documentation</text>
+<text text-anchor="middle" x="484.5" y="-1536.8" font-family="Times,serif" font-size="14.00">regenerated</text>
+</a>
+</g>
+</g>
 <!-- _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG -->
-<g id="node21" class="node">
+<g id="node20" class="node">
 <title>_GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG</title>
-<g id="a_node21"><a xlink:href="https://github.com/casework/ontology.caseontology.org" xlink:title="CASE documentation\nregenerated">
+<g id="a_node20"><a xlink:href="https://github.com/casework/ontology.caseontology.org" xlink:title="CASE documentation\nregenerated">
 <path fill="#8ec7d2" stroke="#0d6986" d="M806.62,-283.6C806.62,-283.6 695.38,-283.6 695.38,-283.6 689.38,-283.6 683.38,-277.6 683.38,-271.6 683.38,-271.6 683.38,-254.6 683.38,-254.6 683.38,-248.6 689.38,-242.6 695.38,-242.6 695.38,-242.6 806.62,-242.6 806.62,-242.6 812.62,-242.6 818.62,-248.6 818.62,-254.6 818.62,-254.6 818.62,-271.6 818.62,-271.6 818.62,-277.6 812.62,-283.6 806.62,-283.6"/>
 <text text-anchor="middle" x="751" y="-266.3" font-family="Times,serif" font-size="14.00">CASE documentation</text>
 <text text-anchor="middle" x="751" y="-249.8" font-family="Times,serif" font-size="14.00">regenerated</text>
@@ -458,9 +396,9 @@
 <text text-anchor="middle" x="616.25" y="-1491.55" font-family="Times,serif" font-size="14.00">check</text>
 </g>
 <!-- _GH__AJNELSON_NIST__CASE_EXAMPLES_QC -->
-<g id="node30" class="node">
+<g id="node29" class="node">
 <title>_GH__AJNELSON_NIST__CASE_EXAMPLES_QC</title>
-<g id="a_node30"><a xlink:href="https://github.com/ajnelson-nist/CASE-Examples-QC" xlink:title="CASE&#45;Examples&#45;QC\nadopts CASE&#45;Examples and\nCASE website updates">
+<g id="a_node29"><a xlink:href="https://github.com/ajnelson-nist/CASE-Examples-QC" xlink:title="CASE&#45;Examples&#45;QC\nadopts CASE&#45;Examples and\nCASE website updates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M2086.75,-1422.85C2086.75,-1422.85 1939.5,-1422.85 1939.5,-1422.85 1933.5,-1422.85 1927.5,-1416.85 1927.5,-1410.85 1927.5,-1410.85 1927.5,-1377.35 1927.5,-1377.35 1927.5,-1371.35 1933.5,-1365.35 1939.5,-1365.35 1939.5,-1365.35 2086.75,-1365.35 2086.75,-1365.35 2092.75,-1365.35 2098.75,-1371.35 2098.75,-1377.35 2098.75,-1377.35 2098.75,-1410.85 2098.75,-1410.85 2098.75,-1416.85 2092.75,-1422.85 2086.75,-1422.85"/>
 <text text-anchor="middle" x="2013.12" y="-1405.55" font-family="Times,serif" font-size="14.00">CASE&#45;Examples&#45;QC</text>
 <text text-anchor="middle" x="2013.12" y="-1389.05" font-family="Times,serif" font-size="14.00">adopts CASE&#45;Examples and</text>
@@ -475,6 +413,16 @@
 <polygon fill="black" stroke="black" points="2011.6,-1434.98 2009.21,-1424.66 2004.64,-1434.21 2011.6,-1434.98"/>
 <text text-anchor="middle" x="1738.75" y="-1988.5" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
 <text text-anchor="middle" x="1738.75" y="-1972" font-family="Times,serif" font-size="14.00">module</text>
+</g>
+<!-- _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -->
+<g id="node12" class="node">
+<title>_GH__UCOPROJECT__UCO_PROFILE_EXAMPLE</title>
+<g id="a_node12"><a xlink:href="https://github.com/ucoProject/UCO-Profile-Example" xlink:title="UCO example&#45;base profile\nupdates">
+<path fill="#8ec7d2" stroke="#0d6986" d="M554,-1938.6C554,-1938.6 415,-1938.6 415,-1938.6 409,-1938.6 403,-1932.6 403,-1926.6 403,-1926.6 403,-1909.6 403,-1909.6 403,-1903.6 409,-1897.6 415,-1897.6 415,-1897.6 554,-1897.6 554,-1897.6 560,-1897.6 566,-1903.6 566,-1909.6 566,-1909.6 566,-1926.6 566,-1926.6 566,-1932.6 560,-1938.6 554,-1938.6"/>
+<text text-anchor="middle" x="484.5" y="-1921.3" font-family="Times,serif" font-size="14.00">UCO example&#45;base profile</text>
+<text text-anchor="middle" x="484.5" y="-1904.8" font-family="Times,serif" font-size="14.00">updates</text>
+</a>
+</g>
 </g>
 <!-- _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE&#45;&gt;_GH__UCOPROJECT__UCO_PROFILE_BFO -->
 <g id="edge62" class="edge">
@@ -509,9 +457,9 @@
 <text text-anchor="middle" x="1080.88" y="-2041.79" font-family="Times,serif" font-size="14.00">base branch</text>
 </g>
 <!-- _GH__CASEWORK__CASE_PROFILE_EXAMPLE -->
-<g id="node20" class="node">
+<g id="node19" class="node">
 <title>_GH__CASEWORK__CASE_PROFILE_EXAMPLE</title>
-<g id="a_node20"><a xlink:href="https://github.com/casework/CASE-Profile-Example" xlink:title="CASE example&#45;base profile\nupdates">
+<g id="a_node19"><a xlink:href="https://github.com/casework/CASE-Profile-Example" xlink:title="CASE example&#45;base profile\nupdates">
 <path fill="#8ec7d2" stroke="#0d6986" d="M823.5,-342.6C823.5,-342.6 678.5,-342.6 678.5,-342.6 672.5,-342.6 666.5,-336.6 666.5,-330.6 666.5,-330.6 666.5,-313.6 666.5,-313.6 666.5,-307.6 672.5,-301.6 678.5,-301.6 678.5,-301.6 823.5,-301.6 823.5,-301.6 829.5,-301.6 835.5,-307.6 835.5,-313.6 835.5,-313.6 835.5,-330.6 835.5,-330.6 835.5,-336.6 829.5,-342.6 823.5,-342.6"/>
 <text text-anchor="middle" x="751" y="-325.3" font-family="Times,serif" font-size="14.00">CASE example&#45;base profile</text>
 <text text-anchor="middle" x="751" y="-308.8" font-family="Times,serif" font-size="14.00">updates</text>
@@ -566,6 +514,16 @@
 <text text-anchor="middle" x="1887.38" y="-1496.48" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
 <text text-anchor="middle" x="1887.38" y="-1479.98" font-family="Times,serif" font-size="14.00">module</text>
 </g>
+<!-- _GH__CASEWORK__CASE -->
+<g id="node18" class="node">
+<title>_GH__CASEWORK__CASE</title>
+<g id="a_node18"><a xlink:href="https://github.com/casework/CASE" xlink:title="CASE Ontology\nreleases">
+<path fill="#8ec7d2" stroke="#0d6986" d="M525.12,-342.6C525.12,-342.6 443.88,-342.6 443.88,-342.6 437.88,-342.6 431.88,-336.6 431.88,-330.6 431.88,-330.6 431.88,-313.6 431.88,-313.6 431.88,-307.6 437.88,-301.6 443.88,-301.6 443.88,-301.6 525.12,-301.6 525.12,-301.6 531.12,-301.6 537.12,-307.6 537.12,-313.6 537.12,-313.6 537.12,-330.6 537.12,-330.6 537.12,-336.6 531.12,-342.6 525.12,-342.6"/>
+<text text-anchor="middle" x="484.5" y="-325.3" font-family="Times,serif" font-size="14.00">CASE Ontology</text>
+<text text-anchor="middle" x="484.5" y="-308.8" font-family="Times,serif" font-size="14.00">releases</text>
+</a>
+</g>
+</g>
 <!-- _GH__CASEWORK__CASE&#45;&gt;_GH__CASEWORK__CASE_PROFILE_EXAMPLE -->
 <g id="edge3" class="edge">
 <title>_GH__CASEWORK__CASE&#45;&gt;_GH__CASEWORK__CASE_PROFILE_EXAMPLE</title>
@@ -591,9 +549,9 @@
 <text text-anchor="middle" x="616.25" y="-745.3" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP -->
-<g id="node45" class="node">
+<g id="node44" class="node">
 <title>_GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP</title>
-<g id="a_node45"><a xlink:href="https://github.com/ciphertechsolutions/CASE-Bindings-CSharp" xlink:title="CASE&#45;Bindings&#45;CSharp\nadopts new ontology version">
+<g id="a_node44"><a xlink:href="https://github.com/ciphertechsolutions/CASE-Bindings-CSharp" xlink:title="CASE&#45;Bindings&#45;CSharp\nadopts new ontology version">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1155.25,-475.6C1155.25,-475.6 1006.5,-475.6 1006.5,-475.6 1000.5,-475.6 994.5,-469.6 994.5,-463.6 994.5,-463.6 994.5,-446.6 994.5,-446.6 994.5,-440.6 1000.5,-434.6 1006.5,-434.6 1006.5,-434.6 1155.25,-434.6 1155.25,-434.6 1161.25,-434.6 1167.25,-440.6 1167.25,-446.6 1167.25,-446.6 1167.25,-463.6 1167.25,-463.6 1167.25,-469.6 1161.25,-475.6 1155.25,-475.6"/>
 <text text-anchor="middle" x="1080.88" y="-458.3" font-family="Times,serif" font-size="14.00">CASE&#45;Bindings&#45;CSharp</text>
 <text text-anchor="middle" x="1080.88" y="-441.8" font-family="Times,serif" font-size="14.00">adopts new ontology version</text>
@@ -607,9 +565,9 @@
 <polygon fill="black" stroke="black" points="982.19,-456.6 992.73,-455.5 983.8,-449.79 982.19,-456.6"/>
 </g>
 <!-- _GH__CASEWORK__CASE_APPLICATION_NAVIGATOR -->
-<g id="node22" class="node">
+<g id="node21" class="node">
 <title>_GH__CASEWORK__CASE_APPLICATION_NAVIGATOR</title>
-<g id="a_node22"><a xlink:href="https://github.com/casework/CASE-Application-Navigator" xlink:title="CASE Navigator testing\nadopts new case&#45;utils">
+<g id="a_node21"><a xlink:href="https://github.com/casework/CASE-Application-Navigator" xlink:title="CASE Navigator testing\nadopts new case&#45;utils">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1142.88,-1396.6C1142.88,-1396.6 1018.88,-1396.6 1018.88,-1396.6 1012.88,-1396.6 1006.88,-1390.6 1006.88,-1384.6 1006.88,-1384.6 1006.88,-1367.6 1006.88,-1367.6 1006.88,-1361.6 1012.88,-1355.6 1018.88,-1355.6 1018.88,-1355.6 1142.88,-1355.6 1142.88,-1355.6 1148.88,-1355.6 1154.88,-1361.6 1154.88,-1367.6 1154.88,-1367.6 1154.88,-1384.6 1154.88,-1384.6 1154.88,-1390.6 1148.88,-1396.6 1142.88,-1396.6"/>
 <text text-anchor="middle" x="1080.88" y="-1379.3" font-family="Times,serif" font-size="14.00">CASE Navigator testing</text>
 <text text-anchor="middle" x="1080.88" y="-1362.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;utils</text>
@@ -617,9 +575,9 @@
 </g>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL -->
-<g id="node23" class="node">
+<g id="node22" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL</title>
-<g id="a_node23"><a xlink:href="https://github.com/casework/CASE-Implementation-ExifTool" xlink:title="CASE&#45;Implementation&#45;ExifTool\nadopts new case&#45;utils">
+<g id="a_node22"><a xlink:href="https://github.com/casework/CASE-Implementation-ExifTool" xlink:title="CASE&#45;Implementation&#45;ExifTool\nadopts new case&#45;utils">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1166.5,-1455.6C1166.5,-1455.6 995.25,-1455.6 995.25,-1455.6 989.25,-1455.6 983.25,-1449.6 983.25,-1443.6 983.25,-1443.6 983.25,-1426.6 983.25,-1426.6 983.25,-1420.6 989.25,-1414.6 995.25,-1414.6 995.25,-1414.6 1166.5,-1414.6 1166.5,-1414.6 1172.5,-1414.6 1178.5,-1420.6 1178.5,-1426.6 1178.5,-1426.6 1178.5,-1443.6 1178.5,-1443.6 1178.5,-1449.6 1172.5,-1455.6 1166.5,-1455.6"/>
 <text text-anchor="middle" x="1080.88" y="-1438.3" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;ExifTool</text>
 <text text-anchor="middle" x="1080.88" y="-1421.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;utils</text>
@@ -627,9 +585,9 @@
 </g>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME -->
-<g id="node24" class="node">
+<g id="node23" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME</title>
-<g id="a_node24"><a xlink:href="https://github.com/casework/CASE-Implementation-GNU-Time" xlink:title="CASE&#45;Implementation&#45;GNU&#45;Time\nadopts new case&#45;utils">
+<g id="a_node23"><a xlink:href="https://github.com/casework/CASE-Implementation-GNU-Time" xlink:title="CASE&#45;Implementation&#45;GNU&#45;Time\nadopts new case&#45;utils">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1173.62,-1054.6C1173.62,-1054.6 988.12,-1054.6 988.12,-1054.6 982.12,-1054.6 976.12,-1048.6 976.12,-1042.6 976.12,-1042.6 976.12,-1025.6 976.12,-1025.6 976.12,-1019.6 982.12,-1013.6 988.12,-1013.6 988.12,-1013.6 1173.62,-1013.6 1173.62,-1013.6 1179.62,-1013.6 1185.62,-1019.6 1185.62,-1025.6 1185.62,-1025.6 1185.62,-1042.6 1185.62,-1042.6 1185.62,-1048.6 1179.62,-1054.6 1173.62,-1054.6"/>
 <text text-anchor="middle" x="1080.88" y="-1037.3" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;GNU&#45;Time</text>
 <text text-anchor="middle" x="1080.88" y="-1020.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;utils</text>
@@ -637,9 +595,9 @@
 </g>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER -->
-<g id="node25" class="node">
+<g id="node24" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER</title>
-<g id="a_node25"><a xlink:href="https://github.com/casework/CASE-Implementation-macOS-System-Profiler" xlink:title="CASE&#45;Implementation&#45;macOS&#45;System&#45;Profiler\nadopts new case&#45;utils">
+<g id="a_node24"><a xlink:href="https://github.com/casework/CASE-Implementation-macOS-System-Profiler" xlink:title="CASE&#45;Implementation&#45;macOS&#45;System&#45;Profiler\nadopts new case&#45;utils">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1207.75,-1172.6C1207.75,-1172.6 954,-1172.6 954,-1172.6 948,-1172.6 942,-1166.6 942,-1160.6 942,-1160.6 942,-1143.6 942,-1143.6 942,-1137.6 948,-1131.6 954,-1131.6 954,-1131.6 1207.75,-1131.6 1207.75,-1131.6 1213.75,-1131.6 1219.75,-1137.6 1219.75,-1143.6 1219.75,-1143.6 1219.75,-1160.6 1219.75,-1160.6 1219.75,-1166.6 1213.75,-1172.6 1207.75,-1172.6"/>
 <text text-anchor="middle" x="1080.88" y="-1155.3" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;macOS&#45;System&#45;Profiler</text>
 <text text-anchor="middle" x="1080.88" y="-1138.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;utils</text>
@@ -647,9 +605,9 @@
 </g>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI -->
-<g id="node26" class="node">
+<g id="node25" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI</title>
-<g id="a_node26"><a xlink:href="https://github.com/casework/CASE-Implementation-Template-Python-CLI" xlink:title="CASE&#45;Implementation&#45;Template&#45;Python&#45;CLI\nadopts new case&#45;utils">
+<g id="a_node25"><a xlink:href="https://github.com/casework/CASE-Implementation-Template-Python-CLI" xlink:title="CASE&#45;Implementation&#45;Template&#45;Python&#45;CLI\nadopts new case&#45;utils">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1202.5,-1284.6C1202.5,-1284.6 959.25,-1284.6 959.25,-1284.6 953.25,-1284.6 947.25,-1278.6 947.25,-1272.6 947.25,-1272.6 947.25,-1255.6 947.25,-1255.6 947.25,-1249.6 953.25,-1243.6 959.25,-1243.6 959.25,-1243.6 1202.5,-1243.6 1202.5,-1243.6 1208.5,-1243.6 1214.5,-1249.6 1214.5,-1255.6 1214.5,-1255.6 1214.5,-1272.6 1214.5,-1272.6 1214.5,-1278.6 1208.5,-1284.6 1202.5,-1284.6"/>
 <text text-anchor="middle" x="1080.88" y="-1267.3" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;Template&#45;Python&#45;CLI</text>
 <text text-anchor="middle" x="1080.88" y="-1250.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;utils</text>
@@ -657,9 +615,9 @@
 </g>
 </g>
 <!-- _GH__CASEWORK__CASE_MAPPING_TEMPLATE_STUBS -->
-<g id="node27" class="node">
+<g id="node26" class="node">
 <title>_GH__CASEWORK__CASE_MAPPING_TEMPLATE_STUBS</title>
-<g id="a_node27"><a xlink:href="https://github.com/casework/CASE-Mapping-Template-Stubs" xlink:title="CASE Mapping\nTemplate Stubs">
+<g id="a_node26"><a xlink:href="https://github.com/casework/CASE-Mapping-Template-Stubs" xlink:title="CASE Mapping\nTemplate Stubs">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1120.75,-404.6C1120.75,-404.6 1041,-404.6 1041,-404.6 1035,-404.6 1029,-398.6 1029,-392.6 1029,-392.6 1029,-375.6 1029,-375.6 1029,-369.6 1035,-363.6 1041,-363.6 1041,-363.6 1120.75,-363.6 1120.75,-363.6 1126.75,-363.6 1132.75,-369.6 1132.75,-375.6 1132.75,-375.6 1132.75,-392.6 1132.75,-392.6 1132.75,-398.6 1126.75,-404.6 1120.75,-404.6"/>
 <text text-anchor="middle" x="1080.88" y="-387.3" font-family="Times,serif" font-size="14.00">CASE Mapping</text>
 <text text-anchor="middle" x="1080.88" y="-370.8" font-family="Times,serif" font-size="14.00">Template Stubs</text>
@@ -709,9 +667,9 @@
 <text text-anchor="middle" x="888.75" y="-773.8" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
 <!-- _GH__CASEWORK__CASEWORK_GITHUB_IO -->
-<g id="node29" class="node">
+<g id="node28" class="node">
 <title>_GH__CASEWORK__CASEWORK_GITHUB_IO</title>
-<g id="a_node29"><a xlink:href="https://github.com/casework/casework.github.io" xlink:title="CASE website\nadopts new case&#45;utils">
+<g id="a_node28"><a xlink:href="https://github.com/casework/casework.github.io" xlink:title="CASE website\nadopts new case&#45;utils">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1135,-1113.6C1135,-1113.6 1026.75,-1113.6 1026.75,-1113.6 1020.75,-1113.6 1014.75,-1107.6 1014.75,-1101.6 1014.75,-1101.6 1014.75,-1084.6 1014.75,-1084.6 1014.75,-1078.6 1020.75,-1072.6 1026.75,-1072.6 1026.75,-1072.6 1135,-1072.6 1135,-1072.6 1141,-1072.6 1147,-1078.6 1147,-1084.6 1147,-1084.6 1147,-1101.6 1147,-1101.6 1147,-1107.6 1141,-1113.6 1135,-1113.6"/>
 <text text-anchor="middle" x="1080.88" y="-1096.3" font-family="Times,serif" font-size="14.00">CASE website</text>
 <text text-anchor="middle" x="1080.88" y="-1079.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;utils</text>
@@ -726,9 +684,9 @@
 <text text-anchor="middle" x="888.75" y="-1153.8" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -->
-<g id="node33" class="node">
+<g id="node32" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O</title>
-<g id="a_node33"><a xlink:href="https://github.com/casework/CASE-Implementation-PROV-O" xlink:title="case&#45;prov\nreleases">
+<g id="a_node32"><a xlink:href="https://github.com/casework/CASE-Implementation-PROV-O" xlink:title="case&#45;prov\nreleases">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1447.25,-1356.6C1447.25,-1356.6 1402.75,-1356.6 1402.75,-1356.6 1396.75,-1356.6 1390.75,-1350.6 1390.75,-1344.6 1390.75,-1344.6 1390.75,-1327.6 1390.75,-1327.6 1390.75,-1321.6 1396.75,-1315.6 1402.75,-1315.6 1402.75,-1315.6 1447.25,-1315.6 1447.25,-1315.6 1453.25,-1315.6 1459.25,-1321.6 1459.25,-1327.6 1459.25,-1327.6 1459.25,-1344.6 1459.25,-1344.6 1459.25,-1350.6 1453.25,-1356.6 1447.25,-1356.6"/>
 <text text-anchor="middle" x="1425" y="-1339.3" font-family="Times,serif" font-size="14.00">case&#45;prov</text>
 <text text-anchor="middle" x="1425" y="-1322.8" font-family="Times,serif" font-size="14.00">releases</text>
@@ -743,9 +701,9 @@
 <text text-anchor="middle" x="1080.88" y="-1322.93" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD -->
-<g id="node35" class="node">
+<g id="node34" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD</title>
-<g id="a_node35"><a xlink:href="https://github.com/casework/CASE-Implementation-PyPI-Exifread" xlink:title="CASE&#45;Implementation&#45;PyPI&#45;Exifread\nadopts new case&#45;validation&#45;action">
+<g id="a_node34"><a xlink:href="https://github.com/casework/CASE-Implementation-PyPI-Exifread" xlink:title="CASE&#45;Implementation&#45;PyPI&#45;Exifread\nadopts new case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1524.88,-917.6C1524.88,-917.6 1325.12,-917.6 1325.12,-917.6 1319.12,-917.6 1313.12,-911.6 1313.12,-905.6 1313.12,-905.6 1313.12,-888.6 1313.12,-888.6 1313.12,-882.6 1319.12,-876.6 1325.12,-876.6 1325.12,-876.6 1524.88,-876.6 1524.88,-876.6 1530.88,-876.6 1536.88,-882.6 1536.88,-888.6 1536.88,-888.6 1536.88,-905.6 1536.88,-905.6 1536.88,-911.6 1530.88,-917.6 1524.88,-917.6"/>
 <text text-anchor="middle" x="1425" y="-900.3" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;PyPI&#45;Exifread</text>
 <text text-anchor="middle" x="1425" y="-883.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;validation&#45;action</text>
@@ -760,9 +718,9 @@
 <text text-anchor="middle" x="1080.88" y="-1219.54" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
 <!-- _GH__KCHASON__CASE_VALIDATION_ACTION -->
-<g id="node42" class="node">
+<g id="node41" class="node">
 <title>_GH__KCHASON__CASE_VALIDATION_ACTION</title>
-<g id="a_node42"><a xlink:href="https://github.com/kchason/case-validation-action" xlink:title="case&#45;validation&#45;action\nreleases">
+<g id="a_node41"><a xlink:href="https://github.com/kchason/case-validation-action" xlink:title="case&#45;validation&#45;action\nreleases">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1136.5,-766.6C1136.5,-766.6 1025.25,-766.6 1025.25,-766.6 1019.25,-766.6 1013.25,-760.6 1013.25,-754.6 1013.25,-754.6 1013.25,-737.6 1013.25,-737.6 1013.25,-731.6 1019.25,-725.6 1025.25,-725.6 1025.25,-725.6 1136.5,-725.6 1136.5,-725.6 1142.5,-725.6 1148.5,-731.6 1148.5,-737.6 1148.5,-737.6 1148.5,-754.6 1148.5,-754.6 1148.5,-760.6 1142.5,-766.6 1136.5,-766.6"/>
 <text text-anchor="middle" x="1080.88" y="-749.3" font-family="Times,serif" font-size="14.00">case&#45;validation&#45;action</text>
 <text text-anchor="middle" x="1080.88" y="-732.8" font-family="Times,serif" font-size="14.00">releases</text>
@@ -801,9 +759,9 @@
 <text text-anchor="middle" x="1887.38" y="-1392.3" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__CASEWORK__CASE_EXAMPLES -->
-<g id="node32" class="node">
+<g id="node31" class="node">
 <title>_GH__CASEWORK__CASE_EXAMPLES</title>
-<g id="a_node32"><a xlink:href="https://github.com/casework/CASE-Examples" xlink:title="CASE&#45;Examples\nadopts new case&#45;prov">
+<g id="a_node31"><a xlink:href="https://github.com/casework/CASE-Examples" xlink:title="CASE&#45;Examples\nadopts new case&#45;prov">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1793.62,-1356.6C1793.62,-1356.6 1683.88,-1356.6 1683.88,-1356.6 1677.88,-1356.6 1671.88,-1350.6 1671.88,-1344.6 1671.88,-1344.6 1671.88,-1327.6 1671.88,-1327.6 1671.88,-1321.6 1677.88,-1315.6 1683.88,-1315.6 1683.88,-1315.6 1793.62,-1315.6 1793.62,-1315.6 1799.62,-1315.6 1805.62,-1321.6 1805.62,-1327.6 1805.62,-1327.6 1805.62,-1344.6 1805.62,-1344.6 1805.62,-1350.6 1799.62,-1356.6 1793.62,-1356.6"/>
 <text text-anchor="middle" x="1738.75" y="-1339.3" font-family="Times,serif" font-size="14.00">CASE&#45;Examples</text>
 <text text-anchor="middle" x="1738.75" y="-1322.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;prov</text>
@@ -833,18 +791,18 @@
 <text text-anchor="middle" x="1590.12" y="-1339.3" font-family="Times,serif" font-size="14.00">PyPI</text>
 </g>
 <!-- _GH__CASEWORK__CASE_EXAMPLES_CONVERSION -->
-<g id="node34" class="node">
+<g id="node33" class="node">
 <title>_GH__CASEWORK__CASE_EXAMPLES_CONVERSION</title>
-<g id="a_node34"><a xlink:href="https://github.com/casework/CASE-Examples-Conversion" xlink:title="CASE Conversion Examples">
+<g id="a_node33"><a xlink:href="https://github.com/casework/CASE-Examples-Conversion" xlink:title="CASE Conversion Examples">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1500.12,-789.1C1500.12,-789.1 1349.88,-789.1 1349.88,-789.1 1343.88,-789.1 1337.88,-783.1 1337.88,-777.1 1337.88,-777.1 1337.88,-765.1 1337.88,-765.1 1337.88,-759.1 1343.88,-753.1 1349.88,-753.1 1349.88,-753.1 1500.12,-753.1 1500.12,-753.1 1506.12,-753.1 1512.12,-759.1 1512.12,-765.1 1512.12,-765.1 1512.12,-777.1 1512.12,-777.1 1512.12,-783.1 1506.12,-789.1 1500.12,-789.1"/>
 <text text-anchor="middle" x="1425" y="-766.05" font-family="Times,serif" font-size="14.00">CASE Conversion Examples</text>
 </a>
 </g>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW -->
-<g id="node36" class="node">
+<g id="node35" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW</title>
-<g id="a_node36"><a xlink:href="https://github.com/casework/CASE-Implementation-PyPI-Pillow" xlink:title="CASE&#45;Implementation&#45;PyPI&#45;Pillow\nadopts new case&#45;validation&#45;action">
+<g id="a_node35"><a xlink:href="https://github.com/casework/CASE-Implementation-PyPI-Pillow" xlink:title="CASE&#45;Implementation&#45;PyPI&#45;Pillow\nadopts new case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1519.25,-557.6C1519.25,-557.6 1330.75,-557.6 1330.75,-557.6 1324.75,-557.6 1318.75,-551.6 1318.75,-545.6 1318.75,-545.6 1318.75,-528.6 1318.75,-528.6 1318.75,-522.6 1324.75,-516.6 1330.75,-516.6 1330.75,-516.6 1519.25,-516.6 1519.25,-516.6 1525.25,-516.6 1531.25,-522.6 1531.25,-528.6 1531.25,-528.6 1531.25,-545.6 1531.25,-545.6 1531.25,-551.6 1525.25,-557.6 1519.25,-557.6"/>
 <text text-anchor="middle" x="1425" y="-540.3" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;PyPI&#45;Pillow</text>
 <text text-anchor="middle" x="1425" y="-523.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;validation&#45;action</text>
@@ -852,9 +810,9 @@
 </g>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML -->
-<g id="node37" class="node">
+<g id="node36" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML</title>
-<g id="a_node37"><a xlink:href="https://github.com/casework/CASE-Implementation-UFED-XML" xlink:title="CASE&#45;Implementation&#45;UFED&#45;XML\nadopts new case&#45;validation&#45;action">
+<g id="a_node36"><a xlink:href="https://github.com/casework/CASE-Implementation-UFED-XML" xlink:title="CASE&#45;Implementation&#45;UFED&#45;XML\nadopts new case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1835.25,-874.6C1835.25,-874.6 1642.25,-874.6 1642.25,-874.6 1636.25,-874.6 1630.25,-868.6 1630.25,-862.6 1630.25,-862.6 1630.25,-845.6 1630.25,-845.6 1630.25,-839.6 1636.25,-833.6 1642.25,-833.6 1642.25,-833.6 1835.25,-833.6 1835.25,-833.6 1841.25,-833.6 1847.25,-839.6 1847.25,-845.6 1847.25,-845.6 1847.25,-862.6 1847.25,-862.6 1847.25,-868.6 1841.25,-874.6 1835.25,-874.6"/>
 <text text-anchor="middle" x="1738.75" y="-857.3" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;UFED&#45;XML</text>
 <text text-anchor="middle" x="1738.75" y="-840.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;validation&#45;action</text>
@@ -862,9 +820,9 @@
 </g>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_XRY -->
-<g id="node38" class="node">
+<g id="node37" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_XRY</title>
-<g id="a_node38"><a xlink:href="https://github.com/casework/CASE-Implementation-XRY" xlink:title="CASE&#45;Implementation&#45;XRY adopts\nnew case&#45;validation&#45;action">
+<g id="a_node37"><a xlink:href="https://github.com/casework/CASE-Implementation-XRY" xlink:title="CASE&#45;Implementation&#45;XRY adopts\nnew case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1519.62,-616.6C1519.62,-616.6 1330.38,-616.6 1330.38,-616.6 1324.38,-616.6 1318.38,-610.6 1318.38,-604.6 1318.38,-604.6 1318.38,-587.6 1318.38,-587.6 1318.38,-581.6 1324.38,-575.6 1330.38,-575.6 1330.38,-575.6 1519.62,-575.6 1519.62,-575.6 1525.62,-575.6 1531.62,-581.6 1531.62,-587.6 1531.62,-587.6 1531.62,-604.6 1531.62,-604.6 1531.62,-610.6 1525.62,-616.6 1519.62,-616.6"/>
 <text text-anchor="middle" x="1425" y="-599.3" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;XRY adopts</text>
 <text text-anchor="middle" x="1425" y="-582.8" font-family="Times,serif" font-size="14.00">new case&#45;validation&#45;action</text>
@@ -880,9 +838,9 @@
 <text text-anchor="middle" x="1590.12" y="-911.3" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM -->
-<g id="node41" class="node">
+<g id="node40" class="node">
 <title>_GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM</title>
-<g id="a_node41"><a xlink:href="https://github.com/casework/CASE-Implementation-Axiom" xlink:title="CASE&#45;Implementation&#45;Axiom">
+<g id="a_node40"><a xlink:href="https://github.com/casework/CASE-Implementation-Axiom" xlink:title="CASE&#45;Implementation&#45;Axiom">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1819.12,-957.1C1819.12,-957.1 1658.38,-957.1 1658.38,-957.1 1652.38,-957.1 1646.38,-951.1 1646.38,-945.1 1646.38,-945.1 1646.38,-933.1 1646.38,-933.1 1646.38,-927.1 1652.38,-921.1 1658.38,-921.1 1658.38,-921.1 1819.12,-921.1 1819.12,-921.1 1825.12,-921.1 1831.12,-927.1 1831.12,-933.1 1831.12,-933.1 1831.12,-945.1 1831.12,-945.1 1831.12,-951.1 1825.12,-957.1 1819.12,-957.1"/>
 <text text-anchor="middle" x="1738.75" y="-934.05" font-family="Times,serif" font-size="14.00">CASE&#45;Implementation&#45;Axiom</text>
 </a>
@@ -897,9 +855,9 @@
 <text text-anchor="middle" x="1590.12" y="-950.25" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON -->
-<g id="node40" class="node">
+<g id="node39" class="node">
 <title>_GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON</title>
-<g id="a_node40"><a xlink:href="https://github.com/casework/CASE-Mapping-Template-Python" xlink:title="CASE&#45;Mapping&#45;Template&#45;Python\nadopts new case&#45;validation&#45;action">
+<g id="a_node39"><a xlink:href="https://github.com/casework/CASE-Mapping-Template-Python" xlink:title="CASE&#45;Mapping&#45;Template&#45;Python\nadopts new case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1514.75,-675.6C1514.75,-675.6 1335.25,-675.6 1335.25,-675.6 1329.25,-675.6 1323.25,-669.6 1323.25,-663.6 1323.25,-663.6 1323.25,-646.6 1323.25,-646.6 1323.25,-640.6 1329.25,-634.6 1335.25,-634.6 1335.25,-634.6 1514.75,-634.6 1514.75,-634.6 1520.75,-634.6 1526.75,-640.6 1526.75,-646.6 1526.75,-646.6 1526.75,-663.6 1526.75,-663.6 1526.75,-669.6 1520.75,-675.6 1514.75,-675.6"/>
 <text text-anchor="middle" x="1425" y="-658.3" font-family="Times,serif" font-size="14.00">CASE&#45;Mapping&#45;Template&#45;Python</text>
 <text text-anchor="middle" x="1425" y="-641.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;validation&#45;action</text>
@@ -963,9 +921,9 @@
 <text text-anchor="middle" x="1259.88" y="-684.3" font-family="Times,serif" font-size="14.00">Action</text>
 </g>
 <!-- _GH__DOD_CYBER_CRIME_CENTER__SQLITE_DISSECT -->
-<g id="node43" class="node">
+<g id="node42" class="node">
 <title>_GH__DOD_CYBER_CRIME_CENTER__SQLITE_DISSECT</title>
-<g id="a_node43"><a xlink:href="https://github.com/dod-cyber-crime-center/sqlite-dissect" xlink:title="sqlite&#45;dissect\nadopts new case&#45;validation&#45;action">
+<g id="a_node42"><a xlink:href="https://github.com/dod-cyber-crime-center/sqlite-dissect" xlink:title="sqlite&#45;dissect\nadopts new case&#45;validation&#45;action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1513.25,-734.6C1513.25,-734.6 1336.75,-734.6 1336.75,-734.6 1330.75,-734.6 1324.75,-728.6 1324.75,-722.6 1324.75,-722.6 1324.75,-705.6 1324.75,-705.6 1324.75,-699.6 1330.75,-693.6 1336.75,-693.6 1336.75,-693.6 1513.25,-693.6 1513.25,-693.6 1519.25,-693.6 1525.25,-699.6 1525.25,-705.6 1525.25,-705.6 1525.25,-722.6 1525.25,-722.6 1525.25,-728.6 1519.25,-734.6 1513.25,-734.6"/>
 <text text-anchor="middle" x="1425" y="-717.3" font-family="Times,serif" font-size="14.00">sqlite&#45;dissect</text>
 <text text-anchor="middle" x="1425" y="-700.8" font-family="Times,serif" font-size="14.00">adopts new case&#45;validation&#45;action</text>
@@ -981,9 +939,9 @@
 <text text-anchor="middle" x="1259.88" y="-724.3" font-family="Times,serif" font-size="14.00">Action</text>
 </g>
 <!-- _GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR -->
-<g id="node44" class="node">
+<g id="node43" class="node">
 <title>_GH__CASEWORK__CASE_BINDINGS_CSHARP_MONITOR</title>
-<g id="a_node44"><a xlink:href="https://github.com/casework/CASE-Bindings-CSharp-Monitor" xlink:title="CASE Bindings CSharp Monitor\ntests NuGet package with validation action">
+<g id="a_node43"><a xlink:href="https://github.com/casework/CASE-Bindings-CSharp-Monitor" xlink:title="CASE Bindings CSharp Monitor\ntests NuGet package with validation action">
 <path fill="#8ec7d2" stroke="#0d6986" d="M1538,-475.6C1538,-475.6 1312,-475.6 1312,-475.6 1306,-475.6 1300,-469.6 1300,-463.6 1300,-463.6 1300,-446.6 1300,-446.6 1300,-440.6 1306,-434.6 1312,-434.6 1312,-434.6 1538,-434.6 1538,-434.6 1544,-434.6 1550,-440.6 1550,-446.6 1550,-446.6 1550,-463.6 1550,-463.6 1550,-469.6 1544,-475.6 1538,-475.6"/>
 <text text-anchor="middle" x="1425" y="-458.3" font-family="Times,serif" font-size="14.00">CASE Bindings CSharp Monitor</text>
 <text text-anchor="middle" x="1425" y="-441.8" font-family="Times,serif" font-size="14.00">tests NuGet package with validation action</text>
@@ -1004,6 +962,48 @@
 <path fill="none" stroke="black" d="M1167.56,-449.48C1202.98,-447.79 1244.46,-446.61 1282,-447.6 1284.08,-447.65 1286.19,-447.71 1288.3,-447.78"/>
 <polygon fill="black" stroke="black" points="1288.1,-451.27 1298.21,-448.11 1288.33,-444.28 1288.1,-451.27"/>
 <text text-anchor="middle" x="1259.88" y="-450.8" font-family="Times,serif" font-size="14.00">NuGet</text>
+</g>
+<!-- _GH__UCOPROJECT__UCO -->
+<g id="node45" class="node">
+<title>_GH__UCOPROJECT__UCO</title>
+<g id="a_node45"><a xlink:href="https://github.com/ucoProject/UCO" xlink:title="UCO Ontology\nreleases">
+<path fill="#8ec7d2" stroke="#0d6986" d="M269.88,-955.6C269.88,-955.6 194.62,-955.6 194.62,-955.6 188.62,-955.6 182.62,-949.6 182.62,-943.6 182.62,-943.6 182.62,-926.6 182.62,-926.6 182.62,-920.6 188.62,-914.6 194.62,-914.6 194.62,-914.6 269.88,-914.6 269.88,-914.6 275.88,-914.6 281.88,-920.6 281.88,-926.6 281.88,-926.6 281.88,-943.6 281.88,-943.6 281.88,-949.6 275.88,-955.6 269.88,-955.6"/>
+<text text-anchor="middle" x="232.25" y="-938.3" font-family="Times,serif" font-size="14.00">UCO Ontology</text>
+<text text-anchor="middle" x="232.25" y="-921.8" font-family="Times,serif" font-size="14.00">releases</text>
+</a>
+</g>
+</g>
+<!-- _GH__UCOPROJECT__UCO&#45;&gt;_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -->
+<g id="edge57" class="edge">
+<title>_GH__UCOPROJECT__UCO&#45;&gt;_GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE</title>
+<path fill="none" stroke="black" d="M233.99,-914.44C238.53,-801.67 266.82,-262.59 395,-177.1 442.26,-145.58 616.32,-163.28 648.5,-210.1 668.67,-239.45 659.1,-1457.26 666.5,-1492.1 679.51,-1553.35 712.07,-1619.25 732.47,-1656.61"/>
+<polygon fill="black" stroke="black" points="729.23,-1657.99 737.14,-1665.04 735.36,-1654.6 729.23,-1657.99"/>
+<text text-anchor="middle" x="484.5" y="-196.8" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
+<text text-anchor="middle" x="484.5" y="-180.3" font-family="Times,serif" font-size="14.00">module</text>
+</g>
+<!-- _GH__UCOPROJECT__UCO&#45;&gt;_GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG -->
+<g id="edge58" class="edge">
+<title>_GH__UCOPROJECT__UCO&#45;&gt;_GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG</title>
+<path fill="none" stroke="black" d="M236.18,-955.86C249.94,-1050.54 311.02,-1440.47 395,-1525.1 399.29,-1529.42 404.26,-1533.01 409.62,-1535.99"/>
+<polygon fill="black" stroke="black" points="407.72,-1538.96 418.25,-1540.07 410.71,-1532.63 407.72,-1538.96"/>
+<text text-anchor="middle" x="352.75" y="-1531.37" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
+<text text-anchor="middle" x="352.75" y="-1514.87" font-family="Times,serif" font-size="14.00">module</text>
+</g>
+<!-- _GH__UCOPROJECT__UCO&#45;&gt;_GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -->
+<g id="edge59" class="edge">
+<title>_GH__UCOPROJECT__UCO&#45;&gt;_GH__UCOPROJECT__UCO_PROFILE_EXAMPLE</title>
+<path fill="none" stroke="black" d="M234.14,-955.93C237.95,-1034.88 255.74,-1322.65 320.5,-1549.1 358,-1680.22 432.77,-1825.38 466.4,-1887.34"/>
+<polygon fill="black" stroke="black" points="463.22,-1888.82 471.09,-1895.92 469.37,-1885.46 463.22,-1888.82"/>
+<text text-anchor="middle" x="352.75" y="-1734.49" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
+<text text-anchor="middle" x="352.75" y="-1717.99" font-family="Times,serif" font-size="14.00">module</text>
+</g>
+<!-- _GH__UCOPROJECT__UCO&#45;&gt;_GH__CASEWORK__CASE -->
+<g id="edge56" class="edge">
+<title>_GH__UCOPROJECT__UCO&#45;&gt;_GH__CASEWORK__CASE</title>
+<path fill="none" stroke="black" d="M236.19,-914.41C250,-820.05 311.25,-431.42 395,-347.1 402.11,-339.94 411.11,-334.79 420.62,-331.1"/>
+<polygon fill="black" stroke="black" points="421.67,-334.44 430.08,-327.99 419.48,-327.79 421.67,-334.44"/>
+<text text-anchor="middle" x="352.75" y="-521.15" font-family="Times,serif" font-size="14.00">Git sub&#45;</text>
+<text text-anchor="middle" x="352.75" y="-504.65" font-family="Times,serif" font-size="14.00">module</text>
 </g>
 <!-- _GH__CASEWORK__CASE_UTILITY_SHACL_INHERITANCE_REVIEWER -->
 <g id="node46" class="node">
