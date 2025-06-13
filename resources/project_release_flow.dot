@@ -25,8 +25,8 @@ digraph "cdo_release_flow" {
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
         _GH__CASEWORK__CASEWORK_GITHUB_IO [URL="https://github.com/casework/casework.github.io" label="CASE website\nadopts new case-utils"] ;
 
-        subgraph cluster_case_prov_0_12_0 {
-          label = "Adoption of case-prov 0.12.0" ;
+        subgraph cluster_case_prov_0_12_2 {
+          label = "Adoption of case-prov 0.12.2" ;
 
           _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [URL="https://github.com/ajnelson-nist/CASE-Examples-QC" label="CASE-Examples-QC\nadopts CASE-Examples and\nCASE website updates"] ;
           _GH__CASEWORK__CASE_CORPORA [URL="https://github.com/casework/CASE-Corpora" label="CASE-Corpora\nadopts new case-prov"] ;
