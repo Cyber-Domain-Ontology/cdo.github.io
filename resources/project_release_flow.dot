@@ -16,7 +16,6 @@ digraph "cdo_release_flow" {
       subgraph cluster_case_utils_0_16_0 {
         label = "Adoption of case-utils 0.16.0" ;
 
-        _GH__CASEWORK__CASE_APPLICATION_NAVIGATOR [URL="https://github.com/casework/CASE-Application-Navigator" label="CASE Navigator testing\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL [URL="https://github.com/casework/CASE-Implementation-ExifTool" label="CASE-Implementation-ExifTool\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME [URL="https://github.com/casework/CASE-Implementation-GNU-Time" label="CASE-Implementation-GNU-Time\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_MACOS_SYSTEM_PROFILER [URL="https://github.com/casework/CASE-Implementation-macOS-System-Profiler" label="CASE-Implementation-macOS-System-Profiler\nadopts new case-utils"] ;
@@ -87,6 +86,7 @@ digraph "cdo_release_flow" {
       subgraph cluster_case_utils_0_17_0 {
         label = "Adoption of case-utils 0.17.0" ;
 
+        _GH__CASEWORK__CASE_APPLICATION_NAVIGATOR [URL="https://github.com/casework/CASE-Application-Navigator" label="CASE Navigator testing\nadopts new case-utils"] ;
         _GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI [URL="https://github.com/casework/CASE-Implementation-Template-Python-CLI" label="CASE-Implementation-Template-Python-CLI\nadopts new case-utils"]
         _GH__CASEWORK__CASE_MAPPING_TEMPLATE_STUBS [URL="https://github.com/casework/CASE-Mapping-Template-Stubs" label="CASE Mapping\nTemplate Stubs"] ;
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
