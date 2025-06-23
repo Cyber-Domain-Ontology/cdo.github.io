@@ -30,7 +30,6 @@ digraph "cdo_release_flow" {
         subgraph cluster_case_validation_action_2_9_0 {
           label = "Adoption of case-validation-action 2.9.0" ;
 
-          _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [URL="https://github.com/casework/CASE-Examples-Conversion" label="CASE Conversion Examples"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_EXIFREAD [URL="https://github.com/casework/CASE-Implementation-PyPI-Exifread" label="CASE-Implementation-PyPI-Exifread\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATION_PYPI_PILLOW [URL="https://github.com/casework/CASE-Implementation-PyPI-Pillow" label="CASE-Implementation-PyPI-Pillow\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML [URL="https://github.com/casework/CASE-Implementation-UFED-XML" label="CASE-Implementation-UFED-XML\nadopts new case-validation-action"] ;
@@ -93,6 +92,7 @@ digraph "cdo_release_flow" {
         subgraph cluster_case_validation_action_2_10_0 {
           label = "Adoption of case-validation-action 2.10.0" ;
 
+          _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [URL="https://github.com/casework/CASE-Examples-Conversion" label="CASE Conversion Examples"] ;
           _GH__KCHASON__CASE_VALIDATION_ACTION [URL="https://github.com/kchason/case-validation-action" label="case-validation-action\nreleases"] ;
         }
       }
