@@ -35,7 +35,6 @@ digraph "cdo_release_flow" {
           _GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML [URL="https://github.com/casework/CASE-Implementation-UFED-XML" label="CASE-Implementation-UFED-XML\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATION_XRY [URL="https://github.com/casework/CASE-Implementation-XRY" label="CASE-Implementation-XRY adopts\nnew case-validation-action"] ;
           _GH__CASEWORK__CASE_MAPPING_PYTHON [URL="https://github.com/casework/CASE-Mapping-Python/" label="CASE-Mapping-Python"] ;
-          _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON [URL="https://github.com/casework/CASE-Mapping-Template-Python" label="CASE-Mapping-Template-Python\nadopts new case-validation-action"] ;
           _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM [URL="https://github.com/casework/CASE-Implementation-Axiom" label="CASE-Implementation-Axiom"] ;
           _GH__DOD_CYBER_CRIME_CENTER__SQLITE_DISSECT [URL="https://github.com/dod-cyber-crime-center/sqlite-dissect" label="sqlite-dissect\nadopts new case-validation-action"] ;
 
@@ -93,6 +92,7 @@ digraph "cdo_release_flow" {
           label = "Adoption of case-validation-action 2.10.0" ;
 
           _GH__CASEWORK__CASE_EXAMPLES_CONVERSION [URL="https://github.com/casework/CASE-Examples-Conversion" label="CASE Conversion Examples"] ;
+          _GH__CASEWORK__CASE_MAPPING_TEMPLATE_PYTHON [URL="https://github.com/casework/CASE-Mapping-Template-Python" label="CASE-Mapping-Template-Python\nadopts new case-validation-action"] ;
           _GH__KCHASON__CASE_VALIDATION_ACTION [URL="https://github.com/kchason/case-validation-action" label="case-validation-action\nreleases"] ;
         }
       }
