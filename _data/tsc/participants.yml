@@ -37,15 +37,17 @@
     submitted expert reports and prepared trial exhibits for computer forensic and cyber-crime cases. He is also an active member of the Digital/Multimedia
     Scientific Area Committee (DMSAC) of the NIST Organization for Scientific Area Committees (OSAC).
 - title: Government Participant
-  image: griffith.jpg
-  name: Ryan Griffith
-  subhead: DoD Cyber Crime Center
+  image: brandt.jpg
+  name: Paul Brandt
+  subhead: Dutch Police
   bio:
-    Ryan Griffith works for the Department of Defense Cyber Crime Center (DC3) in the field of Cyber Forensics.
-    Throughout his tenure with DC3 he has served as a validator, developer, and researcher of cyber forensics technologies. In this capacity Ryan has served as the
-    lead for mobile forensics exploitation, Chief Operations Officer for the Research &amp; Development branch of DC3, and chairperson for the DC3 Cyber Innovation Group. Current work focuses on leading
-    research and development initatives for mobile and IoT exploitation and promoting CASE adoption across the DoD. Ryan has co-authored several
-    CASE publications and presented on the subject matter at numerous conferences and workshops.
+    MSc. computer science from Delft University of Technology, currently holding positions as Sr. Ontologist / Semantic Architect at Dutch Police and Researcher with the Eindhoven University of Technology TU/e. Conducted research on 
+    ophthalmologic instrumentation and magnetic resonance imaging techniques (University Medical Centre Utrecht), on flight test instrumentation, air traffic management and satellite navigation (National Aerospace Laboratory NLR), on 
+    (mobile) information provisioning techniques, component based and service oriented architectures, semantic interoperability (TNO). Got interested in semantics in 2000 when XML came around; built expertise in semantic architectures 
+    and ontology engineering since 2010 with a part-time PhD research in Semantic Interoperability. Whenever possible teaching guest lectures on universities and stimulating and supporting students in their master graduation and 
+    post-master research.<br />
+    Expertises - Semantic interoperability, semantic web, ontologies and ontology engineering, sensor networks, ICT architectures, service oriented architectures by web services and/or REST, complex event processing, requirements analysis, Scrum master & agile coach.<br />
+    Question - you know the difference between an otological model and a logic data model? If you want to know the distinction, get in touch!
 - title: For-profit Participant
   image: westman.jpg
   name: Martin Westman
@@ -62,33 +64,23 @@
     mobile data from challenging and complex high-profile cases to support major investigations. Martin is also the only known person to have successfully completed a forensic extraction of a phone whilst in freefall. He once combined skydiving with mobile forensics
     and recorded the moment - to invent a new sport called extreme hexdumping. So far there is only one practitioner.
 - title: For-profit Participant
-  image: chason.jpg
-  name: Keith Chason
-  subhead: Cipher Tech Solutions
-  bio: 
-    Keith Chason is a Technical Program Manager at Cipher Tech Solutions with experience developing data analysis platforms in support of digital forensic applications. Within the Cyber Domain 
-    Ontology community, he chairs the CDO Adoption Committee, focused on supporting the implementation of CASE and UCO in investigative and analysis tools. He holds a B.S. in Computer 
-    Science from Binghamton University and an M.S. in Information Systems Engineering from Johns Hopkins University. He has worked as a software engineer and project manager in support of 
-    several industries.
-- title: Non-profit Participant
-  image: blank.jpg
-  name: Sean Barnum
-  subhead: Mitre
+  image: maroney.png
+  name: Patrick Maroney
+  subhead: AT&T
   bio:
+    Patrick Maroney is a cybersecurity leader and Principal at AT&T, where he focuses on advancing cyber threat intelligence (CTI), knowledge engineering, and large-scale interoperability across security platforms. He is widely recognized as an evangelist and thought leader in the development and adoption of consensus-driven international standards for CTI and cyber data exchange.
+    Patrick has extensive experience designing and operationalizing systems that enable the normalization, correlation, and automated sharing of threat intelligence across heterogeneous environments. His work emphasizes practical, scalable approaches to integrating diverse cybersecurity tools, data models, and workflows.
+    He is an active contributor to multiple OASIS Open standards initiatives, including STIX, TAXII, TAC, and OpenC2, and has played a key role in advancing community-driven approaches to interoperability and machine-readable cyber knowledge representation. His interests include ontology-driven architectures, temporal knowledge graphs, and agentic AI applied to cyber defense.
+    Patrick regularly collaborates across industry, government, and open-source communities to promote the adoption of interoperable frameworks aligned with the Unified Cyber Ontology (UCO) and broader Cyber Domain Ontology (CDO) ecosystem.
+- title: Non-profit Participant
+  image: barnum.png
+  name: Sean Barnum
+  subhead: MITRE
+  bio:
+    Sean Barnum is a Senior Principal Cyber Strategist at MITRE with over three decades of experience spanning cybersecurity strategy, knowledge architecture, and international standards development. He conceived, architected and led the initial development of the Unified Cyber Ontology (UCO) and the Cyber-investigation Analysis Standard Expression (CASE), and continues to drive their technical evolution, maturation and adoption. Sean also conceived and led the collaborative development of the Structured Threat Intelligence eXpression (STIX) and Cyber Observable eXpression (CybOX) language standards, and played a key role in the design of the Malware Attribute Enumeration and Characterization (MAEC) standard. He has served as a principal technical advisor to the US Cyber Centers through the Enhanced Shared Situational Awareness (ESSA) program and provided strategic input to the development of the MITRE ATT&CK framework. Previously, as Principal Architect for Knowledge Architecture at FireEye, he designed and maintained a comprehensive integrated ontology model and contributed to international standards efforts within OASIS including STIX, TAXII, OpenC2, and CSAF. Earlier in his career, Sean conceived and led the development of the Common Attack Pattern Enumeration and Classification (CAPEC) and the Common Weakness Enumeration (CWE) while at Cigital Federal. He has represented US government interests in numerous international standards bodies including ISO, OMG, OASIS, IETF, and ITU-T, and has extensive experience in knowledge engineering, information architecture, and cyber risk management.
 - title: Academia Participant
-  image: blank.jpg
+  image: behzadan.png
   name: Vahid Behzadan
   subhead: University of New Haven
   bio:
-- title: Chair, CASE Ontology
-  image: brandt.jpg
-  name: Paul Brandt
-  subhead: Eindhoven University of Technology
-  bio:
-    MSc. computer science from Delft University of Technology, currently holding positions as Sr. Ontologist / Semantic Architect at Dutch Police and Researcher with the Eindhoven University of Technology TU/e. Conducted research on 
-    ophthalmologic instrumentation and magnetic resonance imaging techniques (University Medical Centre Utrecht), on flight test instrumentation, air traffic management and satellite navigation (National Aerospace Laboratory NLR), on 
-    (mobile) information provisioning techniques, component based and service oriented architectures, semantic interoperability (TNO). Got interested in semantics in 2000 when XML came around; built expertise in semantic architectures 
-    and ontology engineering since 2010 with a part-time PhD research in Semantic Interoperability. Whenever possible teaching guest lectures on universities and stimulating and supporting students in their master graduation and 
-    post-master research.<br />
-    Expertises - Semantic interoperability, semantic web, ontologies and ontology engineering, sensor networks, ICT architectures, service oriented architectures by web services and/or REST, complex event processing, requirements analysis, Scrum master & agile coach.<br />
-    Question - you know the difference between an otological model and a logic data model? If you want to know the distinction, get in touch!
+    Vahid Behzadan is an Associate Professor in Computer Science and Data Science. He is also the founder and director of the Secure and Assured Intelligent Learning (SAIL) research group, and mentors the University's hacking team. Dr. Behzadan's research is primarily on the safety and security of artificial intelligence and complex adaptive systems. His pioneering work on the security of deep reinforcement learning is recognized as seminal contributions to this growing field of research. Dr. Behzadan's recent work includes publications on the applications of machine learning to security and safety assessment of complex systems, such as driverless cars, unmanned aerial systems, and smart cities. He has presented numerous invited talks on the security of machine learning, and applications of data science in cybersecurity at venues such as the Open Web Application Security Project (OWSAP) foundation, the Black Hat conference, and UK's Transportation Research Laboratory (TRL). His research on the psychopathological approach to AI safety has been featured in national and international news. In 2023, Dr. Behzadan was appointed to the new Connecticut Artificial Intelligence Working Group by Governor Ned Lamont.
