@@ -66,7 +66,9 @@ digraph "cdo_release_flow" {
       label = "Adoption of CASE 1.4.0" ;
 
       _GH__CASEWORK__CASE [URL="https://github.com/casework/CASE" label="CASE Ontology\nreleases"] ;
+      _GH__CASEWORK__CASE_PROFILE_BFO [URL="https://github.com/casework/CASE-Profile-BFO" label="CASE BFO profile\nupdates"] ;
       _GH__CASEWORK__CASE_PROFILE_EXAMPLE [URL="https://github.com/casework/CASE-Profile-Example" label="CASE example-base profile\nupdates"] ;
+      _GH__CASEWORK__CASE_PROFILE_GUFO [URL="https://github.com/casework/CASE-Profile-gufo" label="CASE gUFO profile\nupdates"] ;
       _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
 
       subgraph cluster_case_utils_0_17_0 {
@@ -118,6 +120,8 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -> _GH__CASEWORK__CASE_EXAMPLES [label="PyPI"] ;
   _GH__CASEWORK__CASE_MAPPING_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_AXIOM [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_MAPPING_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_UFED_XML [label="Git sub-\nmodule"] ;
+  _GH__CASEWORK__CASE_PROFILE_EXAMPLE -> _GH__CASEWORK__CASE_PROFILE_BFO [label="Git sub-\nmodule"] ;
+  _GH__CASEWORK__CASE_PROFILE_EXAMPLE -> _GH__CASEWORK__CASE_PROFILE_GUFO [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_APPLICATION_NAVIGATOR [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_GNU_TIME [label="PyPI"] ;
@@ -177,6 +181,7 @@ digraph "cdo_release_flow" {
   _GH__UCOPROJECT__UCO -> _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO -> _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_BFO -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
+  _GH__UCOPROJECT__UCO_PROFILE_BFO -> _GH__CASEWORK__CASE_PROFILE_BFO [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -> _GH__CASEWORK__CASE_PROFILE_EXAMPLE [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -> _GH__UCOPROJECT__UCO_PROFILE_BFO [label="Git merge of\nbase branch"] ;
   _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE -> _GH__UCOPROJECT__UCO_PROFILE_FOAF [label="Git merge of\nbase branch"] ;
@@ -186,6 +191,7 @@ digraph "cdo_release_flow" {
   _GH__UCOPROJECT__UCO_PROFILE_FOAF -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_GEOSPARQL -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_GUFO -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
+  _GH__UCOPROJECT__UCO_PROFILE_GUFO -> _GH__CASEWORK__CASE_PROFILE_GUFO [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_PROV_O -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_TIME -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
 }
