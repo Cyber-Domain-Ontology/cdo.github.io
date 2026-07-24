@@ -58,7 +58,6 @@ digraph "cdo_release_flow" {
     subgraph cluster_case_1_4_0 {
       label = "Adoption of CASE 1.4.0" ;
 
-      _GH__CASEWORK__CASE [URL="https://github.com/casework/CASE" label="CASE Ontology\nreleases"] ;
       _GH__CASEWORK__CASE_PROFILE_BFO [URL="https://github.com/casework/CASE-Profile-BFO" label="CASE BFO profile\nupdates"] ;
       _GH__CASEWORK__CASE_PROFILE_EXAMPLE [URL="https://github.com/casework/CASE-Profile-Example" label="CASE example-base profile\nupdates"] ;
       _GH__CASEWORK__CASE_PROFILE_GUFO [URL="https://github.com/casework/CASE-Profile-gufo" label="CASE gUFO profile\nupdates"] ;
@@ -107,6 +106,12 @@ digraph "cdo_release_flow" {
     _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
     _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [URL="https://github.com/ucoProject/UCO-Profile-Example" label="UCO example-base profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_FOAF [URL="https://github.com/ucoProject/UCO-Profile-FOAF" label="UCO FOAF profile\nupdates"] ;
+
+    subgraph cluster_case_1_5_0 {
+      label = "Adoption of CASE 1.5.0" ;
+
+      _GH__CASEWORK__CASE [URL="https://github.com/casework/CASE" label="CASE Ontology\nreleases"] ;
+    }
   }
 
   _GH__CASEWORK__CASE_UTILITY_SHACL_INHERITANCE_REVIEWER [URL="https://github.com/casework/CASE-Utility-SHACL-Inheritance-Reviewer" label="SHIR utility\nreleases"] ;
