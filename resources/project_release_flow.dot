@@ -60,7 +60,6 @@ digraph "cdo_release_flow" {
       _GH__CASEWORK__CASE_PROFILE_BFO [URL="https://github.com/casework/CASE-Profile-BFO" label="CASE BFO profile\nupdates"] ;
       _GH__CASEWORK__CASE_PROFILE_EXAMPLE [URL="https://github.com/casework/CASE-Profile-Example" label="CASE example-base profile\nupdates"] ;
       _GH__CASEWORK__CASE_PROFILE_GUFO [URL="https://github.com/casework/CASE-Profile-gufo" label="CASE gUFO profile\nupdates"] ;
-      _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
 
       subgraph cluster_case_utils_0_17_0 {
         label = "Adoption of case-utils 0.17.0" ;
@@ -111,6 +110,7 @@ digraph "cdo_release_flow" {
       label = "Adoption of CASE 1.5.0" ;
 
       _GH__CASEWORK__CASE [URL="https://github.com/casework/CASE" label="CASE Ontology\nreleases"] ;
+      _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
     }
   }
 
