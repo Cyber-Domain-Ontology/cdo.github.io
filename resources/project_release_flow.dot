@@ -47,7 +47,6 @@ digraph "cdo_release_flow" {
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GEOSPARQL [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-GeoSPARQL" label="CDO GeoSPARQL shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-gufo" label="CDO gUFO shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_ORG [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-ORG" label="CDO ORG shapes\nupdates"] ;
-    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-OWL" label="CDO OWL shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_PROV_O [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-PROV-O" label="CDO PROV-O shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_SKOS [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Time" label="CDO SKOS shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Time" label="CDO Time shapes\nupdates"] ;
@@ -104,6 +103,7 @@ digraph "cdo_release_flow" {
     label = "Adoption of UCO 1.5.0" ;
 
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Example" label="CDO example-base shapes\nupdates"] ;
+    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-OWL" label="CDO OWL shapes\nupdates"] ;
     _GH__UCOPROJECT__ONTOLOGY_UNIFIEDCYBERONTOLOGY_ORG [URL="https://github.com/ucoProject/ontology.unifiedcyberontology.org" label="UCO documentation\nregenerated"] ;
     _GH__UCOPROJECT__UCO [URL="https://github.com/ucoProject/UCO" label="UCO Ontology\nreleases"] ;
     _GH__UCOPROJECT__UCO_PROFILE_EXAMPLE [URL="https://github.com/ucoProject/UCO-Profile-Example" label="UCO example-base profile\nupdates"] ;
