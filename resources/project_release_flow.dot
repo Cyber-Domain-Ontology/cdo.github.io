@@ -44,7 +44,6 @@ digraph "cdo_release_flow" {
 
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_ORG [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-ORG" label="CDO ORG shapes\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_ORG [URL="https://github.com/ucoProject/UCO-Profile-ORG" label="UCO ORG profile\nupdates"] ;
-    _GH__UCOPROJECT__UCO_PROFILE_PROV_O [URL="https://github.com/ucoProject/UCO-Profile-PROV-O" label="UCO PROV-O profile\nupdates"] ;
 
     subgraph cluster_case_1_4_0 {
       label = "Adoption of CASE 1.4.0" ;
@@ -100,6 +99,7 @@ digraph "cdo_release_flow" {
     _GH__UCOPROJECT__UCO_PROFILE_FOAF [URL="https://github.com/ucoProject/UCO-Profile-FOAF" label="UCO FOAF profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_GEOSPARQL [URL="https://github.com/ucoProject/UCO-Profile-GeoSPARQL" label="UCO GeoSPARQL profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_GUFO [URL="https://github.com/ucoProject/UCO-Profile-gufo" label="UCO gUFO profile\nupdates"] ;
+    _GH__UCOPROJECT__UCO_PROFILE_PROV_O [URL="https://github.com/ucoProject/UCO-Profile-PROV-O" label="UCO PROV-O profile\nupdates"] ;
     _GH__UCOPROJECT__UCO_PROFILE_TIME [URL="https://github.com/ucoProject/UCO-Profile-Time" label="UCO Time profile\nupdates"] ;
 
     subgraph cluster_case_1_5_0 {
