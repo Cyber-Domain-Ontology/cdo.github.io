@@ -89,6 +89,7 @@ digraph "cdo_release_flow" {
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-gufo" label="CDO gUFO shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_ORG [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-ORG" label="CDO ORG shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-OWL" label="CDO OWL shapes\nupdates"] ;
+    _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_PROF [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-PROF" label="CDO PROF shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_PROV_O [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-PROV-O" label="CDO PROV-O shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_SKOS [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-SKOS" label="CDO SKOS shapes\nupdates"] ;
     _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME [URL="https://github.com/Cyber-Domain-Ontology/CDO-Shapes-Time" label="CDO Time shapes\nupdates"] ;
@@ -158,6 +159,7 @@ digraph "cdo_release_flow" {
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GEOSPARQL [label="Git merge of\nbase branch"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_GUFO [label="Git merge of\nbase branch"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_OWL [label="Git merge of\nbase branch"] ;
+  _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_PROF [label="Git merge of\nbase branch"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_PROV_O [label="Git merge of\nbase branch"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_SKOS [label="Git merge of\nbase branch"] ;
   _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_EXAMPLE -> _GH__CYBER_DOMAIN_ONTOLOGY__CDO_SHAPES_TIME [label="Git merge of\nbase branch"] ;
