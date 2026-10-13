@@ -45,8 +45,6 @@ digraph "cdo_release_flow" {
     subgraph cluster_case_1_4_0 {
       label = "Adoption of CASE 1.4.0" ;
 
-      _GH__VULNMASTER__CASE_UCO_SDK [URL="https://github.com/vulnmaster/CASE-UCO-SDK" label="CASE-UCO-SDK\nupdates"] ;
-
       subgraph cluster_case_utils_0_17_0 {
         label = "Adoption of case-utils 0.17.0" ;
 
@@ -108,6 +106,7 @@ digraph "cdo_release_flow" {
         _GH__CASEWORK__CASE_IMPLEMENTATION_TEMPLATE_PYTHON_CLI [URL="https://github.com/casework/CASE-Implementation-Template-Python-CLI" label="CASE-Implementation-Template-Python-CLI\nadopts new case-utils"]
         _GH__CASEWORK__CASE_UTILITIES_PYTHON [URL="https://github.com/casework/CASE-Utilities-Python" label="case-utils\nreleases"] ;
         _GH__CASEWORK__CASEWORK_GITHUB_IO [URL="https://github.com/casework/casework.github.io" label="CASE website\nadopts new case-utils"] ;
+        _GH__VULNMASTER__CASE_UCO_SDK [URL="https://github.com/vulnmaster/CASE-UCO-SDK" label="CASE-UCO-SDK\nupdates"] ;
 
         subgraph cluster_case_prov_0_15_0 {
           label = "Adoption of case-prov 0.15.0" ;
