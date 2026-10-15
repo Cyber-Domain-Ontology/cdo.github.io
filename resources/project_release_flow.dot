@@ -96,6 +96,7 @@ digraph "cdo_release_flow" {
       _GH__CASEWORK__CASE_PROFILE_BFO [URL="https://github.com/casework/CASE-Profile-BFO" label="CASE BFO profile\nupdates"] ;
       _GH__CASEWORK__CASE_PROFILE_EXAMPLE [URL="https://github.com/casework/CASE-Profile-Example" label="CASE example-base profile\nupdates"] ;
       _GH__CASEWORK__CASE_PROFILE_GUFO [URL="https://github.com/casework/CASE-Profile-gufo" label="CASE gUFO profile\nupdates"] ;
+      _GH__CASEWORK__CASE_PROFILE_PROV_O [URL="https://github.com/casework/CASE-Profile-PROV-O" label="CASE PROV-O profile\nupdates"] ;
       _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
       _GH__PROJECT_VIC_INTERNATIONAL__CAC_ONTOLOGY [URL="https://github.com/Project-VIC-International/cac-ontology" label="CAC Ontology\nreleases"] ;
 
@@ -141,6 +142,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE_PROFILE_BFO -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_PROFILE_EXAMPLE -> _GH__CASEWORK__CASE_PROFILE_BFO [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_PROFILE_EXAMPLE -> _GH__CASEWORK__CASE_PROFILE_GUFO [label="Git sub-\nmodule"] ;
+  _GH__CASEWORK__CASE_PROFILE_EXAMPLE -> _GH__CASEWORK__CASE_PROFILE_PROV_O [label="Git merge of\nbase branch"] ;
   _GH__CASEWORK__CASE_PROFILE_GUFO -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_APPLICATION_NAVIGATOR [label="PyPI"] ;
   _GH__CASEWORK__CASE_UTILITIES_PYTHON -> _GH__CASEWORK__CASE_IMPLEMENTATION_EXIFTOOL [label="PyPI"] ;
@@ -214,5 +216,6 @@ digraph "cdo_release_flow" {
   _GH__UCOPROJECT__UCO_PROFILE_GEOSPARQL -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_GUFO -> _GH__CASEWORK__CASE_PROFILE_GUFO [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_PROV_O -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
+  _GH__UCOPROJECT__UCO_PROFILE_PROV_O -> _GH__CASEWORK__CASE_PROFILE_PROV_O [label="Git sub-\nmodule"] ;
   _GH__UCOPROJECT__UCO_PROFILE_TIME -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
 }
