@@ -99,6 +99,7 @@ digraph "cdo_release_flow" {
       _GH__CASEWORK__CASE_PROFILE_PROV_O [URL="https://github.com/casework/CASE-Profile-PROV-O" label="CASE PROV-O profile\nupdates"] ;
       _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [URL="https://github.com/casework/ontology.caseontology.org" label="CASE documentation\nregenerated"] ;
       _GH__PROJECT_VIC_INTERNATIONAL__CAC_ONTOLOGY [URL="https://github.com/Project-VIC-International/cac-ontology" label="CAC Ontology\nreleases"] ;
+      _GH__SOLVE_IT_DF__SOLVE_IT_ONTOLOGY [URL="https://github.com/SOLVE-IT-DF/solve-it-ontology" label="SOLVE-IT Ontology\nreleases"] ;
 
       subgraph cluster_case_utils_0_18_0 {
         label = "Adoption of case-utils 0.18.0" ;
@@ -133,6 +134,7 @@ digraph "cdo_release_flow" {
   _GH__CASEWORK__CASE -> _GH__CIPHERTECHSOLUTIONS__CASE_BINDINGS_CSHARP ;
   _GH__CASEWORK__CASE -> _GH__CASEWORK__ONTOLOGY_CASEONTOLOGY_ORG [label="Git sub-\nmodule"] ; 
   _GH__CASEWORK__CASE -> _GH__PROJECT_VIC_INTERNATIONAL__CAC_ONTOLOGY [label="Pinned OWL\nversion IRI"] ;
+  _GH__CASEWORK__CASE -> _GH__SOLVE_IT_DF__SOLVE_IT_ONTOLOGY [label="Pinned OWL\nversion IRI"] ;
   _GH__CASEWORK__CASE -> _GH__VULNMASTER__CASE_UCO_SDK [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_EXAMPLES -> _GH__AJNELSON_NIST__CASE_EXAMPLES_QC [label="Git sub-\nmodule"] ;
   _GH__CASEWORK__CASE_IMPLEMENTATION_PROV_O -> _GH__CASEWORK__CASE_CORPORA [label="PyPI"] ;
